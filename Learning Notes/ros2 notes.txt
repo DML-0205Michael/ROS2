@@ -1,0 +1,229 @@
+======================03 ROS Version Switch and TEst======================
+to use noetic: comment "source /opt/ros/foxy/setup.bash" in .bashrc
+to use foxy: uncomment "source /opt/ros/foxy/setup.bash" in .bashrc, comment all noetic related source other wise can't use Tab or double Tab in terminal
+
+ros2 run demo_nodes_cpp talker
+ros2 run demo_nodes_cpp listener
+
+ros2 run turtlesim turtlesim_node
+ros2 run turtlesim turtle_teleop_key
+
+======================04 Linux and ROS2 commands======================
+1. rm -R /folder              :delete folder
+
+2. 
+In ROS1    In ROS2
+rosnode = ros2 node list/info...
+rostopic = ros2 topic list/pub/echo...
+
+3. publish cmd_vel
+Yes: x: 2.0
+NO:  x:2.0
+ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear:{x: 2.0,y: 0.0,z: 0.0},angular:{x: 2.5,y: 0.0,z: 10.0}}"
+
+4. spawn a turtle
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: 'ksdjgefirb'}"
+
+5. record
+ros2 bag record /turtle1/cmd_vel
+ros2 bag play [file_name]/
+
+======================06 Create workspace ======================
+1.
+rosdepc install -i --from-path src --rosdistro foxy -y
+
+if error: rosdepc update --include-eol-distros
+and then: rosdepc install -i --from-path src --rosdistro foxy -y
+
+2. compile
+colcon build
+if compile error with learning_action_cpp, follow "Humble与Foxy版本兼容性说明.md"
+
+3. create package
+ros2 pkg create --build-type <build-ype> <package_name>
+ros2 pkg create --build-type ament_cmake learning_pkg_c
+ros2 pkg create learning_pkg_c
+ros2 pkg create --build-type ament_python learning_pkg_python
+
+source install/local_setup.bash
+
+======================3.5.2 Node ======================
+1. create a node
+#include "rclcpp/rclcpp.hpp"
+
+int main(int argc, char **argv){
+    rclcpp::init(argc,argv);
+
+    auto node = std::make_shared<rclcpp::Node>("node_1_1name");
+    RCLCPP_INFO(node->get_logger(),"This is node 1.");
+    rclcpp::spin(node);
+    
+    rclcpp::shutdown();
+}
+
+2. add to CmakeLists
+add_executable(node_nick_name src/node_file_name.cpp)
+ament_target_dependencies(node_nick_name rclcpp)
+
+install(TARGETS
+  node_nick_name
+  # Yes:
+  DESTINATION lib/learning # lib/<package name>, project(learning) in line 2
+  
+  # NO: 
+  # DESTINATION lib/$(PROJECT_NAME)
+)
+
+3. ros2 run learning node_nick_name
+
+ros2 node list
+ros2 node info /node1_name
+
+======================4.2 Topic ======================
+rqt_graph
+ros2 topic list
+ros2 topic list -t            :show msg type
+ros2 topic echo /topic_name
+ros2 topic info
+ros2 interface show <Tab>
+ros2 topic pub arg            :manual publish a topic
+ros2 topic pub /topic_name std_msgs/msg/String "{data: '2333'}"
+
+
+======================4.3 Interface ======================
+ros2 interface list
+ros2 interface packages
+ros2 interface package std_msgs
+ros2 interface show std_msgs/msg/String
+ros2 interface proto sensor_msg/msg/Image
+
+Create UDF message package
+1. 
+ros2 pkg create msg_pkg --build-type ament_cmake
+
+2.
+new folder "msg", new file "Test.msg" start with cap letter
+
+3. define msg
+float32 ax
+string content
+sensor_msgs/Image image
+....
+
+4. add to CMakeList.txt, rosidl_generate_interfaces() must be called before ament_package()
+find_package(std_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Test.msg"
+  DEPENDENCIES std_msgs
+)
+
+5. add to package.xml after this line: <buildtool_depend>ament_cmake</buildtool_depend>
+add following four lines
+  <depend>std_msgs</depend>
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+6. Test
+source install/setup.sh or restart terminal
+ros2 interface package msg_pkg
+ros2 interface show msg_pkg/msg/Test
+ros2 interface proto msg_pkg/msg/Test
+
+
+======================4.4 Service ======================
+ros2 service list
+rqt -> plugins -> Service -> Service Caller
+ros2 service type /add_two_ints
+ros2 interface show example_interfaces/srv/AddTwoInts
+ros2 service find example_interfaces/srv/AddTwoInts
+
+Create UDF service message package
+1. 
+ros2 pkg create msg_pkg --build-type ament_cmake
+
+2.
+new folder "srv", new file "Test.srv" start with cap letter
+
+3. define msg
+float32 a
+float32 b
+---
+float32 c
+
+4. in CMakeList.txt
+find_package(std_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Test.msg"
+  "srv/Test.srv"
+  DEPENDENCIES std_msgs
+)
+
+5. in package.xml after this line: <buildtool_depend>ament_cmake</buildtool_depend>
+<depend>std_msgs</depend>
+<build_depend>rosidl_default_generators</build_depend>
+<exec_depend>rosidl_default_runtime</exec_depend>
+<member_of_group>rosidl_interface_packages</member_of_group>
+
+6. test
+ros2 interface list
+ros2 interface show msg_pkg/srv/Test
+
+
+Add dependencies for needed pkg and node
+1. in package.xml, after <depend>rclcpp</depend>, add
+  <depend>msg_pkg</depend>
+
+2. in CMakeLIsts.txt
+find_package(msg_pkg REQUIRED)
+
+add_executable(service_test src/server.cpp)
+ament_target_dependencies(service_test rclcpp
+  rclcpp
+  msg_pkg  
+)
+
+install(TARGETS
+  service_test
+  DESTINATION lib/learning_node
+)
+
+add_executable(client_test src/client.cpp)
+ament_target_dependencies(client_test rclcpp
+  rclcpp
+  msg_pkg  
+)
+
+install(TARGETS
+  client_test
+  DESTINATION lib/learning_node
+)
+
+
+ros2 run learning_node service_test
+ros2 run learning_node client_test (don't run this)
+
+ros2 service call /cal_two_floats msg_pkg/srv/Test "{a: 2.2, b: 9.1}"
+Server side:
+[INFO] [1721880654.754209820] [rclcpp]: Incoming request: a: 2.20 b: 9.10
+[INFO] [1721880654.754327874] [rclcpp]: sending back response: 9.36. Success? 1
+Client side
+requester: making request: msg_pkg.srv.Test_Request(a=2.2, b=9.1)
+
+response:
+msg_pkg.srv.Test_Response(c=9.36215877532959, result=True)
+
+ros2 service call /cal_two_floats msg_pkg/srv/Test "{a: 2.2, b: -9.1}"
+Server side:
+[INFO] [1721880687.212568170] [rclcpp]: Incoming request: a: 2.20 b: -9.10
+[INFO] [1721880687.212668094] [rclcpp]: sending back response: 0.00. Success? 0
+Client side:
+requester: making request: msg_pkg.srv.Test_Request(a=2.2, b=-9.1)
+
+response:
+msg_pkg.srv.Test_Response(c=0.0, result=False)
+

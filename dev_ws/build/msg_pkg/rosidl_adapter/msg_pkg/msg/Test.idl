@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_pkg/msg/Test.msg
+// generated code does not contain a copyright notice
+
+
+module msg_pkg {
+  module msg {
+    struct Test {
+      float ax;
+
+      float ay;
+
+      float az;
+
+      float gx;
+
+      float gy;
+
+      float gz;
+
+      float mx;
+
+      float my;
+
+      float mz;
+
+      float roll;
+
+      float pitch;
+
+      float yaw;
+
+      int32 encoder1;
+
+      int32 encoder2;
+    };
+  };
+};

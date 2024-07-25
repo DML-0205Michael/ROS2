@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msg_pkg/srv/Test.srv
+// generated code does not contain a copyright notice
+
+
+module msg_pkg {
+  module srv {
+    @verbatim (language="comment", text=
+      " request")
+    struct Test_Request {
+      float a;
+
+      float b;
+    };
+    @verbatim (language="comment", text=
+      " response")
+    struct Test_Response {
+      float c;
+
+      boolean result;
+    };
+  };
+};

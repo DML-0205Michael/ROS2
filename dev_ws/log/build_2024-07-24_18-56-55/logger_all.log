@@ -1,0 +1,112 @@
+[2.576s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.576s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='sequential', install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb260f430>>, merge_install=False, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb260f430>, verb_name='build', verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True))
+[3.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.849s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ROS2/dev_ws'
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.938s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.938s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.939s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.939s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.940s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.940s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.941s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.941s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.941s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.942s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extensions ['ignore', 'ignore_ament_install']
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extension 'ignore'
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extension 'ignore_ament_install'
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extensions ['ros']
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_node) by extension 'ros'
+[3.962s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_node' with type 'ros.ament_cmake' and name 'learning_node'
+[3.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.963s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.195s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_args' from command line to 'None'
+[4.196s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target' from command line to 'None'
+[4.196s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.197s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_cache' from command line to 'False'
+[4.198s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_clean_first' from command line to 'False'
+[4.198s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'cmake_force_configure' from command line to 'False'
+[4.199s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'ament_cmake_args' from command line to 'None'
+[4.199s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_cmake_args' from command line to 'None'
+[4.200s] Level 5:colcon.colcon_core.verb:set package 'learning_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.200s] DEBUG:colcon.colcon_core.verb:Building package 'learning_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ROS2/dev_ws/build/learning_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ROS2/dev_ws/install/learning_node', 'merge_install': False, 'path': '/home/ubuntu/ROS2/dev_ws/src/learning_node', 'symlink_install': False, 'test_result_base': None}
+[4.202s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[4.209s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node'
+[4.214s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ROS2/dev_ws/src/learning_node' with build type 'ament_cmake'
+[4.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ROS2/dev_ws/src/learning_node'
+[4.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.271s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_urdf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.275s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_topic_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.281s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_topic' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.284s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_tf_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.285s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_tf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.286s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_service_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.287s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_service' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.287s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_qos' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.294s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_pkg_python' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.294s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_pkg_c' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.299s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_parameter_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.299s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_parameter' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_node_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.307s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_launch' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.309s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_action_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.315s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_action' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.330s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.331s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_gazebo_fortress' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.332s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_gazebo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.332s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/ROS2/dev_ws/install/learning_cv' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.335s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ROS2/dev_ws/install/learning_topic_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.336s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ROS2/dev_ws/install/learning_tf_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.340s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ROS2/dev_ws/install/learning_service_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.351s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ROS2/dev_ws/install/learning_pkg_c' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.352s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ROS2/dev_ws/install/learning_parameter_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.352s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ROS2/dev_ws/install/learning_node_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.353s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ROS2/dev_ws/install/learning_action_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.355s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/ROS2/dev_ws/install/learning_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ROS2/dev_ws/build/learning_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ROS2/dev_ws/install/learning_urdf:/home/ubuntu/ROS2/dev_ws/install/learning_topic:/home/ubuntu/ROS2/dev_ws/install/learning_tf:/home/ubuntu/ROS2/dev_ws/install/learning_service:/home/ubuntu/ROS2/dev_ws/install/learning_qos:/home/ubuntu/ROS2/dev_ws/install/learning_pkg_python:/home/ubuntu/ROS2/dev_ws/install/learning_parameter:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/learning_launch:/home/ubuntu/ROS2/dev_ws/install/learning_action:/home/ubuntu/ROS2/dev_ws/install/learning_gazebo_fortress:/home/ubuntu/ROS2/dev_ws/install/learning_gazebo:/home/ubuntu/ROS2/dev_ws/install/learning_cv:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/learning_node -- -j4 -l4
+[31.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ROS2/dev_ws/build/learning_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ROS2/dev_ws/install/learning_urdf:/home/ubuntu/ROS2/dev_ws/install/learning_topic:/home/ubuntu/ROS2/dev_ws/install/learning_tf:/home/ubuntu/ROS2/dev_ws/install/learning_service:/home/ubuntu/ROS2/dev_ws/install/learning_qos:/home/ubuntu/ROS2/dev_ws/install/learning_pkg_python:/home/ubuntu/ROS2/dev_ws/install/learning_parameter:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/learning_launch:/home/ubuntu/ROS2/dev_ws/install/learning_action:/home/ubuntu/ROS2/dev_ws/install/learning_gazebo_fortress:/home/ubuntu/ROS2/dev_ws/install/learning_gazebo:/home/ubuntu/ROS2/dev_ws/install/learning_cv:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/learning_node -- -j4 -l4
+[31.401s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_node)
+[31.440s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ROS2/dev_ws/install/learning_node' for CMake module files
+[31.446s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ROS2/dev_ws/install/learning_node' for CMake config files
+[31.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_node', 'cmake_prefix_path')
+[31.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/hook/cmake_prefix_path.dsv'
+[31.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/hook/cmake_prefix_path.sh'
+[31.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ROS2/dev_ws/install/learning_node/lib'
+[31.468s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ROS2/dev_ws/install/learning_node/bin'
+[31.469s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ROS2/dev_ws/install/learning_node/lib/pkgconfig/learning_node.pc'
+[31.487s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ROS2/dev_ws/install/learning_node/lib/python3.8/site-packages'
+[31.488s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ROS2/dev_ws/install/learning_node/bin'
+[31.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/package.dsv'
+[31.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/package.sh'
+[31.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ROS2/dev_ws/install/learning_node/share/colcon-core/packages/learning_node)
+[31.502s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'learning_node' finished with '2'
+[31.502s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[31.503s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[31.503s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.504s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ROS2/dev_ws/install/local_setup.sh'
+[31.514s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ROS2/dev_ws/install/_local_setup_util_sh.py'
+[31.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ROS2/dev_ws/install/setup.sh'

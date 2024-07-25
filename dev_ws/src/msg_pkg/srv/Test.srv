@@ -1,0 +1,7 @@
+# request
+float32 a
+float32 b
+---
+# response
+float32 c
+bool result
