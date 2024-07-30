@@ -1,0 +1,23 @@
+[0.280s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4
+[1.461s] [100%] Built target from_ard
+[1.607s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ard_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4
+[1.838s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/ard_com
+[1.906s] -- Install configuration: "Release"
+[1.909s] -- Execute custom install script
+[1.912s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/package_run_dependencies/ard_com
+[1.915s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/parent_prefix_path/ard_com
+[1.917s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/ament_prefix_path.sh
+[1.919s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/ament_prefix_path.dsv
+[1.922s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/path.sh
+[1.924s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/path.dsv
+[1.926s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.bash
+[1.928s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.sh
+[1.930s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.zsh
+[1.932s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.dsv
+[1.933s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/package.dsv
+[1.997s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/packages/ard_com
+[2.001s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/cmake/ard_comConfig.cmake
+[2.003s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/cmake/ard_comConfig-version.cmake
+[2.004s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/package.xml
+[2.008s] -- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/lib/ard_com/from_ard
+[2.016s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ard_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/ard_com

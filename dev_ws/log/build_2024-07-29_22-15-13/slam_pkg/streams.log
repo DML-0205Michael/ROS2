@@ -1,0 +1,22 @@
+[0.228s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/slam_pkg -- -j4 -l4
+[0.899s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/slam_pkg -- -j4 -l4
+[1.191s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/slam_pkg
+[1.256s] -- Install configuration: ""
+[1.257s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/launch
+[1.262s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/launch/slam.launch.py
+[1.275s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/ament_index/resource_index/package_run_dependencies/slam_pkg
+[1.279s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/ament_index/resource_index/parent_prefix_path/slam_pkg
+[1.282s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.sh
+[1.287s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.dsv
+[1.289s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/environment/path.sh
+[1.292s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/environment/path.dsv
+[1.294s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/local_setup.bash
+[1.295s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/local_setup.sh
+[1.296s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/local_setup.zsh
+[1.296s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/local_setup.dsv
+[1.297s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/package.dsv
+[1.298s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/ament_index/resource_index/packages/slam_pkg
+[1.299s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig.cmake
+[1.300s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig-version.cmake
+[1.301s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/package.xml
+[1.311s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/slam_pkg

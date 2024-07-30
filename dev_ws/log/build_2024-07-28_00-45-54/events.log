@@ -1,0 +1,674 @@
+[0.000000] (-) TimerEvent: {}
+[0.001829] (ard_com) JobQueued: {'identifier': 'ard_com', 'dependencies': OrderedDict()}
+[0.002146] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.003744] (ard_com) JobStarted: {'identifier': 'ard_com'}
+[0.097677] (-) TimerEvent: {}
+[0.173317] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.198312] (-) TimerEvent: {}
+[0.253516] (ard_com) JobProgress: {'identifier': 'ard_com', 'progress': 'cmake'}
+[0.276603] (ard_com) JobProgress: {'identifier': 'ard_com', 'progress': 'build'}
+[0.285050] (ard_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/dev_ws/build/ard_com', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/ard_com', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '90667'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:46227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2955,unix/raspberrypi4B:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '9873ed7f2dd442afb165a23314136ab8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:42846703-e0d4-4f5b-9841-2a3e55f657a6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/ard_com'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client:/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/opt/ros/foxy')]), 'shell': False}
+[0.298575] (-) TimerEvent: {}
+[0.383512] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[0.399052] (-) TimerEvent: {}
+[0.402823] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'build'}
+[0.405350] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '90667'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:46227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2955,unix/raspberrypi4B:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '9873ed7f2dd442afb165a23314136ab8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:42846703-e0d4-4f5b-9841-2a3e55f657a6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client:/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/opt/ros/foxy')]), 'shell': False}
+[0.501554] (-) TimerEvent: {}
+[0.604767] (-) TimerEvent: {}
+[0.705589] (-) TimerEvent: {}
+[0.806415] (-) TimerEvent: {}
+[0.907294] (-) TimerEvent: {}
+[1.008972] (-) TimerEvent: {}
+[1.111614] (-) TimerEvent: {}
+[1.212718] (-) TimerEvent: {}
+[1.314092] (-) TimerEvent: {}
+[1.416286] (-) TimerEvent: {}
+[1.517855] (-) TimerEvent: {}
+[1.620744] (-) TimerEvent: {}
+[1.721713] (-) TimerEvent: {}
+[1.733269] (ard_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target to_ard\x1b[0m\n'}
+[1.770316] (ard_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target from_ard\x1b[0m\n'}
+[1.821901] (-) TimerEvent: {}
+[1.923031] (-) TimerEvent: {}
+[2.025673] (-) TimerEvent: {}
+[2.127277] (-) TimerEvent: {}
+[2.154284] (ldlidar_stl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_stl_ros2_node\n'}
+[2.227606] (-) TimerEvent: {}
+[2.237432] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[2.327836] (-) TimerEvent: {}
+[2.428876] (-) TimerEvent: {}
+[2.529880] (-) TimerEvent: {}
+[2.631428] (-) TimerEvent: {}
+[2.726995] (ard_com) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/to_ard.dir/src/to_ard.cpp.o\x1b[0m\n'}
+[2.736095] (-) TimerEvent: {}
+[2.837038] (-) TimerEvent: {}
+[2.863583] (ard_com) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/from_ard.dir/src/from_ard.cpp.o\x1b[0m\n'}
+[2.937320] (-) TimerEvent: {}
+[2.975321] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'install'}
+[3.037554] (-) TimerEvent: {}
+[3.095762] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '90667'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:46227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2955,unix/raspberrypi4B:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '9873ed7f2dd442afb165a23314136ab8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:42846703-e0d4-4f5b-9841-2a3e55f657a6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client:/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/opt/ros/foxy')]), 'shell': False}
+[3.137807] (-) TimerEvent: {}
+[3.238723] (-) TimerEvent: {}
+[3.259287] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.279274] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node\n'}
+[3.285875] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch\n'}
+[3.300748] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py\n'}
+[3.302542] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py\n'}
+[3.313695] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py\n'}
+[3.327730] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py\n'}
+[3.339072] (-) TimerEvent: {}
+[3.343513] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py\n'}
+[3.349593] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py\n'}
+[3.357597] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2\n'}
+[3.363690] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz\n'}
+[3.394945] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2\n'}
+[3.400734] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2\n'}
+[3.406104] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh\n'}
+[3.408995] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv\n'}
+[3.417384] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh\n'}
+[3.421315] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv\n'}
+[3.427104] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash\n'}
+[3.438185] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh\n'}
+[3.444134] (-) TimerEvent: {}
+[3.451185] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh\n'}
+[3.458726] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv\n'}
+[3.463721] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv\n'}
+[3.485551] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2\n'}
+[3.502533] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake\n'}
+[3.507573] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake\n'}
+[3.517221] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml\n'}
+[3.519993] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[3.550079] (-) TimerEvent: {}
+[3.653961] (-) TimerEvent: {}
+[3.755609] (-) TimerEvent: {}
+[3.859445] (-) TimerEvent: {}
+[3.969797] (-) TimerEvent: {}
+[4.072219] (-) TimerEvent: {}
+[4.175234] (-) TimerEvent: {}
+[4.278132] (-) TimerEvent: {}
+[4.379529] (-) TimerEvent: {}
+[4.480706] (-) TimerEvent: {}
+[4.582386] (-) TimerEvent: {}
+[4.685737] (-) TimerEvent: {}
+[4.789761] (-) TimerEvent: {}
+[4.890767] (-) TimerEvent: {}
+[4.992282] (-) TimerEvent: {}
+[5.054865] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 0}
+[5.092514] (-) TimerEvent: {}
+[5.193341] (-) TimerEvent: {}
+[5.294259] (-) TimerEvent: {}
+[5.395153] (-) TimerEvent: {}
+[5.496939] (-) TimerEvent: {}
+[5.598833] (-) TimerEvent: {}
+[5.700786] (-) TimerEvent: {}
+[5.802925] (-) TimerEvent: {}
+[5.905222] (-) TimerEvent: {}
+[6.006231] (-) TimerEvent: {}
+[6.107578] (-) TimerEvent: {}
+[6.208924] (-) TimerEvent: {}
+[6.313850] (-) TimerEvent: {}
+[6.418966] (-) TimerEvent: {}
+[6.522717] (-) TimerEvent: {}
+[6.627666] (-) TimerEvent: {}
+[6.733425] (-) TimerEvent: {}
+[6.839646] (-) TimerEvent: {}
+[6.941631] (-) TimerEvent: {}
+[7.048165] (-) TimerEvent: {}
+[7.150675] (-) TimerEvent: {}
+[7.253647] (-) TimerEvent: {}
+[7.358089] (-) TimerEvent: {}
+[7.463904] (-) TimerEvent: {}
+[7.573927] (-) TimerEvent: {}
+[7.677656] (-) TimerEvent: {}
+[7.783700] (-) TimerEvent: {}
+[7.894165] (-) TimerEvent: {}
+[7.997003] (-) TimerEvent: {}
+[8.112704] (-) TimerEvent: {}
+[8.218177] (-) TimerEvent: {}
+[8.324764] (-) TimerEvent: {}
+[8.430157] (-) TimerEvent: {}
+[8.533798] (-) TimerEvent: {}
+[8.639822] (-) TimerEvent: {}
+[8.741851] (-) TimerEvent: {}
+[8.846491] (-) TimerEvent: {}
+[8.950684] (-) TimerEvent: {}
+[9.054086] (-) TimerEvent: {}
+[9.157451] (-) TimerEvent: {}
+[9.263639] (-) TimerEvent: {}
+[9.367603] (-) TimerEvent: {}
+[9.468672] (-) TimerEvent: {}
+[9.569838] (-) TimerEvent: {}
+[9.670766] (-) TimerEvent: {}
+[9.772088] (-) TimerEvent: {}
+[9.874208] (-) TimerEvent: {}
+[9.975757] (-) TimerEvent: {}
+[10.076774] (-) TimerEvent: {}
+[10.178199] (-) TimerEvent: {}
+[10.279342] (-) TimerEvent: {}
+[10.387789] (-) TimerEvent: {}
+[10.488695] (-) TimerEvent: {}
+[10.594831] (-) TimerEvent: {}
+[10.695761] (-) TimerEvent: {}
+[10.796650] (-) TimerEvent: {}
+[10.902357] (-) TimerEvent: {}
+[11.008353] (-) TimerEvent: {}
+[11.109810] (-) TimerEvent: {}
+[11.210659] (-) TimerEvent: {}
+[11.312226] (-) TimerEvent: {}
+[11.413214] (-) TimerEvent: {}
+[11.514078] (-) TimerEvent: {}
+[11.615124] (-) TimerEvent: {}
+[11.716002] (-) TimerEvent: {}
+[11.820817] (-) TimerEvent: {}
+[11.921766] (-) TimerEvent: {}
+[12.029382] (-) TimerEvent: {}
+[12.132969] (-) TimerEvent: {}
+[12.235811] (-) TimerEvent: {}
+[12.337448] (-) TimerEvent: {}
+[12.438570] (-) TimerEvent: {}
+[12.539612] (-) TimerEvent: {}
+[12.641342] (-) TimerEvent: {}
+[12.742304] (-) TimerEvent: {}
+[12.844206] (-) TimerEvent: {}
+[12.946647] (-) TimerEvent: {}
+[13.047531] (-) TimerEvent: {}
+[13.149017] (-) TimerEvent: {}
+[13.215128] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.217025] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Imu> msg)\n'}
+[13.218044] (ard_com) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.218821] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.219707] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K msg)\n'}
+[13.220793] (ard_com) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.226761] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.229269] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Imu> msg)\n'}
+[13.230219] (ard_com) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.230924] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.231557] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K msg)\n'}
+[13.232702] (ard_com) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.248940] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.249838] (-) TimerEvent: {}
+[13.251033] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Imu> msg)\n'}
+[13.252172] (ard_com) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.252923] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.253592] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K msg)\n'}
+[13.254226] (ard_com) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.265001] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.265905] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Imu> msg)\n'}
+[13.266585] (ard_com) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.267059] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.267532] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K msg)\n'}
+[13.267995] (ard_com) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.292764] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.298094] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Imu> msg)\n'}
+[13.300872] (ard_com) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.306458] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.309528] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K msg)\n'}
+[13.314519] (ard_com) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.317711] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of template-name \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 without an argument list\n'}
+[13.320607] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<sensor_msgs::msg::Imu> msg)\n'}
+[13.323865] (ard_com) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.326445] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kclass template argument deduction is only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.328763] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[13.331391] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[13.333945] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:4\x1b[m\x1b[K:\n'}
+[13.336650] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:348:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> class std::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[13.339193] (ard_com) StderrLine: {'line': b'  348 |     class \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K;\n'}
+[13.341793] (ard_com) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.344360] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[13.347466] (ard_com) StderrLine: {'line': b'   45 |         void robot_pose_callback(const std::shared_ptr\x1b[01;31m\x1b[K<\x1b[m\x1b[Ksensor_msgs::msg::Imu> msg)\n'}
+[13.350013] (-) TimerEvent: {}
+[13.351738] (ard_com) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.354882] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.357683] (ard_com) StderrLine: {'line': b'  102 |         rclcpp::Subscription<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Imu>::SharedPtr subscription_;\n'}
+[13.360677] (ard_com) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.363654] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.367096] (ard_com) StderrLine: {'line': b'  102 |         rclcpp::Subscription<sensor_msgs::msg::Imu\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[13.370001] (ard_com) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.374890] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[13.377343] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[13.379687] (ard_com) StderrLine: {'line': b'  102 |         rclcpp::Subscription<sensor_msgs::msg::Imu>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[13.384233] (ard_com) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.385766] (ard_com) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[13.387900] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.391464] (ard_com) StderrLine: {'line': b'  102 |         rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[13.394780] (ard_com) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.396828] (ard_com) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[13.399142] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KOdomTFBroadcaster::OdomTFBroadcaster()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.404600] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:37:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.417672] (ard_com) StderrLine: {'line': b'   37 |             \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::Imu>(\n'}
+[13.430165] (ard_com) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.454127] (-) TimerEvent: {}
+[13.459412] (ard_com) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[13.462156] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:37:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.465601] (ard_com) StderrLine: {'line': b'   37 |             subscription_ = this->create_subscription<\x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::Imu>(\n'}
+[13.468690] (ard_com) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.470865] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:37:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[13.474008] (ard_com) StderrLine: {'line': b'   37 |             subscription_ = this->\x1b[01;31m\x1b[Kcreate_subscription<sensor_msgs::msg::Imu>\x1b[m\x1b[K(\n'}
+[13.477378] (ard_com) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.480666] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:39:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KOdomTFBroadcaster::create_subscription<<expression error> >(std::string&, int, std::_Bind_helper<false, void (OdomTFBroadcaster::*)(int), OdomTFBroadcaster*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.485879] (ard_com) StderrLine: {'line': b'   39 |                 std::bind(&OdomTFBroadcaster::robot_pose_callback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.489116] (ard_com) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.492078] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[13.495499] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[13.500082] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[13.502425] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:8\x1b[m\x1b[K:\n'}
+[13.506162] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.510650] (ard_com) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[13.513742] (ard_com) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.516131] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[13.518297] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:39:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[13.520443] (ard_com) StderrLine: {'line': b'   39 |                 std::bind(&OdomTFBroadcaster::robot_pose_callback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.523927] (ard_com) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.526951] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OdomTFBroadcaster::robot_pose_callback(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.530123] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:49:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.533340] (ard_com) StderrLine: {'line': b'   49 |             enc1=\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.angular_velocity.x; // right speed, count per 20ms (Left if facing bot)\n'}
+[13.536213] (ard_com) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.538907] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:49:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[13.541544] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[13.543965] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[13.546487] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[13.549065] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[13.551786] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[13.554160] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[13.556341] (-) TimerEvent: {}
+[13.557779] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.560445] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[13.563293] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.566317] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.569200] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[13.572368] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[13.574833] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.576865] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[13.578874] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:8\x1b[m\x1b[K:\n'}
+[13.581765] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.584691] (ard_com) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.587067] (ard_com) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.588004] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22\x1b[m\x1b[K,\n'}
+[13.588929] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[13.589822] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[13.590506] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[13.591206] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[13.591892] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[13.592597] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[13.593309] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.603047] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.604070] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[13.604843] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[13.605580] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.606272] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[13.606965] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:8\x1b[m\x1b[K:\n'}
+[13.607643] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.608334] (ard_com) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.609239] (ard_com) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.609880] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[13.610540] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:34\x1b[m\x1b[K,\n'}
+[13.611214] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[13.611905] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[13.612626] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[13.613351] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:8\x1b[m\x1b[K:\n'}
+[13.614610] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.615349] (ard_com) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.616021] (ard_com) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.616779] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:19\x1b[m\x1b[K,\n'}
+[13.617542] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/transform_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[13.618210] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:37\x1b[m\x1b[K,\n'}
+[13.619075] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:10\x1b[m\x1b[K:\n'}
+[13.619742] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.620444] (ard_com) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.621204] (ard_com) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.621840] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform__struct.hpp:19\x1b[m\x1b[K,\n'}
+[13.622508] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:21\x1b[m\x1b[K,\n'}
+[13.623184] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/transform_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[13.624046] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:37\x1b[m\x1b[K,\n'}
+[13.624780] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:10\x1b[m\x1b[K:\n'}
+[13.625465] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.626141] (ard_com) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.626816] (ard_com) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.627484] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_msgs/msg/tf_message.hpp:7\x1b[m\x1b[K,\n'}
+[13.628150] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:38\x1b[m\x1b[K,\n'}
+[13.629121] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:10\x1b[m\x1b[K:\n'}
+[13.629788] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/tf2_msgs/msg/detail/tf_message__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktf2_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.630473] (ard_com) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.631215] (ard_com) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.631884] (ard_com) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/turtlesim/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[13.632599] (ard_com) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:11\x1b[m\x1b[K:\n'}
+[13.633519] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/turtlesim/msg/detail/pose__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.634204] (ard_com) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.634845] (ard_com) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.635476] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:51:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[13.636222] (ard_com) StderrLine: {'line': b'   51 |             vth=\x1b[34m\x1b[K(\x1b[m\x1b[Kmsg.angular_velocity.y\x1b[01;31m\x1b[K;\x1b[m\x1b[K+15)/131/180*M_PI;\n'}
+[13.636935] (ard_com) StderrLine: {'line': b'      |                 \x1b[34m\x1b[K~\x1b[m\x1b[K                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.638701] (ard_com) StderrLine: {'line': b'      |                                        \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[13.639420] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:51:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[13.640115] (ard_com) StderrLine: {'line': b'   51 |             vth=(msg.angular_velocity.y;+15\x1b[01;31m\x1b[K)\x1b[m\x1b[K/131/180*M_PI;\n'}
+[13.640829] (ard_com) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.642435] (ard_com) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[13.643449] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:51:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[13.644179] (ard_com) StderrLine: {'line': b'   51 |             vth=(msg.angular_velocity.y;\x1b[01;35m\x1b[K+15\x1b[m\x1b[K)/131/180*M_PI;\n'}
+[13.645083] (ard_com) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.645778] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:62:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Duration\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[KtoSec\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.646494] (ard_com) StderrLine: {'line': b'   62 |             double dt = (current_time - last_time).\x1b[01;31m\x1b[KtoSec\x1b[m\x1b[K();\n'}
+[13.647201] (ard_com) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.648129] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.648891] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:123:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_time\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.649601] (ard_com) StderrLine: {'line': b'  123 |     \x1b[01;31m\x1b[Kcurrent_time\x1b[m\x1b[K = ros::Time::now();\n'}
+[13.650277] (ard_com) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.650963] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:123:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[13.651648] (ard_com) StderrLine: {'line': b'  123 |     current_time = \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time::now();\n'}
+[13.652318] (ard_com) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.653282] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:124:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_time\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kasctime\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.653966] (ard_com) StderrLine: {'line': b'  124 |     \x1b[01;31m\x1b[Klast_time\x1b[m\x1b[K = ros::Time::now();\n'}
+[13.654615] (ard_com) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.655378] (ard_com) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kasctime\x1b[m\x1b[K\n'}
+[13.656057] (ard_com) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:124:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kros\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[13.656739] (-) TimerEvent: {}
+[13.661284] (ard_com) StderrLine: {'line': b'  124 |     last_time = \x1b[01;31m\x1b[Kros\x1b[m\x1b[K::Time::now();\n'}
+[13.662108] (ard_com) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.756947] (-) TimerEvent: {}
+[13.858476] (-) TimerEvent: {}
+[13.959931] (-) TimerEvent: {}
+[14.061699] (-) TimerEvent: {}
+[14.162910] (-) TimerEvent: {}
+[14.263950] (-) TimerEvent: {}
+[14.366042] (-) TimerEvent: {}
+[14.480736] (-) TimerEvent: {}
+[14.582290] (-) TimerEvent: {}
+[14.683603] (-) TimerEvent: {}
+[14.787223] (-) TimerEvent: {}
+[14.891422] (-) TimerEvent: {}
+[14.996479] (-) TimerEvent: {}
+[15.100177] (-) TimerEvent: {}
+[15.202656] (-) TimerEvent: {}
+[15.306490] (-) TimerEvent: {}
+[15.408979] (-) TimerEvent: {}
+[15.513054] (-) TimerEvent: {}
+[15.617864] (-) TimerEvent: {}
+[15.721040] (-) TimerEvent: {}
+[15.823644] (-) TimerEvent: {}
+[15.928397] (-) TimerEvent: {}
+[16.032666] (-) TimerEvent: {}
+[16.134102] (-) TimerEvent: {}
+[16.237468] (-) TimerEvent: {}
+[16.341365] (-) TimerEvent: {}
+[16.445170] (-) TimerEvent: {}
+[16.549048] (-) TimerEvent: {}
+[16.651888] (-) TimerEvent: {}
+[16.759598] (-) TimerEvent: {}
+[16.864810] (-) TimerEvent: {}
+[16.966235] (-) TimerEvent: {}
+[17.067276] (-) TimerEvent: {}
+[17.168848] (-) TimerEvent: {}
+[17.270273] (-) TimerEvent: {}
+[17.372717] (-) TimerEvent: {}
+[17.476998] (-) TimerEvent: {}
+[17.577949] (-) TimerEvent: {}
+[17.678817] (-) TimerEvent: {}
+[17.779642] (-) TimerEvent: {}
+[17.881012] (-) TimerEvent: {}
+[17.982761] (-) TimerEvent: {}
+[18.084247] (-) TimerEvent: {}
+[18.186045] (-) TimerEvent: {}
+[18.287191] (-) TimerEvent: {}
+[18.378586] (ard_com) StderrLine: {'line': b'make[2]: *** [CMakeFiles/from_ard.dir/build.make:63: CMakeFiles/from_ard.dir/src/from_ard.cpp.o] Error 1\n'}
+[18.389205] (-) TimerEvent: {}
+[18.390292] (ard_com) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/from_ard.dir/all] Error 2\n'}
+[18.391053] (ard_com) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[18.489373] (-) TimerEvent: {}
+[18.590361] (-) TimerEvent: {}
+[18.691129] (-) TimerEvent: {}
+[18.791952] (-) TimerEvent: {}
+[18.892705] (-) TimerEvent: {}
+[18.993599] (-) TimerEvent: {}
+[19.094401] (-) TimerEvent: {}
+[19.195272] (-) TimerEvent: {}
+[19.296193] (-) TimerEvent: {}
+[19.397116] (-) TimerEvent: {}
+[19.498207] (-) TimerEvent: {}
+[19.599790] (-) TimerEvent: {}
+[19.701179] (-) TimerEvent: {}
+[19.802241] (-) TimerEvent: {}
+[19.903459] (-) TimerEvent: {}
+[20.004469] (-) TimerEvent: {}
+[20.105341] (-) TimerEvent: {}
+[20.206208] (-) TimerEvent: {}
+[20.308252] (-) TimerEvent: {}
+[20.409469] (-) TimerEvent: {}
+[20.510291] (-) TimerEvent: {}
+[20.611626] (-) TimerEvent: {}
+[20.712711] (-) TimerEvent: {}
+[20.814237] (-) TimerEvent: {}
+[20.915764] (-) TimerEvent: {}
+[21.019038] (-) TimerEvent: {}
+[21.120470] (-) TimerEvent: {}
+[21.221284] (-) TimerEvent: {}
+[21.322063] (-) TimerEvent: {}
+[21.422868] (-) TimerEvent: {}
+[21.524364] (-) TimerEvent: {}
+[21.625611] (-) TimerEvent: {}
+[21.726549] (-) TimerEvent: {}
+[21.827746] (-) TimerEvent: {}
+[21.929149] (-) TimerEvent: {}
+[22.031084] (-) TimerEvent: {}
+[22.133080] (-) TimerEvent: {}
+[22.236872] (-) TimerEvent: {}
+[22.337800] (-) TimerEvent: {}
+[22.438884] (-) TimerEvent: {}
+[22.539695] (-) TimerEvent: {}
+[22.640606] (-) TimerEvent: {}
+[22.742170] (-) TimerEvent: {}
+[22.843795] (-) TimerEvent: {}
+[22.945913] (-) TimerEvent: {}
+[23.048304] (-) TimerEvent: {}
+[23.150845] (-) TimerEvent: {}
+[23.253782] (-) TimerEvent: {}
+[23.355811] (-) TimerEvent: {}
+[23.458253] (-) TimerEvent: {}
+[23.560765] (-) TimerEvent: {}
+[23.663363] (-) TimerEvent: {}
+[23.764255] (-) TimerEvent: {}
+[23.865619] (-) TimerEvent: {}
+[23.967014] (-) TimerEvent: {}
+[24.068401] (-) TimerEvent: {}
+[24.169778] (-) TimerEvent: {}
+[24.272879] (-) TimerEvent: {}
+[24.377082] (-) TimerEvent: {}
+[24.480057] (-) TimerEvent: {}
+[24.581450] (-) TimerEvent: {}
+[24.682541] (-) TimerEvent: {}
+[24.784474] (-) TimerEvent: {}
+[24.886820] (-) TimerEvent: {}
+[24.988776] (-) TimerEvent: {}
+[25.089572] (-) TimerEvent: {}
+[25.190593] (-) TimerEvent: {}
+[25.292683] (-) TimerEvent: {}
+[25.393917] (-) TimerEvent: {}
+[25.494767] (-) TimerEvent: {}
+[25.595642] (-) TimerEvent: {}
+[25.696988] (-) TimerEvent: {}
+[25.798296] (-) TimerEvent: {}
+[25.899148] (-) TimerEvent: {}
+[26.001174] (-) TimerEvent: {}
+[26.102285] (-) TimerEvent: {}
+[26.203291] (-) TimerEvent: {}
+[26.304361] (-) TimerEvent: {}
+[26.405667] (-) TimerEvent: {}
+[26.506457] (-) TimerEvent: {}
+[26.607389] (-) TimerEvent: {}
+[26.708634] (-) TimerEvent: {}
+[26.809456] (-) TimerEvent: {}
+[26.910354] (-) TimerEvent: {}
+[27.011288] (-) TimerEvent: {}
+[27.112496] (-) TimerEvent: {}
+[27.213371] (-) TimerEvent: {}
+[27.314928] (-) TimerEvent: {}
+[27.416111] (-) TimerEvent: {}
+[27.518250] (-) TimerEvent: {}
+[27.619220] (-) TimerEvent: {}
+[27.720115] (-) TimerEvent: {}
+[27.821075] (-) TimerEvent: {}
+[27.923558] (-) TimerEvent: {}
+[28.024619] (-) TimerEvent: {}
+[28.125511] (-) TimerEvent: {}
+[28.226389] (-) TimerEvent: {}
+[28.327309] (-) TimerEvent: {}
+[28.428699] (-) TimerEvent: {}
+[28.530014] (-) TimerEvent: {}
+[28.630898] (-) TimerEvent: {}
+[28.732113] (-) TimerEvent: {}
+[28.832945] (-) TimerEvent: {}
+[28.933910] (-) TimerEvent: {}
+[29.035909] (-) TimerEvent: {}
+[29.137252] (-) TimerEvent: {}
+[29.238188] (-) TimerEvent: {}
+[29.339630] (-) TimerEvent: {}
+[29.440514] (-) TimerEvent: {}
+[29.541950] (-) TimerEvent: {}
+[29.642730] (-) TimerEvent: {}
+[29.743687] (-) TimerEvent: {}
+[29.844965] (-) TimerEvent: {}
+[29.946494] (-) TimerEvent: {}
+[30.048056] (-) TimerEvent: {}
+[30.148973] (-) TimerEvent: {}
+[30.250446] (-) TimerEvent: {}
+[30.351553] (-) TimerEvent: {}
+[30.452943] (-) TimerEvent: {}
+[30.553869] (-) TimerEvent: {}
+[30.655018] (-) TimerEvent: {}
+[30.756042] (-) TimerEvent: {}
+[30.857771] (-) TimerEvent: {}
+[30.958840] (-) TimerEvent: {}
+[31.063324] (-) TimerEvent: {}
+[31.164414] (-) TimerEvent: {}
+[31.265231] (-) TimerEvent: {}
+[31.366688] (-) TimerEvent: {}
+[31.467822] (-) TimerEvent: {}
+[31.568791] (-) TimerEvent: {}
+[31.669696] (-) TimerEvent: {}
+[31.770711] (-) TimerEvent: {}
+[31.871512] (-) TimerEvent: {}
+[31.972408] (-) TimerEvent: {}
+[32.074020] (-) TimerEvent: {}
+[32.178936] (-) TimerEvent: {}
+[32.297914] (-) TimerEvent: {}
+[32.402875] (-) TimerEvent: {}
+[32.503938] (-) TimerEvent: {}
+[32.605209] (-) TimerEvent: {}
+[32.706772] (-) TimerEvent: {}
+[32.807823] (-) TimerEvent: {}
+[32.908659] (-) TimerEvent: {}
+[33.009427] (-) TimerEvent: {}
+[33.110224] (-) TimerEvent: {}
+[33.211045] (-) TimerEvent: {}
+[33.312027] (-) TimerEvent: {}
+[33.413174] (-) TimerEvent: {}
+[33.514030] (-) TimerEvent: {}
+[33.615599] (-) TimerEvent: {}
+[33.716482] (-) TimerEvent: {}
+[33.817536] (-) TimerEvent: {}
+[33.918664] (-) TimerEvent: {}
+[34.019600] (-) TimerEvent: {}
+[34.120624] (-) TimerEvent: {}
+[34.221494] (-) TimerEvent: {}
+[34.323013] (-) TimerEvent: {}
+[34.424013] (-) TimerEvent: {}
+[34.525272] (-) TimerEvent: {}
+[34.626207] (-) TimerEvent: {}
+[34.727307] (-) TimerEvent: {}
+[34.828197] (-) TimerEvent: {}
+[34.929162] (-) TimerEvent: {}
+[35.030060] (-) TimerEvent: {}
+[35.144676] (-) TimerEvent: {}
+[35.246107] (-) TimerEvent: {}
+[35.347742] (-) TimerEvent: {}
+[35.449150] (-) TimerEvent: {}
+[35.550036] (-) TimerEvent: {}
+[35.651077] (-) TimerEvent: {}
+[35.751829] (-) TimerEvent: {}
+[35.852681] (-) TimerEvent: {}
+[35.953519] (-) TimerEvent: {}
+[36.054462] (-) TimerEvent: {}
+[36.155252] (-) TimerEvent: {}
+[36.256085] (-) TimerEvent: {}
+[36.356990] (-) TimerEvent: {}
+[36.457980] (-) TimerEvent: {}
+[36.558791] (-) TimerEvent: {}
+[36.659712] (-) TimerEvent: {}
+[36.760495] (-) TimerEvent: {}
+[36.861328] (-) TimerEvent: {}
+[36.962403] (-) TimerEvent: {}
+[37.063241] (-) TimerEvent: {}
+[37.164066] (-) TimerEvent: {}
+[37.265226] (-) TimerEvent: {}
+[37.366119] (-) TimerEvent: {}
+[37.466913] (-) TimerEvent: {}
+[37.567718] (-) TimerEvent: {}
+[37.668601] (-) TimerEvent: {}
+[37.769657] (-) TimerEvent: {}
+[37.870431] (-) TimerEvent: {}
+[37.971405] (-) TimerEvent: {}
+[38.072797] (-) TimerEvent: {}
+[38.174245] (-) TimerEvent: {}
+[38.275088] (-) TimerEvent: {}
+[38.376320] (-) TimerEvent: {}
+[38.477127] (-) TimerEvent: {}
+[38.578006] (-) TimerEvent: {}
+[38.678908] (-) TimerEvent: {}
+[38.779847] (-) TimerEvent: {}
+[38.880687] (-) TimerEvent: {}
+[38.981886] (-) TimerEvent: {}
+[39.091842] (-) TimerEvent: {}
+[39.192792] (-) TimerEvent: {}
+[39.293845] (-) TimerEvent: {}
+[39.395172] (-) TimerEvent: {}
+[39.496205] (-) TimerEvent: {}
+[39.597186] (-) TimerEvent: {}
+[39.698123] (-) TimerEvent: {}
+[39.799041] (-) TimerEvent: {}
+[39.899917] (-) TimerEvent: {}
+[40.001092] (-) TimerEvent: {}
+[40.103115] (-) TimerEvent: {}
+[40.204275] (-) TimerEvent: {}
+[40.305293] (-) TimerEvent: {}
+[40.406102] (-) TimerEvent: {}
+[40.506948] (-) TimerEvent: {}
+[40.608658] (-) TimerEvent: {}
+[40.709454] (-) TimerEvent: {}
+[40.810288] (-) TimerEvent: {}
+[40.911413] (-) TimerEvent: {}
+[41.012163] (-) TimerEvent: {}
+[41.113418] (-) TimerEvent: {}
+[41.214379] (-) TimerEvent: {}
+[41.315205] (-) TimerEvent: {}
+[41.418499] (-) TimerEvent: {}
+[41.519408] (-) TimerEvent: {}
+[41.620814] (-) TimerEvent: {}
+[41.722508] (-) TimerEvent: {}
+[41.823988] (-) TimerEvent: {}
+[41.925079] (-) TimerEvent: {}
+[41.977319] (ard_com) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable to_ard\x1b[0m\n'}
+[42.025506] (-) TimerEvent: {}
+[42.127046] (-) TimerEvent: {}
+[42.227801] (-) TimerEvent: {}
+[42.328667] (-) TimerEvent: {}
+[42.429880] (-) TimerEvent: {}
+[42.533586] (-) TimerEvent: {}
+[42.639953] (-) TimerEvent: {}
+[42.742898] (-) TimerEvent: {}
+[42.848704] (-) TimerEvent: {}
+[42.949527] (-) TimerEvent: {}
+[43.050863] (-) TimerEvent: {}
+[43.151694] (-) TimerEvent: {}
+[43.253680] (-) TimerEvent: {}
+[43.355701] (-) TimerEvent: {}
+[43.463119] (-) TimerEvent: {}
+[43.566653] (-) TimerEvent: {}
+[43.667768] (-) TimerEvent: {}
+[43.672720] (ard_com) StdoutLine: {'line': b'[ 75%] Built target to_ard\n'}
+[43.677845] (ard_com) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[43.767387] (ard_com) CommandEnded: {'returncode': 2}
+[43.809800] (-) TimerEvent: {}
+[43.922195] (-) TimerEvent: {}
+[44.023349] (-) TimerEvent: {}
+[44.124160] (-) TimerEvent: {}
+[44.211482] (ard_com) JobEnded: {'identifier': 'ard_com', 'rc': 2}
+[44.219623] (-) EventReactorShutdown: {}

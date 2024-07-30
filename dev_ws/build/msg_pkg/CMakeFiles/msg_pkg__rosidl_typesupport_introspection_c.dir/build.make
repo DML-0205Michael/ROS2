@@ -66,6 +66,8 @@ rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_i
 rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h: rosidl_adapter/msg_pkg/msg/Test.idl
+rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h: rosidl_adapter/msg_pkg/msg/FromArduinoMsg.idl
+rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h: rosidl_adapter/msg_pkg/msg/ToArduinoMsg.idl
 rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h: rosidl_adapter/msg_pkg/srv/Test.idl
 rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
@@ -102,11 +104,23 @@ rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_i
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__rosidl_typesupport_introspection_c.h
 
 rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c
+
+rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c
+
+rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c
 
 rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c
@@ -124,9 +138,35 @@ CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_in
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c -o CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c.s
 
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.o: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.o: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.o   -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c
+
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c > CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.i
+
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c -o CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.s
+
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.o: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.o: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.o   -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c
+
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c > CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.i
+
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c -o CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.s
+
 CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.o: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.o: rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.o   -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c
 
 CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.i: cmake_force
@@ -140,12 +180,16 @@ CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_in
 # Object files for target msg_pkg__rosidl_typesupport_introspection_c
 msg_pkg__rosidl_typesupport_introspection_c_OBJECTS = \
 "CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c.o" \
+"CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.o" \
+"CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.o" \
 "CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.o"
 
 # External object files for target msg_pkg__rosidl_typesupport_introspection_c
 msg_pkg__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libmsg_pkg__rosidl_typesupport_introspection_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c.o
+libmsg_pkg__rosidl_typesupport_introspection_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.o
+libmsg_pkg__rosidl_typesupport_introspection_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.o
 libmsg_pkg__rosidl_typesupport_introspection_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.o
 libmsg_pkg__rosidl_typesupport_introspection_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/build.make
 libmsg_pkg__rosidl_typesupport_introspection_c.so: libmsg_pkg__rosidl_generator_c.so
@@ -167,7 +211,7 @@ libmsg_pkg__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/librcpputil
 libmsg_pkg__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libmsg_pkg__rosidl_typesupport_introspection_c.so: /opt/ros/foxy/lib/librcutils.so
 libmsg_pkg__rosidl_typesupport_introspection_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libmsg_pkg__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libmsg_pkg__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -180,8 +224,12 @@ CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/clean:
 .PHONY : CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/clean
 
 CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_introspection_c.h
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_introspection_c.h
 CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__rosidl_typesupport_introspection_c.h
 CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c
+CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c
 CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c
 	cd /home/ubuntu/ROS2/dev_ws/build/msg_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/dev_ws/src/msg_pkg /home/ubuntu/ROS2/dev_ws/src/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/depend

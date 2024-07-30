@@ -1,0 +1,37 @@
+[7.106s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_pyflakes': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/install.log --single-version-externally-managed install_data
+[9.439s] running egg_info
+[9.442s] creating ../../../build/ament_pyflakes/ament_pyflakes.egg-info
+[9.443s] writing ../../../build/ament_pyflakes/ament_pyflakes.egg-info/PKG-INFO
+[9.444s] writing dependency_links to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/dependency_links.txt
+[9.445s] writing entry points to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/entry_points.txt
+[9.446s] writing requirements to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/requires.txt
+[9.447s] writing top-level names to ../../../build/ament_pyflakes/ament_pyflakes.egg-info/top_level.txt
+[9.455s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[9.629s] reading manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[9.633s] writing manifest file '../../../build/ament_pyflakes/ament_pyflakes.egg-info/SOURCES.txt'
+[9.634s] running build
+[9.635s] running build_py
+[9.636s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build
+[9.636s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build/lib
+[9.637s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[9.637s] copying ament_pyflakes/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[9.638s] copying ament_pyflakes/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes
+[9.640s] running install
+[9.644s] running install_lib
+[9.649s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.8/site-packages/ament_pyflakes
+[9.651s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.8/site-packages/ament_pyflakes
+[9.652s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build/lib/ament_pyflakes/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.8/site-packages/ament_pyflakes
+[9.655s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.8/site-packages/ament_pyflakes/main.py to main.cpython-38.pyc
+[9.666s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.8/site-packages/ament_pyflakes/__init__.py to __init__.cpython-38.pyc
+[9.669s] running install_data
+[9.671s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_pyflakes
+[9.673s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index
+[9.674s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index
+[9.675s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index/packages
+[9.677s] copying resource/ament_pyflakes -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/share/ament_index/resource_index/packages
+[9.679s] running install_egg_info
+[9.691s] Copying ../../../build/ament_pyflakes/ament_pyflakes.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.8/site-packages/ament_pyflakes-0.9.8-py3.8.egg-info
+[9.700s] running install_scripts
+[9.802s] Installing ament_pyflakes script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/bin
+[9.805s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/install.log'
+[10.161s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pyflakes build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pyflakes/install.log --single-version-externally-managed install_data

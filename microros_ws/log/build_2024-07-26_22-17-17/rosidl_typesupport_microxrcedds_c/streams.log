@@ -1,0 +1,75 @@
+[0.055s] Invoking command in '/home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c
+[0.338s] -- The C compiler identification is GNU 9.4.0
+[0.364s] -- Check for working C compiler: /usr/bin/cc
+[0.691s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.701s] -- Detecting C compiler ABI info
+[1.089s] -- Detecting C compiler ABI info - done
+[1.128s] -- Detecting C compile features
+[1.129s] -- Detecting C compile features - done
+[1.155s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.295s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.296s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.395s] -- Found rosidl_runtime_c: 1.3.1 (/opt/ros/foxy/share/rosidl_runtime_c/cmake)
+[2.978s] -- Configuring done
+[2.997s] -- Generating done
+[3.001s] -- Build files have been written to: /home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c
+[3.018s] Invoked command in '/home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c
+[3.027s] Invoking command in '/home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c -- -j4 -l4
+[3.229s] [35m[1mScanning dependencies of target rosidl_typesupport_microxrcedds_c[0m
+[3.307s] [ 50%] [32mBuilding C object CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.o[0m
+[3.418s] [100%] [32m[1mLinking C shared library librosidl_typesupport_microxrcedds_c.so[0m
+[3.567s] [100%] Built target rosidl_typesupport_microxrcedds_c
+[3.615s] Invoked command in '/home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c -- -j4 -l4
+[3.773s] Invoking command in '/home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c
+[3.815s] -- Install configuration: ""
+[3.816s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.sh
+[3.817s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.dsv
+[3.819s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c
+[3.819s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py
+[3.954s] Listing '/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c'...
+[3.955s] Compiling '/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py'...
+[3.974s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.sh
+[3.976s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.dsv
+[3.977s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_microxrcedds_c
+[3.979s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c
+[3.981s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c
+[3.983s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.sh
+[3.984s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.dsv
+[3.985s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.sh
+[3.987s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.dsv
+[3.988s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.bash
+[3.990s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.sh
+[3.991s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.zsh
+[3.992s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.dsv
+[3.993s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.dsv
+[3.995s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c
+[3.998s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport.cmake
+[3.999s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport-noconfig.cmake
+[4.000s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c-extras.cmake
+[4.003s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.005s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.008s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_libraries-extras.cmake
+[4.012s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_targets-extras.cmake
+[4.013s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake
+[4.014s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig-version.cmake
+[4.014s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.xml
+[4.015s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c
+[4.017s] -- Up-to-date: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake
+[4.017s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake
+[4.018s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource
+[4.019s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em
+[4.020s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em
+[4.021s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em
+[4.022s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em
+[4.023s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/rosidl_typesupport_microxrcedds_c__visibility_control.h.in
+[4.025s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em
+[4.026s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em
+[4.027s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/include
+[4.027s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c
+[4.028s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/message_type_support.h
+[4.029s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/visibility_control.h
+[4.030s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/service_type_support.h
+[4.031s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/identifier.h
+[4.032s] -- Installing: /home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so
+[4.035s] -- Set runtime path of "/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so" to ""
+[4.042s] Invoked command in '/home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ubuntu/ROS2/microros_ws/build/rosidl_typesupport_microxrcedds_c

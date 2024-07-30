@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+e6b2072ff229f87a7d6fd775a80663ed CMakeFiles/tinydir-1.2.4
+853d650a6c9ef792fb34cd6d14e85089 CMakeFiles/tinydir-1.2.4-complete
+279a9a1fdcc4f9c3ebf486dae60df955 CMakeFiles/tinydir_vendor_uninstall
+c6bfd220d267c85972b613ce71dde5b7 tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-build
+d2139e5c607af1d367dc35aceaf53c8a tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-configure
+174daab8c6bad2b771f27c375f2188af tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-download
+870b923de1b4672ac286198facb9fddc tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-install
+bcf34f9952cd01b7a0756e5da6f0e911 tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-mkdir
+f4b48b6f0440f199038990f8105c44e5 tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-patch
+f67fef558ce196fa3f87507caef2684f tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-update

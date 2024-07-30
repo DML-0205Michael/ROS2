@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000983] (msg_pkg) JobQueued: {'identifier': 'msg_pkg', 'dependencies': OrderedDict()}
+[0.001309] (learning_node) JobQueued: {'identifier': 'learning_node', 'dependencies': OrderedDict([('msg_pkg', '/home/ubuntu/ROS2/dev_ws/install/msg_pkg')])}
+[0.002798] (msg_pkg) JobStarted: {'identifier': 'msg_pkg'}
+[0.065638] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'cmake'}
+[0.068766] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'build'}
+[0.071552] (msg_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/dev_ws/build/msg_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/msg_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2672'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8188'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:45235'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2763,unix/raspberrypi4B:/tmp/.ICE-unix/2763'), ('INVOCATION_ID', '95f37d0c4ed94061a0e064b6de6f3d17'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8edc88c8-7a20-4951-869b-d214f5c251c3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/msg_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.099257] (-) TimerEvent: {}
+[0.200063] (-) TimerEvent: {}
+[0.203887] (msg_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.300389] (-) TimerEvent: {}
+[0.304772] (msg_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.305416] (msg_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400522] (-) TimerEvent: {}
+[0.501192] (-) TimerEvent: {}
+[0.601845] (-) TimerEvent: {}
+[0.702489] (-) TimerEvent: {}
+[0.803141] (-) TimerEvent: {}
+[0.903755] (-) TimerEvent: {}
+[1.004408] (-) TimerEvent: {}
+[1.105160] (-) TimerEvent: {}
+[1.149132] (msg_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.205291] (-) TimerEvent: {}
+[1.305927] (-) TimerEvent: {}
+[1.406589] (-) TimerEvent: {}
+[1.408423] (msg_pkg) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[1.506770] (-) TimerEvent: {}
+[1.552678] (msg_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.565099] (msg_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.606932] (-) TimerEvent: {}
+[1.707585] (-) TimerEvent: {}
+[1.808261] (-) TimerEvent: {}
+[1.908940] (-) TimerEvent: {}
+[2.009614] (-) TimerEvent: {}
+[2.110297] (-) TimerEvent: {}
+[2.210991] (-) TimerEvent: {}
+[2.311674] (-) TimerEvent: {}
+[2.412335] (-) TimerEvent: {}
+[2.513038] (-) TimerEvent: {}
+[2.597063] (msg_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.613207] (-) TimerEvent: {}
+[2.713857] (-) TimerEvent: {}
+[2.754658] (msg_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.814027] (-) TimerEvent: {}
+[2.891546] (msg_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.914193] (-) TimerEvent: {}
+[3.014935] (-) TimerEvent: {}
+[3.115669] (-) TimerEvent: {}
+[3.216318] (-) TimerEvent: {}
+[3.317032] (-) TimerEvent: {}
+[3.417656] (-) TimerEvent: {}
+[3.518294] (-) TimerEvent: {}
+[3.619046] (-) TimerEvent: {}
+[3.691259] (msg_pkg) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[3.692245] (msg_pkg) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name msg_pkg\n'}
+[3.692582] (msg_pkg) StderrLine: {'line': b'  --arguments-file\n'}
+[3.692919] (msg_pkg) StderrLine: {'line': b'  /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter__arguments__msg_pkg.json\n'}
+[3.693183] (msg_pkg) StderrLine: {'line': b'  --output-dir /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg\n'}
+[3.693427] (msg_pkg) StderrLine: {'line': b'  --output-file\n'}
+[3.693668] (msg_pkg) StderrLine: {'line': b'  /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg.idls)\n'}
+[3.693913] (msg_pkg) StderrLine: {'line': b'  returned error code 1:\n'}
+[3.694154] (msg_pkg) StderrLine: {'line': b'\n'}
+[3.694393] (msg_pkg) StderrLine: {'line': b"  Error processing 'float32 M1Speed' of 'msg_pkg/ToArduinoMsg': ''M1Speed' is\n"}
+[3.694633] (msg_pkg) StderrLine: {'line': b'  an invalid field name.  It should have the pattern\n'}
+[3.694868] (msg_pkg) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[3.695104] (msg_pkg) StderrLine: {'line': b'\n'}
+[3.695338] (msg_pkg) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[3.695599] (msg_pkg) StderrLine: {'line': b'\n'}
+[3.695831] (msg_pkg) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[3.696069] (msg_pkg) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[3.696303] (msg_pkg) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[3.696540] (msg_pkg) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[3.696872] (msg_pkg) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[3.697139] (msg_pkg) StderrLine: {'line': b'      sys.exit(main())\n'}
+[3.697384] (msg_pkg) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[3.697624] (msg_pkg) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[3.697859] (msg_pkg) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[3.698117] (msg_pkg) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[3.698427] (msg_pkg) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[3.698753] (msg_pkg) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[3.699109] (msg_pkg) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string\n'}
+[3.699440] (msg_pkg) StderrLine: {'line': b'      fields.append(Field(\n'}
+[3.699763] (msg_pkg) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__\n'}
+[3.700084] (msg_pkg) StderrLine: {'line': b'      raise NameError(\n'}
+[3.700404] (msg_pkg) StderrLine: {'line': b'\n'}
+[3.700786] (msg_pkg) StderrLine: {'line': b"  NameError: 'M1Speed' is an invalid field name.  It should have the pattern\n"}
+[3.701127] (msg_pkg) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[3.701450] (msg_pkg) StderrLine: {'line': b'\n'}
+[3.701770] (msg_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.702090] (msg_pkg) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[3.702414] (msg_pkg) StderrLine: {'line': b'  CMakeLists.txt:38 (rosidl_generate_interfaces)\n'}
+[3.702738] (msg_pkg) StderrLine: {'line': b'\n'}
+[3.703060] (msg_pkg) StderrLine: {'line': b'\n'}
+[3.704534] (msg_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.705113] (msg_pkg) StdoutLine: {'line': b'See also "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[3.719305] (-) TimerEvent: {}
+[3.726325] (msg_pkg) StderrLine: {'line': b'make: *** [Makefile:988: cmake_check_build_system] Error 1\n'}
+[3.731572] (msg_pkg) CommandEnded: {'returncode': 2}
+[3.819551] (-) TimerEvent: {}
+[3.920466] (-) TimerEvent: {}
+[4.021440] (-) TimerEvent: {}
+[4.122637] (-) TimerEvent: {}
+[4.223474] (-) TimerEvent: {}
+[4.322295] (msg_pkg) JobEnded: {'identifier': 'msg_pkg', 'rc': 2}
+[4.324038] (-) TimerEvent: {}
+[4.333800] (learning_node) JobSkipped: {'identifier': 'learning_node'}
+[4.334095] (-) EventReactorShutdown: {}

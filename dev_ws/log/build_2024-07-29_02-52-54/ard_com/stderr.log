@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/ubuntu/ROS2/dev_ws/src/ard_com/src/to_ard.cpp', needed by 'CMakeFiles/to_ard.dir/src/to_ard.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/to_ard.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

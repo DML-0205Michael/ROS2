@@ -1,0 +1,42 @@
+[12.593s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools_launch': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build install --record /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/install.log --install-scripts $base/lib/tracetools_launch --single-version-externally-managed install_data
+[15.321s] running egg_info
+[15.324s] creating ../../../build/tracetools_launch/tracetools_launch.egg-info
+[15.327s] writing ../../../build/tracetools_launch/tracetools_launch.egg-info/PKG-INFO
+[15.329s] writing dependency_links to ../../../build/tracetools_launch/tracetools_launch.egg-info/dependency_links.txt
+[15.339s] writing requirements to ../../../build/tracetools_launch/tracetools_launch.egg-info/requires.txt
+[15.342s] writing top-level names to ../../../build/tracetools_launch/tracetools_launch.egg-info/top_level.txt
+[15.363s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[15.641s] reading manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[15.645s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[15.656s] running build
+[15.657s] running build_py
+[15.659s] creating /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build
+[15.662s] creating /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib
+[15.665s] creating /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[15.668s] copying tracetools_launch/action.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[15.677s] copying tracetools_launch/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[15.688s] creating /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[15.691s] copying tracetools_launch/actions/ld_preload.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[15.693s] copying tracetools_launch/actions/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[15.696s] running install
+[15.706s] running install_lib
+[15.721s] creating /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[15.727s] copying /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/action.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[15.737s] copying /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch
+[15.742s] creating /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[15.744s] copying /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/ld_preload.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[15.749s] copying /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions
+[15.770s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/action.py to action.cpython-38.pyc
+[15.790s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/__init__.py to __init__.cpython-38.pyc
+[15.797s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions/ld_preload.py to ld_preload.cpython-38.pyc
+[15.802s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch/actions/__init__.py to __init__.cpython-38.pyc
+[15.838s] running install_data
+[15.844s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tracetools_launch
+[15.845s] creating /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[15.846s] copying launch/example.launch.py -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[15.862s] copying resource/tracetools_launch -> /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[15.863s] running install_egg_info
+[15.881s] Copying ../../../build/tracetools_launch/tracetools_launch.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/tracetools_launch-1.0.2-py3.8.egg-info
+[15.899s] running install_scripts
+[16.186s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/install.log'
+[16.332s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/tracetools/tracetools_launch' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/build install --record /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tracetools_launch/install.log --install-scripts $base/lib/tracetools_launch --single-version-externally-managed install_data

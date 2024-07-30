@@ -1,0 +1,1042 @@
+[0.000000] (-) TimerEvent: {}
+[0.001223] (msg_pkg) JobQueued: {'identifier': 'msg_pkg', 'dependencies': OrderedDict()}
+[0.002108] (learning_node) JobQueued: {'identifier': 'learning_node', 'dependencies': OrderedDict([('msg_pkg', '/home/ubuntu/ROS2/dev_ws/install/msg_pkg')])}
+[0.003227] (msg_pkg) JobStarted: {'identifier': 'msg_pkg'}
+[0.085823] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'cmake'}
+[0.089421] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'build'}
+[0.092283] (msg_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/dev_ws/build/msg_pkg', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/msg_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2672'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8188'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:45235'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2763,unix/raspberrypi4B:/tmp/.ICE-unix/2763'), ('INVOCATION_ID', '95f37d0c4ed94061a0e064b6de6f3d17'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8edc88c8-7a20-4951-869b-d214f5c251c3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/msg_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.103137] (-) TimerEvent: {}
+[0.207980] (-) TimerEvent: {}
+[0.262256] (msg_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.308162] (-) TimerEvent: {}
+[0.382692] (msg_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.384797] (msg_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.408394] (-) TimerEvent: {}
+[0.509147] (-) TimerEvent: {}
+[0.610209] (-) TimerEvent: {}
+[0.713772] (-) TimerEvent: {}
+[0.815562] (-) TimerEvent: {}
+[0.917630] (-) TimerEvent: {}
+[1.019244] (-) TimerEvent: {}
+[1.120877] (-) TimerEvent: {}
+[1.222442] (-) TimerEvent: {}
+[1.323528] (-) TimerEvent: {}
+[1.425595] (-) TimerEvent: {}
+[1.527718] (-) TimerEvent: {}
+[1.628716] (-) TimerEvent: {}
+[1.730738] (-) TimerEvent: {}
+[1.831991] (-) TimerEvent: {}
+[1.932864] (-) TimerEvent: {}
+[1.933639] (msg_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.033040] (-) TimerEvent: {}
+[2.133878] (-) TimerEvent: {}
+[2.234717] (-) TimerEvent: {}
+[2.254002] (msg_pkg) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[2.334931] (-) TimerEvent: {}
+[2.413492] (msg_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.429484] (msg_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.436501] (-) TimerEvent: {}
+[2.537361] (-) TimerEvent: {}
+[2.638191] (-) TimerEvent: {}
+[2.749445] (-) TimerEvent: {}
+[2.850520] (-) TimerEvent: {}
+[2.951325] (-) TimerEvent: {}
+[3.055172] (-) TimerEvent: {}
+[3.156547] (-) TimerEvent: {}
+[3.264527] (-) TimerEvent: {}
+[3.365963] (-) TimerEvent: {}
+[3.467568] (-) TimerEvent: {}
+[3.568462] (-) TimerEvent: {}
+[3.616682] (msg_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.668703] (-) TimerEvent: {}
+[3.769575] (-) TimerEvent: {}
+[3.840178] (msg_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[3.869763] (-) TimerEvent: {}
+[3.970933] (-) TimerEvent: {}
+[4.067603] (msg_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[4.071165] (-) TimerEvent: {}
+[4.173232] (-) TimerEvent: {}
+[4.275110] (-) TimerEvent: {}
+[4.380519] (-) TimerEvent: {}
+[4.484163] (-) TimerEvent: {}
+[4.587348] (-) TimerEvent: {}
+[4.689561] (-) TimerEvent: {}
+[4.793300] (-) TimerEvent: {}
+[4.894617] (-) TimerEvent: {}
+[4.995818] (-) TimerEvent: {}
+[5.045430] (msg_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[5.096058] (-) TimerEvent: {}
+[5.197369] (-) TimerEvent: {}
+[5.298228] (-) TimerEvent: {}
+[5.399057] (-) TimerEvent: {}
+[5.500325] (-) TimerEvent: {}
+[5.601263] (-) TimerEvent: {}
+[5.702497] (-) TimerEvent: {}
+[5.803385] (-) TimerEvent: {}
+[5.904171] (-) TimerEvent: {}
+[6.005122] (-) TimerEvent: {}
+[6.105925] (-) TimerEvent: {}
+[6.206786] (-) TimerEvent: {}
+[6.308506] (-) TimerEvent: {}
+[6.410728] (-) TimerEvent: {}
+[6.512240] (-) TimerEvent: {}
+[6.514775] (msg_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.613011] (-) TimerEvent: {}
+[6.715000] (-) TimerEvent: {}
+[6.816290] (-) TimerEvent: {}
+[6.856733] (msg_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.916521] (-) TimerEvent: {}
+[7.018188] (-) TimerEvent: {}
+[7.022868] (msg_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[7.025286] (msg_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[7.118444] (-) TimerEvent: {}
+[7.167751] (msg_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.168906] (msg_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[7.183112] (msg_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[7.218645] (-) TimerEvent: {}
+[7.319796] (-) TimerEvent: {}
+[7.376368] (msg_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.393287] (msg_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.402454] (msg_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.419991] (-) TimerEvent: {}
+[7.443349] (msg_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.520209] (-) TimerEvent: {}
+[7.621661] (-) TimerEvent: {}
+[7.723208] (-) TimerEvent: {}
+[7.777708] (msg_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[7.802393] (msg_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/dev_ws/build/msg_pkg\n'}
+[7.823337] (-) TimerEvent: {}
+[7.924810] (-) TimerEvent: {}
+[7.949175] (msg_pkg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[8.007650] (msg_pkg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.025083] (-) TimerEvent: {}
+[8.126018] (-) TimerEvent: {}
+[8.226943] (-) TimerEvent: {}
+[8.327842] (-) TimerEvent: {}
+[8.428710] (-) TimerEvent: {}
+[8.529530] (-) TimerEvent: {}
+[8.630540] (-) TimerEvent: {}
+[8.732758] (-) TimerEvent: {}
+[8.835046] (-) TimerEvent: {}
+[8.937370] (-) TimerEvent: {}
+[9.039074] (-) TimerEvent: {}
+[9.139923] (-) TimerEvent: {}
+[9.241223] (-) TimerEvent: {}
+[9.344272] (-) TimerEvent: {}
+[9.446744] (-) TimerEvent: {}
+[9.547576] (-) TimerEvent: {}
+[9.648865] (-) TimerEvent: {}
+[9.749678] (-) TimerEvent: {}
+[9.850925] (-) TimerEvent: {}
+[9.952032] (-) TimerEvent: {}
+[10.053401] (-) TimerEvent: {}
+[10.154925] (-) TimerEvent: {}
+[10.256511] (-) TimerEvent: {}
+[10.358179] (-) TimerEvent: {}
+[10.459090] (-) TimerEvent: {}
+[10.559991] (-) TimerEvent: {}
+[10.660955] (-) TimerEvent: {}
+[10.762016] (-) TimerEvent: {}
+[10.862977] (-) TimerEvent: {}
+[10.963978] (-) TimerEvent: {}
+[11.057911] (msg_pkg) StdoutLine: {'line': b'[  3%] Built target msg_pkg__cpp\n'}
+[11.064201] (-) TimerEvent: {}
+[11.161815] (msg_pkg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.164662] (-) TimerEvent: {}
+[11.177224] (msg_pkg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.184763] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_generator_c\x1b[0m\n'}
+[11.215151] (msg_pkg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.264834] (-) TimerEvent: {}
+[11.366649] (-) TimerEvent: {}
+[11.370496] (msg_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/test__functions.c.o\x1b[0m\n'}
+[11.466917] (-) TimerEvent: {}
+[11.568024] (-) TimerEvent: {}
+[11.669601] (-) TimerEvent: {}
+[11.770728] (-) TimerEvent: {}
+[11.833359] (msg_pkg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.o\x1b[0m\n'}
+[11.870974] (-) TimerEvent: {}
+[11.971830] (-) TimerEvent: {}
+[12.072726] (-) TimerEvent: {}
+[12.173614] (-) TimerEvent: {}
+[12.274630] (-) TimerEvent: {}
+[12.375751] (-) TimerEvent: {}
+[12.387133] (msg_pkg) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.o\x1b[0m\n'}
+[12.475964] (-) TimerEvent: {}
+[12.576928] (-) TimerEvent: {}
+[12.678098] (-) TimerEvent: {}
+[12.778898] (-) TimerEvent: {}
+[12.879750] (-) TimerEvent: {}
+[12.928473] (msg_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.o\x1b[0m\n'}
+[12.979973] (-) TimerEvent: {}
+[13.081332] (-) TimerEvent: {}
+[13.182257] (-) TimerEvent: {}
+[13.283106] (-) TimerEvent: {}
+[13.384226] (-) TimerEvent: {}
+[13.486035] (-) TimerEvent: {}
+[13.515585] (msg_pkg) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libmsg_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[13.586250] (-) TimerEvent: {}
+[13.687166] (-) TimerEvent: {}
+[13.788412] (-) TimerEvent: {}
+[13.847655] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[13.888624] (-) TimerEvent: {}
+[13.933962] (msg_pkg) StdoutLine: {'line': b'[ 18%] Built target msg_pkg__rosidl_generator_c\n'}
+[13.982896] (msg_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_pkg/msg/test__type_support.cpp.o\x1b[0m\n'}
+[13.988830] (-) TimerEvent: {}
+[14.033933] (msg_pkg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.089186] (-) TimerEvent: {}
+[14.191959] (-) TimerEvent: {}
+[14.294027] (-) TimerEvent: {}
+[14.395032] (-) TimerEvent: {}
+[14.496591] (-) TimerEvent: {}
+[14.565208] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[14.596758] (-) TimerEvent: {}
+[14.697847] (-) TimerEvent: {}
+[14.780301] (msg_pkg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_pkg/msg/detail/test__type_support.cpp.o\x1b[0m\n'}
+[14.798049] (-) TimerEvent: {}
+[14.898867] (-) TimerEvent: {}
+[14.905087] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[14.999140] (-) TimerEvent: {}
+[15.100099] (-) TimerEvent: {}
+[15.201097] (-) TimerEvent: {}
+[15.228186] (msg_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_pkg/msg/detail/dds_fastrtps/test__type_support.cpp.o\x1b[0m\n'}
+[15.301308] (-) TimerEvent: {}
+[15.402202] (-) TimerEvent: {}
+[15.503189] (-) TimerEvent: {}
+[15.604216] (-) TimerEvent: {}
+[15.705750] (-) TimerEvent: {}
+[15.806752] (-) TimerEvent: {}
+[15.907645] (-) TimerEvent: {}
+[16.009712] (-) TimerEvent: {}
+[16.115419] (-) TimerEvent: {}
+[16.216610] (-) TimerEvent: {}
+[16.318533] (-) TimerEvent: {}
+[16.420230] (-) TimerEvent: {}
+[16.501525] (msg_pkg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_pkg/msg/from_arduino_msg__type_support.cpp.o\x1b[0m\n'}
+[16.520570] (-) TimerEvent: {}
+[16.622344] (-) TimerEvent: {}
+[16.724312] (-) TimerEvent: {}
+[16.826426] (-) TimerEvent: {}
+[16.927400] (-) TimerEvent: {}
+[17.028374] (-) TimerEvent: {}
+[17.129523] (-) TimerEvent: {}
+[17.231628] (-) TimerEvent: {}
+[17.332972] (-) TimerEvent: {}
+[17.356415] (msg_pkg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_pkg/msg/detail/from_arduino_msg__type_support.cpp.o\x1b[0m\n'}
+[17.433245] (-) TimerEvent: {}
+[17.534381] (-) TimerEvent: {}
+[17.635348] (-) TimerEvent: {}
+[17.736447] (-) TimerEvent: {}
+[17.837638] (-) TimerEvent: {}
+[17.938738] (-) TimerEvent: {}
+[18.039706] (-) TimerEvent: {}
+[18.140709] (-) TimerEvent: {}
+[18.209337] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[18.240967] (-) TimerEvent: {}
+[18.341783] (-) TimerEvent: {}
+[18.371621] (msg_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/test__type_support.c.o\x1b[0m\n'}
+[18.442025] (-) TimerEvent: {}
+[18.469789] (msg_pkg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_pkg/msg/detail/dds_fastrtps/from_arduino_msg__type_support.cpp.o\x1b[0m\n'}
+[18.542283] (-) TimerEvent: {}
+[18.643869] (-) TimerEvent: {}
+[18.745262] (-) TimerEvent: {}
+[18.746070] (msg_pkg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/from_arduino_msg__type_support.c.o\x1b[0m\n'}
+[18.845513] (-) TimerEvent: {}
+[18.946447] (-) TimerEvent: {}
+[18.993518] (msg_pkg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_pkg/msg/to_arduino_msg__type_support.cpp.o\x1b[0m\n'}
+[19.046758] (-) TimerEvent: {}
+[19.079063] (msg_pkg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/msg/detail/to_arduino_msg__type_support.c.o\x1b[0m\n'}
+[19.147019] (-) TimerEvent: {}
+[19.248021] (-) TimerEvent: {}
+[19.349016] (-) TimerEvent: {}
+[19.450110] (-) TimerEvent: {}
+[19.551018] (-) TimerEvent: {}
+[19.557940] (msg_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_pkg/srv/detail/test__type_support.c.o\x1b[0m\n'}
+[19.651280] (-) TimerEvent: {}
+[19.752552] (-) TimerEvent: {}
+[19.853519] (-) TimerEvent: {}
+[19.929822] (msg_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_pkg/msg/detail/to_arduino_msg__type_support.cpp.o\x1b[0m\n'}
+[19.953782] (-) TimerEvent: {}
+[19.988310] (msg_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libmsg_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.054011] (-) TimerEvent: {}
+[20.155481] (-) TimerEvent: {}
+[20.256916] (-) TimerEvent: {}
+[20.358385] (-) TimerEvent: {}
+[20.391990] (msg_pkg) StdoutLine: {'line': b'[ 43%] Built target msg_pkg__rosidl_typesupport_introspection_c\n'}
+[20.458660] (-) TimerEvent: {}
+[20.560277] (-) TimerEvent: {}
+[20.597946] (msg_pkg) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.660499] (-) TimerEvent: {}
+[20.761502] (-) TimerEvent: {}
+[20.862433] (-) TimerEvent: {}
+[20.963622] (-) TimerEvent: {}
+[21.064778] (-) TimerEvent: {}
+[21.165724] (-) TimerEvent: {}
+[21.266701] (-) TimerEvent: {}
+[21.367683] (-) TimerEvent: {}
+[21.468626] (-) TimerEvent: {}
+[21.569546] (-) TimerEvent: {}
+[21.670381] (-) TimerEvent: {}
+[21.771850] (-) TimerEvent: {}
+[21.853773] (msg_pkg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_pkg/srv/test__type_support.cpp.o\x1b[0m\n'}
+[21.872123] (-) TimerEvent: {}
+[21.973674] (-) TimerEvent: {}
+[22.075037] (-) TimerEvent: {}
+[22.176856] (-) TimerEvent: {}
+[22.280308] (-) TimerEvent: {}
+[22.381877] (-) TimerEvent: {}
+[22.443577] (msg_pkg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_pkg/msg/detail/dds_fastrtps/to_arduino_msg__type_support.cpp.o\x1b[0m\n'}
+[22.482084] (-) TimerEvent: {}
+[22.583349] (-) TimerEvent: {}
+[22.684759] (-) TimerEvent: {}
+[22.785974] (-) TimerEvent: {}
+[22.845860] (msg_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_pkg/srv/detail/test__type_support.cpp.o\x1b[0m\n'}
+[22.886238] (-) TimerEvent: {}
+[22.987958] (-) TimerEvent: {}
+[23.089343] (-) TimerEvent: {}
+[23.190786] (-) TimerEvent: {}
+[23.292036] (-) TimerEvent: {}
+[23.393028] (-) TimerEvent: {}
+[23.494044] (-) TimerEvent: {}
+[23.595643] (-) TimerEvent: {}
+[23.696541] (-) TimerEvent: {}
+[23.797619] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_c\x1b[0m\n'}
+[23.798473] (-) TimerEvent: {}
+[23.899292] (-) TimerEvent: {}
+[24.000315] (-) TimerEvent: {}
+[24.016416] (msg_pkg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp.o\x1b[0m\n'}
+[24.100596] (-) TimerEvent: {}
+[24.201564] (-) TimerEvent: {}
+[24.302474] (-) TimerEvent: {}
+[24.403346] (-) TimerEvent: {}
+[24.435114] (msg_pkg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.o\x1b[0m\n'}
+[24.503571] (-) TimerEvent: {}
+[24.605182] (-) TimerEvent: {}
+[24.706142] (-) TimerEvent: {}
+[24.777797] (msg_pkg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.o\x1b[0m\n'}
+[24.806358] (-) TimerEvent: {}
+[24.907198] (-) TimerEvent: {}
+[25.008487] (-) TimerEvent: {}
+[25.110039] (-) TimerEvent: {}
+[25.208285] (msg_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.o\x1b[0m\n'}
+[25.210362] (-) TimerEvent: {}
+[25.312209] (-) TimerEvent: {}
+[25.318123] (msg_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[25.412558] (-) TimerEvent: {}
+[25.515211] (-) TimerEvent: {}
+[25.617165] (-) TimerEvent: {}
+[25.631352] (msg_pkg) StdoutLine: {'line': b'[ 60%] Built target msg_pkg__rosidl_typesupport_cpp\n'}
+[25.680988] (msg_pkg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[25.717447] (-) TimerEvent: {}
+[25.759227] (msg_pkg) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_pkg/srv/detail/dds_fastrtps/test__type_support.cpp.o\x1b[0m\n'}
+[25.817633] (-) TimerEvent: {}
+[25.918998] (-) TimerEvent: {}
+[26.020740] (-) TimerEvent: {}
+[26.122422] (-) TimerEvent: {}
+[26.223879] (-) TimerEvent: {}
+[26.312119] (msg_pkg) StdoutLine: {'line': b'[ 63%] Built target msg_pkg__rosidl_typesupport_c\n'}
+[26.324126] (-) TimerEvent: {}
+[26.350151] (msg_pkg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[26.424777] (-) TimerEvent: {}
+[26.526180] (-) TimerEvent: {}
+[26.627164] (-) TimerEvent: {}
+[26.728789] (-) TimerEvent: {}
+[26.829735] (-) TimerEvent: {}
+[26.876414] (msg_pkg) StdoutLine: {'line': b'[ 65%] Built target msg_pkg__rosidl_typesupport_introspection_cpp\n'}
+[26.929959] (-) TimerEvent: {}
+[27.030865] (-) TimerEvent: {}
+[27.132430] (-) TimerEvent: {}
+[27.241445] (-) TimerEvent: {}
+[27.343138] (-) TimerEvent: {}
+[27.444484] (-) TimerEvent: {}
+[27.545705] (-) TimerEvent: {}
+[27.656126] (-) TimerEvent: {}
+[27.757367] (-) TimerEvent: {}
+[27.858644] (-) TimerEvent: {}
+[27.959574] (-) TimerEvent: {}
+[28.060520] (-) TimerEvent: {}
+[28.161748] (-) TimerEvent: {}
+[28.262778] (-) TimerEvent: {}
+[28.364287] (-) TimerEvent: {}
+[28.466157] (-) TimerEvent: {}
+[28.567905] (-) TimerEvent: {}
+[28.668854] (-) TimerEvent: {}
+[28.769826] (-) TimerEvent: {}
+[28.871791] (-) TimerEvent: {}
+[28.973164] (-) TimerEvent: {}
+[29.044289] (msg_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[29.073655] (-) TimerEvent: {}
+[29.174978] (-) TimerEvent: {}
+[29.275956] (-) TimerEvent: {}
+[29.378118] (-) TimerEvent: {}
+[29.479974] (-) TimerEvent: {}
+[29.581279] (-) TimerEvent: {}
+[29.590409] (msg_pkg) StdoutLine: {'line': b'[ 67%] Built target msg_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[29.662803] (msg_pkg) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.681766] (-) TimerEvent: {}
+[29.783928] (-) TimerEvent: {}
+[29.955082] (-) TimerEvent: {}
+[30.056854] (-) TimerEvent: {}
+[30.157758] (-) TimerEvent: {}
+[30.258737] (-) TimerEvent: {}
+[30.359848] (-) TimerEvent: {}
+[30.460654] (-) TimerEvent: {}
+[30.561807] (-) TimerEvent: {}
+[30.663064] (-) TimerEvent: {}
+[30.763926] (-) TimerEvent: {}
+[30.864887] (-) TimerEvent: {}
+[30.966405] (-) TimerEvent: {}
+[31.068187] (-) TimerEvent: {}
+[31.169609] (-) TimerEvent: {}
+[31.270775] (-) TimerEvent: {}
+[31.371624] (-) TimerEvent: {}
+[31.472466] (-) TimerEvent: {}
+[31.573269] (-) TimerEvent: {}
+[31.674937] (-) TimerEvent: {}
+[31.778151] (-) TimerEvent: {}
+[31.881681] (-) TimerEvent: {}
+[31.945169] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[31.981898] (-) TimerEvent: {}
+[32.091478] (-) TimerEvent: {}
+[32.124267] (msg_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.o\x1b[0m\n'}
+[32.151984] (msg_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp.o\x1b[0m\n'}
+[32.159433] (msg_pkg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.o\x1b[0m\n'}
+[32.168528] (msg_pkg) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.o\x1b[0m\n'}
+[32.191793] (-) TimerEvent: {}
+[32.292843] (-) TimerEvent: {}
+[32.394033] (-) TimerEvent: {}
+[32.494837] (-) TimerEvent: {}
+[32.595787] (-) TimerEvent: {}
+[32.696772] (-) TimerEvent: {}
+[32.797744] (-) TimerEvent: {}
+[32.898865] (-) TimerEvent: {}
+[33.000493] (-) TimerEvent: {}
+[33.102250] (-) TimerEvent: {}
+[33.204073] (-) TimerEvent: {}
+[33.305304] (-) TimerEvent: {}
+[33.407009] (-) TimerEvent: {}
+[33.508554] (-) TimerEvent: {}
+[33.609497] (-) TimerEvent: {}
+[33.710791] (-) TimerEvent: {}
+[33.812613] (-) TimerEvent: {}
+[33.913960] (-) TimerEvent: {}
+[34.015991] (-) TimerEvent: {}
+[34.118349] (-) TimerEvent: {}
+[34.219357] (-) TimerEvent: {}
+[34.320427] (-) TimerEvent: {}
+[34.422803] (-) TimerEvent: {}
+[34.525135] (-) TimerEvent: {}
+[34.626657] (-) TimerEvent: {}
+[34.728862] (-) TimerEvent: {}
+[34.830818] (-) TimerEvent: {}
+[34.932890] (-) TimerEvent: {}
+[35.034940] (-) TimerEvent: {}
+[35.136612] (-) TimerEvent: {}
+[35.237732] (-) TimerEvent: {}
+[35.339256] (-) TimerEvent: {}
+[35.440182] (-) TimerEvent: {}
+[35.541231] (-) TimerEvent: {}
+[35.642177] (-) TimerEvent: {}
+[35.684420] (msg_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[35.742754] (-) TimerEvent: {}
+[35.843655] (-) TimerEvent: {}
+[35.944663] (-) TimerEvent: {}
+[36.047244] (-) TimerEvent: {}
+[36.149063] (-) TimerEvent: {}
+[36.250864] (-) TimerEvent: {}
+[36.309031] (msg_pkg) StdoutLine: {'line': b'[ 78%] Built target msg_pkg__rosidl_typesupport_fastrtps_c\n'}
+[36.351145] (-) TimerEvent: {}
+[36.452764] (-) TimerEvent: {}
+[36.531737] (msg_pkg) StdoutLine: {'line': b'[ 78%] Built target msg_pkg\n'}
+[36.552951] (-) TimerEvent: {}
+[36.654517] (-) TimerEvent: {}
+[36.655390] (msg_pkg) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[36.754778] (-) TimerEvent: {}
+[36.855626] (-) TimerEvent: {}
+[36.956484] (-) TimerEvent: {}
+[37.057319] (-) TimerEvent: {}
+[37.158504] (-) TimerEvent: {}
+[37.259398] (-) TimerEvent: {}
+[37.360908] (-) TimerEvent: {}
+[37.462249] (-) TimerEvent: {}
+[37.563641] (-) TimerEvent: {}
+[37.665218] (-) TimerEvent: {}
+[37.766572] (-) TimerEvent: {}
+[37.868492] (-) TimerEvent: {}
+[37.969759] (-) TimerEvent: {}
+[38.071678] (-) TimerEvent: {}
+[38.173405] (-) TimerEvent: {}
+[38.275042] (-) TimerEvent: {}
+[38.377038] (-) TimerEvent: {}
+[38.478498] (-) TimerEvent: {}
+[38.583054] (-) TimerEvent: {}
+[38.684280] (-) TimerEvent: {}
+[38.785078] (-) TimerEvent: {}
+[38.885913] (-) TimerEvent: {}
+[38.986795] (-) TimerEvent: {}
+[39.088033] (-) TimerEvent: {}
+[39.189575] (-) TimerEvent: {}
+[39.290359] (-) TimerEvent: {}
+[39.391141] (-) TimerEvent: {}
+[39.492985] (-) TimerEvent: {}
+[39.594687] (-) TimerEvent: {}
+[39.697033] (-) TimerEvent: {}
+[39.800531] (-) TimerEvent: {}
+[39.902017] (-) TimerEvent: {}
+[40.003623] (-) TimerEvent: {}
+[40.105297] (-) TimerEvent: {}
+[40.206043] (-) TimerEvent: {}
+[40.307294] (-) TimerEvent: {}
+[40.408130] (-) TimerEvent: {}
+[40.508986] (-) TimerEvent: {}
+[40.609874] (-) TimerEvent: {}
+[40.711263] (-) TimerEvent: {}
+[40.812612] (-) TimerEvent: {}
+[40.913554] (-) TimerEvent: {}
+[41.014405] (-) TimerEvent: {}
+[41.083079] (msg_pkg) StdoutLine: {'line': b'[ 80%] Built target msg_pkg__py\n'}
+[41.114631] (-) TimerEvent: {}
+[41.176543] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__python\x1b[0m\n'}
+[41.214979] (-) TimerEvent: {}
+[41.316018] (-) TimerEvent: {}
+[41.359881] (msg_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__python.dir/rosidl_generator_py/msg_pkg/msg/_test_s.c.o\x1b[0m\n'}
+[41.388997] (msg_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__python.dir/rosidl_generator_py/msg_pkg/msg/_from_arduino_msg_s.c.o\x1b[0m\n'}
+[41.399866] (msg_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__python.dir/rosidl_generator_py/msg_pkg/msg/_to_arduino_msg_s.c.o\x1b[0m\n'}
+[41.404833] (msg_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__python.dir/rosidl_generator_py/msg_pkg/srv/_test_s.c.o\x1b[0m\n'}
+[41.416246] (-) TimerEvent: {}
+[41.517216] (-) TimerEvent: {}
+[41.618158] (-) TimerEvent: {}
+[41.719120] (-) TimerEvent: {}
+[41.820168] (-) TimerEvent: {}
+[41.921211] (-) TimerEvent: {}
+[42.022991] (-) TimerEvent: {}
+[42.124509] (-) TimerEvent: {}
+[42.167853] (msg_pkg) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_pkg/libmsg_pkg__python.so\x1b[0m\n'}
+[42.224736] (-) TimerEvent: {}
+[42.325791] (-) TimerEvent: {}
+[42.424138] (msg_pkg) StdoutLine: {'line': b'[ 89%] Built target msg_pkg__python\n'}
+[42.426022] (-) TimerEvent: {}
+[42.491286] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[42.493268] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[42.508120] (msg_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target msg_pkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[42.526292] (-) TimerEvent: {}
+[42.627204] (-) TimerEvent: {}
+[42.655485] (msg_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[42.660001] (msg_pkg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[42.718531] (msg_pkg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/msg_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[42.727415] (-) TimerEvent: {}
+[42.828761] (-) TimerEvent: {}
+[42.930258] (-) TimerEvent: {}
+[43.031660] (-) TimerEvent: {}
+[43.133475] (-) TimerEvent: {}
+[43.234438] (-) TimerEvent: {}
+[43.275597] (msg_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[43.334681] (-) TimerEvent: {}
+[43.393145] (msg_pkg) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[43.429785] (msg_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[43.434946] (-) TimerEvent: {}
+[43.537469] (-) TimerEvent: {}
+[43.639195] (-) TimerEvent: {}
+[43.695102] (msg_pkg) StdoutLine: {'line': b'[100%] Built target msg_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[43.707899] (msg_pkg) StdoutLine: {'line': b'[100%] Built target msg_pkg__rosidl_typesupport_c__pyext\n'}
+[43.739622] (-) TimerEvent: {}
+[43.852532] (-) TimerEvent: {}
+[43.897723] (msg_pkg) StdoutLine: {'line': b'[100%] Built target msg_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[43.952714] (-) TimerEvent: {}
+[43.965621] (msg_pkg) CommandEnded: {'returncode': 0}
+[44.053030] (-) TimerEvent: {}
+[44.153980] (-) TimerEvent: {}
+[44.255719] (-) TimerEvent: {}
+[44.356588] (-) TimerEvent: {}
+[44.457603] (-) TimerEvent: {}
+[44.558508] (-) TimerEvent: {}
+[44.660428] (-) TimerEvent: {}
+[44.730097] (msg_pkg) JobProgress: {'identifier': 'msg_pkg', 'progress': 'install'}
+[44.760766] (-) TimerEvent: {}
+[44.792748] (msg_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ROS2/dev_ws/build/msg_pkg'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/msg_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2672'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8188'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:45235'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2763,unix/raspberrypi4B:/tmp/.ICE-unix/2763'), ('INVOCATION_ID', '95f37d0c4ed94061a0e064b6de6f3d17'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8edc88c8-7a20-4951-869b-d214f5c251c3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/msg_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy')]), 'shell': False}
+[44.846416] (msg_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[44.847673] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/ament_index/resource_index/rosidl_interfaces/msg_pkg\n'}
+[44.848438] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg\n'}
+[44.849136] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg\n'}
+[44.849935] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/to_arduino_msg.h\n'}
+[44.850890] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail\n'}
+[44.851720] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__functions.h\n'}
+[44.853631] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__functions.c\n'}
+[44.856045] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__functions.c\n'}
+[44.859684] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__struct.h\n'}
+[44.860242] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__functions.h\n'}
+[44.865503] (-) TimerEvent: {}
+[44.867736] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__functions.h\n'}
+[44.870761] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__struct.h\n'}
+[44.874362] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__type_support.h\n'}
+[44.876988] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__struct.h\n'}
+[44.880071] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__type_support.h\n'}
+[44.881528] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__functions.c\n'}
+[44.882844] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__type_support.h\n'}
+[44.883391] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[44.883947] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/from_arduino_msg.h\n'}
+[44.884587] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/test.h\n'}
+[44.885423] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv\n'}
+[44.885953] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail\n'}
+[44.886411] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__functions.h\n'}
+[44.886869] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__struct.h\n'}
+[44.887646] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__type_support.h\n'}
+[44.890524] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__functions.c\n'}
+[44.892250] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/test.h\n'}
+[44.892956] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/library_path.sh\n'}
+[44.894230] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/library_path.dsv\n'}
+[44.894943] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_c.so\n'}
+[44.897302] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_c.so" to ""\n'}
+[44.899166] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg\n'}
+[44.902432] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg\n'}
+[44.905001] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[44.905695] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail\n'}
+[44.906187] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[44.906984] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[44.907530] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[44.908046] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv\n'}
+[44.908568] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail\n'}
+[44.909184] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__rosidl_typesupport_fastrtps_c.h\n'}
+[44.911199] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[44.915237] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[44.917614] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg\n'}
+[44.918148] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg\n'}
+[44.918896] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[44.919516] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail\n'}
+[44.919983] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/dds_fastrtps\n'}
+[44.920495] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.921001] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.922083] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.923147] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv\n'}
+[44.923939] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail\n'}
+[44.924580] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/dds_fastrtps\n'}
+[44.925139] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[44.925616] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[44.926210] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[44.926948] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg\n'}
+[44.927464] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg\n'}
+[44.927950] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail\n'}
+[44.928421] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_introspection_c.h\n'}
+[44.929271] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_introspection_c.h\n'}
+[44.929804] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__type_support.c\n'}
+[44.931235] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[44.932512] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__type_support.c\n'}
+[44.934025] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__type_support.c\n'}
+[44.935728] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[44.937039] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv\n'}
+[44.939369] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail\n'}
+[44.939959] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__rosidl_typesupport_introspection_c.h\n'}
+[44.940516] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__type_support.c\n'}
+[44.941524] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_c.so\n'}
+[44.943623] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[44.944867] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_c.so\n'}
+[44.947225] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_c.so" to ""\n'}
+[44.948247] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg\n'}
+[44.949095] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg\n'}
+[44.949672] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/test.hpp\n'}
+[44.950435] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/to_arduino_msg.hpp\n'}
+[44.951220] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail\n'}
+[44.952017] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__struct.hpp\n'}
+[44.952870] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__builder.hpp\n'}
+[44.954247] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__type_support.hpp\n'}
+[44.955376] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__traits.hpp\n'}
+[44.956681] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__builder.hpp\n'}
+[44.958607] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__type_support.hpp\n'}
+[44.968600] (-) TimerEvent: {}
+[44.969101] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__builder.hpp\n'}
+[44.970329] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__traits.hpp\n'}
+[44.970903] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__struct.hpp\n'}
+[44.973046] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__struct.hpp\n'}
+[44.973922] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__type_support.hpp\n'}
+[44.984766] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__traits.hpp\n'}
+[44.985587] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[44.986192] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/from_arduino_msg.hpp\n'}
+[44.986894] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv\n'}
+[44.987435] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/test.hpp\n'}
+[44.988182] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail\n'}
+[44.988830] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__struct.hpp\n'}
+[44.989366] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__builder.hpp\n'}
+[44.990008] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__type_support.hpp\n'}
+[44.990532] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__traits.hpp\n'}
+[44.991052] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg\n'}
+[44.991993] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg\n'}
+[44.992778] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail\n'}
+[44.993394] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[44.995017] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__type_support.cpp\n'}
+[44.995647] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__type_support.cpp\n'}
+[44.996270] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[44.996985] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__type_support.cpp\n'}
+[44.999926] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[45.001301] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv\n'}
+[45.002011] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail\n'}
+[45.002618] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__rosidl_typesupport_introspection_cpp.hpp\n'}
+[45.003106] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__type_support.cpp\n'}
+[45.017365] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[45.018061] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[45.018678] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_cpp.so\n'}
+[45.019299] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[45.019939] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/pythonpath.sh\n'}
+[45.020591] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/pythonpath.dsv\n'}
+[45.021174] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/__init__.py\n'}
+[45.068814] (-) TimerEvent: {}
+[45.169598] (-) TimerEvent: {}
+[45.241057] (msg_pkg) StdoutLine: {'line': b"Compiling '/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/__init__.py'...\n"}
+[45.263788] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg\n'}
+[45.265479] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_from_arduino_msg_s.c\n'}
+[45.266161] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_to_arduino_msg.py\n'}
+[45.267873] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_test.py\n'}
+[45.269142] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_from_arduino_msg.py\n'}
+[45.269796] (-) TimerEvent: {}
+[45.270813] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/__init__.py\n'}
+[45.271477] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_test_s.c\n'}
+[45.272250] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_to_arduino_msg_s.c\n'}
+[45.273124] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/srv\n'}
+[45.273930] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/srv/_test.py\n'}
+[45.281000] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/srv/__init__.py\n'}
+[45.281961] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/srv/_test_s.c\n'}
+[45.282648] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[45.283167] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[45.283868] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[45.287132] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[45.288860] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[45.291974] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[45.293363] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__python.so\n'}
+[45.299507] (msg_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__python.so" to ""\n'}
+[45.300447] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/Test.idl\n'}
+[45.301215] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/FromArduinoMsg.idl\n'}
+[45.301821] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/ToArduinoMsg.idl\n'}
+[45.304916] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/srv/Test.idl\n'}
+[45.307202] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/Test.msg\n'}
+[45.308087] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/FromArduinoMsg.msg\n'}
+[45.309075] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/ToArduinoMsg.msg\n'}
+[45.309863] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/srv/Test.srv\n'}
+[45.311270] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/srv/Test_Request.msg\n'}
+[45.311946] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/srv/Test_Response.msg\n'}
+[45.312565] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/ament_index/resource_index/package_run_dependencies/msg_pkg\n'}
+[45.313158] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/ament_index/resource_index/parent_prefix_path/msg_pkg\n'}
+[45.313745] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.sh\n'}
+[45.314489] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.dsv\n'}
+[45.324621] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/path.sh\n'}
+[45.326114] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/path.dsv\n'}
+[45.334657] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/local_setup.bash\n'}
+[45.335956] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/local_setup.sh\n'}
+[45.336885] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/local_setup.zsh\n'}
+[45.337747] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/local_setup.dsv\n'}
+[45.338489] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/package.dsv\n'}
+[45.339237] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/ament_index/resource_index/packages/msg_pkg\n'}
+[45.340191] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_generator_cExport.cmake\n'}
+[45.341131] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[45.353162] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[45.353768] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[45.354366] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cExport.cmake\n'}
+[45.354978] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[45.355571] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_generator_cppExport.cmake\n'}
+[45.356245] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[45.365133] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[45.365902] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[45.366533] (msg_pkg) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[45.367171] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[45.367788] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.368579] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.369321] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[45.369861] (-) TimerEvent: {}
+[45.370888] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.371580] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[45.372311] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[45.373063] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig.cmake\n'}
+[45.373671] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig-version.cmake\n'}
+[45.374320] (msg_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/package.xml\n'}
+[45.374918] (msg_pkg) CommandEnded: {'returncode': 0}
+[45.482174] (-) TimerEvent: {}
+[45.583565] (-) TimerEvent: {}
+[45.684875] (-) TimerEvent: {}
+[45.785776] (-) TimerEvent: {}
+[45.886930] (-) TimerEvent: {}
+[45.988613] (-) TimerEvent: {}
+[46.089827] (-) TimerEvent: {}
+[46.190643] (-) TimerEvent: {}
+[46.225356] (msg_pkg) JobEnded: {'identifier': 'msg_pkg', 'rc': 0}
+[46.234646] (learning_node) JobStarted: {'identifier': 'learning_node'}
+[46.290975] (-) TimerEvent: {}
+[46.317350] (learning_node) JobProgress: {'identifier': 'learning_node', 'progress': 'cmake'}
+[46.321702] (learning_node) JobProgress: {'identifier': 'learning_node', 'progress': 'build'}
+[46.323295] (learning_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/dev_ws/build/learning_node', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/learning_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2672'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8188'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:45235'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2763,unix/raspberrypi4B:/tmp/.ICE-unix/2763'), ('INVOCATION_ID', '95f37d0c4ed94061a0e064b6de6f3d17'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8edc88c8-7a20-4951-869b-d214f5c251c3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/learning_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/opt/ros/foxy')]), 'shell': False}
+[46.391249] (-) TimerEvent: {}
+[46.465827] (learning_node) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[46.491443] (-) TimerEvent: {}
+[46.587179] (learning_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[46.591629] (-) TimerEvent: {}
+[46.692545] (-) TimerEvent: {}
+[46.794021] (-) TimerEvent: {}
+[46.895436] (-) TimerEvent: {}
+[46.998255] (-) TimerEvent: {}
+[47.100084] (-) TimerEvent: {}
+[47.200957] (-) TimerEvent: {}
+[47.302095] (-) TimerEvent: {}
+[47.403182] (-) TimerEvent: {}
+[47.503951] (-) TimerEvent: {}
+[47.605057] (-) TimerEvent: {}
+[47.705943] (-) TimerEvent: {}
+[47.806780] (-) TimerEvent: {}
+[47.907656] (-) TimerEvent: {}
+[48.008519] (-) TimerEvent: {}
+[48.052248] (learning_node) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[48.108724] (-) TimerEvent: {}
+[48.209828] (-) TimerEvent: {}
+[48.298802] (learning_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[48.309974] (-) TimerEvent: {}
+[48.317223] (learning_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[48.410215] (-) TimerEvent: {}
+[48.512246] (-) TimerEvent: {}
+[48.613690] (-) TimerEvent: {}
+[48.714899] (-) TimerEvent: {}
+[48.817388] (-) TimerEvent: {}
+[48.920554] (-) TimerEvent: {}
+[49.024912] (-) TimerEvent: {}
+[49.127951] (-) TimerEvent: {}
+[49.231826] (-) TimerEvent: {}
+[49.333530] (-) TimerEvent: {}
+[49.435105] (-) TimerEvent: {}
+[49.511615] (learning_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[49.535301] (-) TimerEvent: {}
+[49.636208] (-) TimerEvent: {}
+[49.726651] (learning_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[49.734429] (learning_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[49.736545] (-) TimerEvent: {}
+[49.837890] (-) TimerEvent: {}
+[49.938748] (-) TimerEvent: {}
+[50.039622] (-) TimerEvent: {}
+[50.140527] (-) TimerEvent: {}
+[50.241396] (-) TimerEvent: {}
+[50.322759] (learning_node) StdoutLine: {'line': b'-- Found msg_pkg: 0.0.0 (/home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake)\n'}
+[50.341581] (-) TimerEvent: {}
+[50.442460] (-) TimerEvent: {}
+[50.543530] (-) TimerEvent: {}
+[50.644430] (-) TimerEvent: {}
+[50.745235] (-) TimerEvent: {}
+[50.782146] (learning_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[50.845400] (-) TimerEvent: {}
+[50.946739] (-) TimerEvent: {}
+[51.048191] (-) TimerEvent: {}
+[51.125236] (learning_node) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[51.135050] (learning_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[51.136216] (learning_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[51.136975] (learning_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[51.144414] (learning_node) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[51.145342] (learning_node) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[51.147018] (learning_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[51.148385] (-) TimerEvent: {}
+[51.150540] (learning_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[51.153013] (learning_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[51.161519] (learning_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[51.162318] (learning_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[51.164130] (learning_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[51.208641] (learning_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[51.248536] (-) TimerEvent: {}
+[51.314835] (learning_node) StdoutLine: {'line': b'-- Generating done\n'}
+[51.325560] (learning_node) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/dev_ws/build/learning_node\n'}
+[51.348908] (-) TimerEvent: {}
+[51.450102] (-) TimerEvent: {}
+[51.465897] (learning_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target service_test\x1b[0m\n'}
+[51.550298] (-) TimerEvent: {}
+[51.651138] (-) TimerEvent: {}
+[51.682094] (learning_node) StdoutLine: {'line': b'[ 16%] Built target node1_nick_name\n'}
+[51.743365] (learning_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/service_test.dir/src/server.cpp.o\x1b[0m\n'}
+[51.751367] (-) TimerEvent: {}
+[51.853252] (-) TimerEvent: {}
+[51.919126] (learning_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client_test\x1b[0m\n'}
+[51.953454] (-) TimerEvent: {}
+[52.054891] (-) TimerEvent: {}
+[52.080721] (learning_node) StdoutLine: {'line': b'[ 41%] Built target sub_test\n'}
+[52.155131] (-) TimerEvent: {}
+[52.256514] (-) TimerEvent: {}
+[52.357936] (-) TimerEvent: {}
+[52.368311] (learning_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client_test.dir/src/client.cpp.o\x1b[0m\n'}
+[52.458204] (-) TimerEvent: {}
+[52.559165] (-) TimerEvent: {}
+[52.640881] (learning_node) StdoutLine: {'line': b'[ 66%] Built target pub_test\n'}
+[52.659389] (-) TimerEvent: {}
+[52.760801] (-) TimerEvent: {}
+[52.862055] (-) TimerEvent: {}
+[52.923148] (learning_node) StdoutLine: {'line': b'[ 83%] Built target node2_nick_name\n'}
+[52.962268] (-) TimerEvent: {}
+[53.064232] (-) TimerEvent: {}
+[53.165729] (-) TimerEvent: {}
+[53.267850] (-) TimerEvent: {}
+[53.370041] (-) TimerEvent: {}
+[53.472143] (-) TimerEvent: {}
+[53.574177] (-) TimerEvent: {}
+[53.676227] (-) TimerEvent: {}
+[53.778475] (-) TimerEvent: {}
+[53.880535] (-) TimerEvent: {}
+[53.983908] (-) TimerEvent: {}
+[54.085912] (-) TimerEvent: {}
+[54.187646] (-) TimerEvent: {}
+[54.289989] (-) TimerEvent: {}
+[54.392537] (-) TimerEvent: {}
+[54.494020] (-) TimerEvent: {}
+[54.596106] (-) TimerEvent: {}
+[54.700078] (-) TimerEvent: {}
+[54.801565] (-) TimerEvent: {}
+[54.903837] (-) TimerEvent: {}
+[55.005889] (-) TimerEvent: {}
+[55.108131] (-) TimerEvent: {}
+[55.210153] (-) TimerEvent: {}
+[55.312282] (-) TimerEvent: {}
+[55.414419] (-) TimerEvent: {}
+[55.545161] (-) TimerEvent: {}
+[55.646975] (-) TimerEvent: {}
+[55.748813] (-) TimerEvent: {}
+[55.852496] (-) TimerEvent: {}
+[55.954011] (-) TimerEvent: {}
+[56.055547] (-) TimerEvent: {}
+[56.157708] (-) TimerEvent: {}
+[56.259921] (-) TimerEvent: {}
+[56.362069] (-) TimerEvent: {}
+[56.463531] (-) TimerEvent: {}
+[56.565712] (-) TimerEvent: {}
+[56.668866] (-) TimerEvent: {}
+[56.769795] (-) TimerEvent: {}
+[56.871969] (-) TimerEvent: {}
+[56.973621] (-) TimerEvent: {}
+[57.075670] (-) TimerEvent: {}
+[57.177178] (-) TimerEvent: {}
+[57.279254] (-) TimerEvent: {}
+[57.381182] (-) TimerEvent: {}
+[57.483203] (-) TimerEvent: {}
+[57.585142] (-) TimerEvent: {}
+[57.687120] (-) TimerEvent: {}
+[57.789126] (-) TimerEvent: {}
+[57.891885] (-) TimerEvent: {}
+[58.000552] (-) TimerEvent: {}
+[58.101637] (-) TimerEvent: {}
+[58.203704] (-) TimerEvent: {}
+[58.305681] (-) TimerEvent: {}
+[58.407771] (-) TimerEvent: {}
+[58.509155] (-) TimerEvent: {}
+[58.611356] (-) TimerEvent: {}
+[58.712298] (-) TimerEvent: {}
+[58.814191] (-) TimerEvent: {}
+[58.916601] (-) TimerEvent: {}
+[59.018694] (-) TimerEvent: {}
+[59.126687] (-) TimerEvent: {}
+[59.228220] (-) TimerEvent: {}
+[59.329216] (-) TimerEvent: {}
+[59.431274] (-) TimerEvent: {}
+[59.532839] (-) TimerEvent: {}
+[59.633825] (-) TimerEvent: {}
+[59.734780] (-) TimerEvent: {}
+[59.836587] (-) TimerEvent: {}
+[59.938686] (-) TimerEvent: {}
+[60.040819] (-) TimerEvent: {}
+[60.142876] (-) TimerEvent: {}
+[60.245011] (-) TimerEvent: {}
+[60.346543] (-) TimerEvent: {}
+[60.452585] (-) TimerEvent: {}
+[60.577298] (-) TimerEvent: {}
+[60.678296] (-) TimerEvent: {}
+[60.779801] (-) TimerEvent: {}
+[60.881845] (-) TimerEvent: {}
+[60.983978] (-) TimerEvent: {}
+[61.085529] (-) TimerEvent: {}
+[61.186505] (-) TimerEvent: {}
+[61.290188] (-) TimerEvent: {}
+[61.392280] (-) TimerEvent: {}
+[61.493936] (-) TimerEvent: {}
+[61.597686] (-) TimerEvent: {}
+[61.700191] (-) TimerEvent: {}
+[61.804498] (-) TimerEvent: {}
+[61.906291] (-) TimerEvent: {}
+[62.008317] (-) TimerEvent: {}
+[62.110461] (-) TimerEvent: {}
+[62.212720] (-) TimerEvent: {}
+[62.314564] (-) TimerEvent: {}
+[62.417289] (-) TimerEvent: {}
+[62.519138] (-) TimerEvent: {}
+[62.621584] (-) TimerEvent: {}
+[62.722657] (-) TimerEvent: {}
+[62.824910] (-) TimerEvent: {}
+[62.926574] (-) TimerEvent: {}
+[63.028677] (-) TimerEvent: {}
+[63.130359] (-) TimerEvent: {}
+[63.233681] (-) TimerEvent: {}
+[63.335487] (-) TimerEvent: {}
+[63.437613] (-) TimerEvent: {}
+[63.539322] (-) TimerEvent: {}
+[63.641985] (-) TimerEvent: {}
+[63.743801] (-) TimerEvent: {}
+[63.844803] (-) TimerEvent: {}
+[63.946282] (-) TimerEvent: {}
+[64.048014] (-) TimerEvent: {}
+[64.147660] (learning_node) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable service_test\x1b[0m\n'}
+[64.150029] (-) TimerEvent: {}
+[64.251070] (-) TimerEvent: {}
+[64.352591] (-) TimerEvent: {}
+[64.453754] (-) TimerEvent: {}
+[64.555488] (-) TimerEvent: {}
+[64.656634] (-) TimerEvent: {}
+[64.758227] (-) TimerEvent: {}
+[64.859481] (-) TimerEvent: {}
+[64.889754] (learning_node) StdoutLine: {'line': b'[ 91%] Built target service_test\n'}
+[64.959687] (-) TimerEvent: {}
+[65.060963] (-) TimerEvent: {}
+[65.162461] (-) TimerEvent: {}
+[65.263407] (-) TimerEvent: {}
+[65.364890] (-) TimerEvent: {}
+[65.465825] (-) TimerEvent: {}
+[65.576260] (-) TimerEvent: {}
+[65.677287] (-) TimerEvent: {}
+[65.778320] (-) TimerEvent: {}
+[65.879289] (-) TimerEvent: {}
+[65.980484] (-) TimerEvent: {}
+[66.049110] (learning_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client_test\x1b[0m\n'}
+[66.080559] (-) TimerEvent: {}
+[66.181518] (-) TimerEvent: {}
+[66.282613] (-) TimerEvent: {}
+[66.383732] (-) TimerEvent: {}
+[66.484846] (-) TimerEvent: {}
+[66.585875] (-) TimerEvent: {}
+[66.686915] (-) TimerEvent: {}
+[66.724039] (learning_node) StdoutLine: {'line': b'[100%] Built target client_test\n'}
+[66.775052] (learning_node) CommandEnded: {'returncode': 0}
+[66.787328] (-) TimerEvent: {}
+[66.890058] (-) TimerEvent: {}
+[66.991022] (-) TimerEvent: {}
+[67.000840] (learning_node) JobProgress: {'identifier': 'learning_node', 'progress': 'install'}
+[67.001913] (learning_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ROS2/dev_ws/build/learning_node'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/learning_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2672'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8188'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:45235'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2763,unix/raspberrypi4B:/tmp/.ICE-unix/2763'), ('INVOCATION_ID', '95f37d0c4ed94061a0e064b6de6f3d17'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:8edc88c8-7a20-4951-869b-d214f5c251c3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/learning_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/dev_ws/install/learning_node:/opt/ros/foxy')]), 'shell': False}
+[67.050640] (learning_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[67.051806] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/ament_index/resource_index/package_run_dependencies/learning_node\n'}
+[67.052845] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/ament_index/resource_index/parent_prefix_path/learning_node\n'}
+[67.053456] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/environment/ament_prefix_path.sh\n'}
+[67.054287] (learning_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/environment/ament_prefix_path.dsv\n'}
+[67.055223] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/environment/path.sh\n'}
+[67.055822] (learning_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/environment/path.dsv\n'}
+[67.057013] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/local_setup.bash\n'}
+[67.058044] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/local_setup.sh\n'}
+[67.058622] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/local_setup.zsh\n'}
+[67.059450] (learning_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/local_setup.dsv\n'}
+[67.059969] (learning_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/package.dsv\n'}
+[67.060946] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/ament_index/resource_index/packages/learning_node\n'}
+[67.062796] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/cmake/learning_nodeConfig.cmake\n'}
+[67.063607] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/cmake/learning_nodeConfig-version.cmake\n'}
+[67.064095] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/package.xml\n'}
+[67.064694] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/node1_nick_name\n'}
+[67.065691] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/node2_nick_name\n'}
+[67.067942] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/pub_test\n'}
+[67.071414] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/sub_test\n'}
+[67.073628] (learning_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/service_test\n'}
+[67.077711] (learning_node) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/service_test" to ""\n'}
+[67.078964] (learning_node) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/client_test\n'}
+[67.083816] (learning_node) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/client_test" to ""\n'}
+[67.084979] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch\n'}
+[67.086019] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/test_yaml.launch.py\n'}
+[67.086639] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/rviz.launch.py\n'}
+[67.087295] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/test.launch.py\n'}
+[67.088062] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/test_param.launch.py\n'}
+[67.089010] (learning_node) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/remapping.launch.py\n'}
+[67.091265] (-) TimerEvent: {}
+[67.095087] (learning_node) CommandEnded: {'returncode': 0}
+[67.191591] (-) TimerEvent: {}
+[67.293290] (-) TimerEvent: {}
+[67.393677] (learning_node) JobEnded: {'identifier': 'learning_node', 'rc': 0}
+[67.397955] (-) TimerEvent: {}
+[67.398411] (-) EventReactorShutdown: {}

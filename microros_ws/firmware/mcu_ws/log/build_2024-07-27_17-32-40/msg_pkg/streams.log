@@ -1,0 +1,51 @@
+[1.601s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/msg_pkg': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/aarch64-linux-gnu/pkgconfig:/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/msg_pkg --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ubuntu/ROS2/microros_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install
+[1.702s] Not searching for unused variables given on the command line.
+[2.373s] -- The C compiler identification is GNU 9.4.0
+[3.280s] -- The CXX compiler identification is GNU 9.4.0
+[3.393s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc
+[4.515s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc -- works
+[4.519s] -- Detecting C compiler ABI info
+[5.236s] -- Detecting C compiler ABI info - done
+[5.294s] -- Detecting C compile features
+[5.314s] -- Detecting C compile features - done
+[5.364s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++
+[6.550s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ -- works
+[6.561s] -- Detecting CXX compiler ABI info
+[7.589s] -- Detecting CXX compiler ABI info - done
+[7.652s] -- Detecting CXX compile features
+[7.656s] -- Detecting CXX compile features - done
+[7.695s] -- Found ament_cmake: 0.9.12 (/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+[8.214s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.214s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.445s] -- Found std_msgs: 2.0.5 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/std_msgs/cmake)
+[11.797s] -- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+[11.904s] -- Found rosidl_adapter: 1.3.1 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+[12.364s] -- Found rclc: 1.1.2 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rclc/cmake)
+[12.579s] -- Found rmw_implementation_cmake: 1.0.4 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rmw_implementation_cmake/cmake)
+[12.594s] -- Using RMW implementation 'rmw_microxrcedds'
+[12.615s] -- Found rmw_microxrcedds: 1.1.0 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake)
+[12.712s] -- Looking for pthread.h
+[13.553s] -- Looking for pthread.h - found
+[13.555s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.626s] -- Found Threads: TRUE  
+[14.929s] CMake Error at CMakeLists.txt:37 (find_package):
+[14.929s]   By not providing "Findrclc_support.cmake" in CMAKE_MODULE_PATH this project
+[14.930s]   has asked CMake to find a package configuration file provided by
+[14.931s]   "rclc_support", but CMake did not find one.
+[14.931s] 
+[14.932s]   Could not find a package configuration file provided by "rclc_support" with
+[14.932s]   any of the following names:
+[14.933s] 
+[14.934s]     rclc_supportConfig.cmake
+[14.935s]     rclc_support-config.cmake
+[14.935s] 
+[14.936s]   Add the installation prefix of "rclc_support" to CMAKE_PREFIX_PATH or set
+[14.937s]   "rclc_support_DIR" to a directory containing one of the above files.  If
+[14.937s]   "rclc_support" provides a separate development package or SDK, be sure it
+[14.946s]   has been installed.
+[14.947s] 
+[14.948s] 
+[14.949s] -- Configuring incomplete, errors occurred!
+[14.960s] See also "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/msg_pkg/CMakeFiles/CMakeOutput.log".
+[15.012s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/msg_pkg' returned '1': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/aarch64-linux-gnu/pkgconfig:/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/msg_pkg --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ubuntu/ROS2/microros_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install

@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libbuiltin_interfaces__rosidl_typesupport_c.a  CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/duration__type_support.cpp.o CMakeFiles/builtin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/builtin_interfaces/msg/time__type_support.cpp.o
+/usr/bin/arm-linux-gnueabihf-ranlib libbuiltin_interfaces__rosidl_typesupport_c.a

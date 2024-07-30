@@ -1,0 +1,33 @@
+{
+  "package_name": "sensor_msgs",
+  "non_idl_tuples": [
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/BatteryState.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/CameraInfo.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/ChannelFloat32.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/CompressedImage.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/FluidPressure.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Illuminance.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Image.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Imu.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JointState.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Joy.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JoyFeedback.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/JoyFeedbackArray.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/LaserEcho.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/LaserScan.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MagneticField.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MultiDOFJointState.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/MultiEchoLaserScan.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/NavSatFix.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/NavSatStatus.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointCloud.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointCloud2.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/PointField.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Range.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/RegionOfInterest.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/RelativeHumidity.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/Temperature.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:msg/TimeReference.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/sensor_msgs:srv/SetCameraInfo.srv"
+  ]
+}

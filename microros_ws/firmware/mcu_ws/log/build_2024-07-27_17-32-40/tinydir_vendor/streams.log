@@ -1,0 +1,143 @@
+[0.392s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_index_python:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/tinydir_vendor --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ubuntu/ROS2/microros_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install
+[3.816s] Not searching for unused variables given on the command line.
+[5.669s] -- The C compiler identification is GNU 9.4.0
+[7.309s] -- The CXX compiler identification is GNU 9.4.0
+[7.366s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc
+[7.837s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc -- works
+[7.849s] -- Detecting C compiler ABI info
+[8.410s] -- Detecting C compiler ABI info - done
+[8.572s] -- Detecting C compile features
+[8.578s] -- Detecting C compile features - done
+[8.606s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++
+[9.460s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ -- works
+[9.468s] -- Detecting CXX compiler ABI info
+[10.315s] -- Detecting CXX compiler ABI info - done
+[10.385s] -- Detecting CXX compile features
+[10.387s] -- Detecting CXX compile features - done
+[11.429s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[11.430s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.870s] -- Configuring done
+[13.889s] -- Generating done
+[13.902s] -- Build files have been written to: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor
+[14.262s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_index_python:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/tinydir_vendor --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ubuntu/ROS2/microros_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install
+[14.268s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_index_python:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor -- -j4 -l4
+[14.414s] /usr/bin/cmake -S/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/tinydir_vendor -B/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor --check-build-system CMakeFiles/Makefile.cmake 0
+[14.465s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/progress.marks
+[14.564s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[14.576s] make[1]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[14.577s] /usr/bin/make -f CMakeFiles/tinydir-1.2.4.dir/build.make CMakeFiles/tinydir-1.2.4.dir/depend
+[14.600s] make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[14.601s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/tinydir_vendor /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/tinydir_vendor /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/DependInfo.cmake --color=
+[14.755s] Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/DependInfo.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/depend.internal".
+[14.762s] Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4.dir/depend.internal".
+[14.767s] [35m[1mScanning dependencies of target tinydir-1.2.4[0m
+[14.774s] make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[14.779s] /usr/bin/make -f CMakeFiles/tinydir-1.2.4.dir/build.make CMakeFiles/tinydir-1.2.4.dir/build
+[14.789s] make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[15.143s] [ 12%] [34m[1mCreating directories for 'tinydir-1.2.4'[0m
+[15.148s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+[15.269s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+[15.368s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4
+[15.476s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/tmp
+[15.669s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp
+[15.771s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src
+[15.928s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp
+[16.045s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-mkdir
+[16.237s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'tinydir-1.2.4'[0m
+[16.244s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/download-tinydir-1.2.4.cmake
+[16.353s] -- Downloading...
+[16.356s]    dst='/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+[16.357s]    timeout='none'
+[16.359s] -- Using src='https://github.com/cxong/tinydir/archive/1.2.4.tar.gz'
+[17.073s] -- verifying file...
+[17.074s]        file='/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+[17.076s] -- Downloading... done
+[17.091s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/verify-tinydir-1.2.4.cmake
+[17.380s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -P /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/extract-tinydir-1.2.4.cmake
+[17.674s] -- extracting...
+[17.676s]      src='/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/1.2.4.tar.gz'
+[17.678s]      dst='/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[17.688s] -- extracting... [tar xfz]
+[17.850s] -- extracting... [analysis]
+[17.852s] -- extracting... [rename]
+[17.857s] -- extracting... [clean up]
+[17.860s] -- extracting... done
+[17.885s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src && /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-download
+[18.382s] [ 37%] [34m[1mPerforming patch step for 'tinydir-1.2.4'[0m
+[18.391s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E copy /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/tinydir_vendor/tinydir_cmakelists.txt /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeLists.txt
+[18.586s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-patch
+[18.828s] [ 50%] [34m[1mNo update step for 'tinydir-1.2.4'[0m
+[18.832s] /usr/bin/cmake -E echo_append
+[19.064s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-update
+[19.317s] [ 62%] [34m[1mPerforming configure step for 'tinydir-1.2.4'[0m
+[19.327s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir_vendor_install "-DCMAKE_CXX_FLAGS=-march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard" -DCMAKE_C_COMPILER=/usr/bin/arm-linux-gnueabihf-gcc -DCMAKE_CXX_COMPILER=/usr/bin/arm-linux-gnueabihf-g++ -DCMAKE_TOOLCHAIN_FILE=/home/ubuntu/ROS2/microros_ws/my_custom_toolchain.cmake "-GUnix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+[19.428s] Re-run cmake no build system arguments
+[20.293s] -- The C compiler identification is GNU 9.4.0
+[21.251s] -- The CXX compiler identification is GNU 9.4.0
+[21.365s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc
+[24.596s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc -- works
+[24.601s] -- Detecting C compiler ABI info
+[27.067s] -- Detecting C compiler ABI info - done
+[27.143s] -- Detecting C compile features
+[27.145s] -- Detecting C compile features - done
+[27.157s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++
+[29.029s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ -- works
+[29.034s] -- Detecting CXX compiler ABI info
+[29.780s] -- Detecting CXX compiler ABI info - done
+[29.892s] -- Detecting CXX compile features
+[29.917s] -- Detecting CXX compile features - done
+[29.923s] -- Configuring done
+[29.942s] -- Generating done
+[29.949s] -- Build files have been written to: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4
+[29.986s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-configure
+[30.185s] [ 75%] [34m[1mPerforming build step for 'tinydir-1.2.4'[0m
+[30.210s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/make
+[30.246s] make[3]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[30.250s] /usr/bin/cmake -S/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 -B/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 --check-build-system CMakeFiles/Makefile.cmake 0
+[30.365s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/progress.marks
+[30.669s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[30.707s] make[4]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[30.708s] make[4]: Nothing to be done for 'all'.
+[30.708s] make[4]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[30.711s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles 0
+[30.822s] make[3]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[30.823s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-build
+[30.944s] [ 87%] [34m[1mPerforming install step for 'tinydir-1.2.4'[0m
+[30.953s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/make install
+[30.985s] make[3]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[31.005s] /usr/bin/cmake -S/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 -B/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 --check-build-system CMakeFiles/Makefile.cmake 0
+[31.084s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/progress.marks
+[31.136s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[31.156s] make[4]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[31.158s] make[4]: Nothing to be done for 'all'.
+[31.161s] make[4]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[31.163s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles 0
+[31.215s] /usr/bin/make -f CMakeFiles/Makefile2 preinstall
+[31.237s] make[4]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[31.237s] make[4]: Nothing to be done for 'preinstall'.
+[31.238s] make[4]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[31.305s] [36mInstall the project...[0m
+[31.315s] /usr/bin/cmake -P cmake_install.cmake
+[31.437s] -- Install configuration: ""
+[31.438s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir_vendor_install/include/tinydir/tinydir.h
+[31.442s] make[3]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4'
+[31.445s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4 && /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-install
+[31.535s] [100%] [34m[1mCompleted 'tinydir-1.2.4'[0m
+[31.546s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles
+[31.586s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles/tinydir-1.2.4-complete
+[31.634s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4-stamp/tinydir-1.2.4-done
+[31.675s] make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[31.739s] [100%] Built target tinydir-1.2.4
+[31.743s] make[1]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor'
+[31.743s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/CMakeFiles 0
+[31.895s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_index_python:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --build /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor -- -j4 -l4
+[32.297s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_index_python:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor
+[32.397s] -- Install configuration: "Release"
+[32.398s] -- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install
+[32.398s] -- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include
+[32.399s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/tinydir
+[32.404s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/tinydir/tinydir.h
+[32.409s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/package.xml
+[32.415s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/tinydir_vendorConfig.cmake
+[32.421s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/tinydir_vendorConfig-version.cmake
+[32.452s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_uncrustify:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/domain_coordinator:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_xmllint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pyflakes:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pycodestyle:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint_cmake:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_index_python:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format /usr/bin/cmake --install /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor

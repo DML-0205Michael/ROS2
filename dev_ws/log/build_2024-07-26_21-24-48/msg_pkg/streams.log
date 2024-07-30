@@ -1,0 +1,55 @@
+[0.069s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/msg_pkg -- -j4 -l4
+[0.205s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.303s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.303s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.152s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.419s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.574s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.764s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.906s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.698s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[3.699s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name msg_pkg
+[3.699s]   --arguments-file
+[3.699s]   /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter__arguments__msg_pkg.json
+[3.700s]   --output-dir /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg
+[3.700s]   --output-file
+[3.700s]   /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg.idls)
+[3.700s]   returned error code 1:
+[3.701s] 
+[3.701s]   Error processing 'float32 M1_speed' of 'msg_pkg/ToArduinoMsg': ''M1_speed'
+[3.701s]   is an invalid field name.  It should have the pattern
+[3.701s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[3.702s] 
+[3.702s]   Traceback (most recent call last):
+[3.702s] 
+[3.703s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[3.703s]       return _run_code(code, main_globals, None,
+[3.703s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[3.704s]       exec(code, run_globals)
+[3.704s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.705s]       sys.exit(main())
+[3.705s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.706s]       abs_idl_file = convert_to_idl(
+[3.706s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[3.706s]       return convert_msg_to_idl(
+[3.707s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[3.707s]       msg = parse_message_string(package_name, input_file.stem, content)
+[3.707s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[3.708s]       fields.append(Field(
+[3.708s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[3.708s]       raise NameError(
+[3.709s] 
+[3.709s]   NameError: 'M1_speed' is an invalid field name.  It should have the pattern
+[3.709s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[3.710s] 
+[3.710s] Call Stack (most recent call first):
+[3.711s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.711s]   CMakeLists.txt:41 (rosidl_generate_interfaces)
+[3.712s] 
+[3.712s] 
+[3.713s] -- Configuring incomplete, errors occurred!
+[3.714s] See also "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles/CMakeOutput.log".
+[3.732s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[3.738s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/msg_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/msg_pkg -- -j4 -l4

@@ -66,6 +66,8 @@ rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrt
 rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/msg_pkg/msg/Test.idl
+rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/msg_pkg/msg/FromArduinoMsg.idl
+rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/msg_pkg/msg/ToArduinoMsg.idl
 rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/msg_pkg/srv/Test.idl
 rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
@@ -105,6 +107,18 @@ rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrt
 rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp
 
+rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp
+
 rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__rosidl_typesupport_fastrtps_c.h
 
@@ -124,9 +138,35 @@ CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp -o CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp.s
 
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.o: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.o -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp
+
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp > CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.i
+
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp -o CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.s
+
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.o: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.o -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp
+
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp > CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.i
+
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp -o CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.s
+
 CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.o: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.o -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp
 
 CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.i: cmake_force
@@ -140,12 +180,16 @@ CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtp
 # Object files for target msg_pkg__rosidl_typesupport_fastrtps_c
 msg_pkg__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp.o" \
+"CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.o" \
+"CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.o" \
 "CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.o"
 
 # External object files for target msg_pkg__rosidl_typesupport_fastrtps_c
 msg_pkg__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libmsg_pkg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp.o
+libmsg_pkg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp.o
+libmsg_pkg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp.o
 libmsg_pkg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp.o
 libmsg_pkg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/build.make
 libmsg_pkg__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/librosidl_typesupport_fastrtps_c.so
@@ -182,7 +226,7 @@ libmsg_pkg__rosidl_typesupport_fastrtps_c.so: /usr/lib/aarch64-linux-gnu/libssl.
 libmsg_pkg__rosidl_typesupport_fastrtps_c.so: /usr/lib/aarch64-linux-gnu/libcrypto.so
 libmsg_pkg__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/libfastcdr.so.1.0.13
 libmsg_pkg__rosidl_typesupport_fastrtps_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libmsg_pkg__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libmsg_pkg__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -196,6 +240,10 @@ CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/test__type_support_c.cpp
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/from_arduino_msg__type_support_c.cpp
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/msg_pkg/msg/detail/to_arduino_msg__type_support_c.cpp
 CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/msg_pkg/srv/detail/test__type_support_c.cpp
 	cd /home/ubuntu/ROS2/dev_ws/build/msg_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/dev_ws/src/msg_pkg /home/ubuntu/ROS2/dev_ws/src/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles/msg_pkg__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)

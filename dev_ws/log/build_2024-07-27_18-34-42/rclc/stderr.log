@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:129 (find_package):
+  By not providing "Findosrf_testing_tools_cpp.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "osrf_testing_tools_cpp", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "osrf_testing_tools_cpp" with any of the following names:
+
+    osrf_testing_tools_cppConfig.cmake
+    osrf_testing_tools_cpp-config.cmake
+
+  Add the installation prefix of "osrf_testing_tools_cpp" to
+  CMAKE_PREFIX_PATH or set "osrf_testing_tools_cpp_DIR" to a directory
+  containing one of the above files.  If "osrf_testing_tools_cpp" provides a
+  separate development package or SDK, be sure it has been installed.
+
+

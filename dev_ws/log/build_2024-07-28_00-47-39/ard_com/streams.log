@@ -1,0 +1,193 @@
+[0.273s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4
+[1.294s] [ 25%] [32mBuilding CXX object CMakeFiles/from_ard.dir/src/from_ard.cpp.o[0m
+[1.309s] [ 75%] Built target to_ard
+[11.137s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[11.138s]    45 |         void robot_pose_callback(const std::shared_ptr<[01;31m[Ksensor_msgs[m[K::msg::Imu> msg)
+[11.139s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[11.140s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.141s]    45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu[01;31m[K>[m[K msg)
+[11.142s]       |                                                                             [01;31m[K^[m[K
+[11.149s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[11.150s]    45 |         void robot_pose_callback(const std::shared_ptr<[01;31m[Ksensor_msgs[m[K::msg::Imu> msg)
+[11.151s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[11.155s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.158s]    45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu[01;31m[K>[m[K msg)
+[11.159s]       |                                                                             [01;31m[K^[m[K
+[11.159s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[11.163s]    45 |         void robot_pose_callback(const std::shared_ptr<[01;31m[Ksensor_msgs[m[K::msg::Imu> msg)
+[11.165s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[11.166s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.167s]    45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu[01;31m[K>[m[K msg)
+[11.173s]       |                                                                             [01;31m[K^[m[K
+[11.174s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[11.175s]    45 |         void robot_pose_callback(const std::shared_ptr<[01;31m[Ksensor_msgs[m[K::msg::Imu> msg)
+[11.175s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[11.176s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.177s]    45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu[01;31m[K>[m[K msg)
+[11.177s]       |                                                                             [01;31m[K^[m[K
+[11.178s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[11.178s]    45 |         void robot_pose_callback(const std::shared_ptr<[01;31m[Ksensor_msgs[m[K::msg::Imu> msg)
+[11.180s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[11.181s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.181s]    45 |         void robot_pose_callback(const std::shared_ptr<sensor_msgs::msg::Imu[01;31m[K>[m[K msg)
+[11.182s]       |                                                                             [01;31m[K^[m[K
+[11.183s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:40:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Kstd::shared_ptr[m[K’ without an argument list
+[11.184s]    45 |         void robot_pose_callback(const [01;31m[Kstd[m[K::shared_ptr<sensor_msgs::msg::Imu> msg)
+[11.185s]       |                                        [01;31m[K^~~[m[K
+[11.186s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:40:[m[K [01;36m[Knote: [m[Kclass template argument deduction is only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+[11.187s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[11.188s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[11.189s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:4[m[K:
+[11.190s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:348:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+[11.192s]   348 |     class [01;36m[Kshared_ptr[m[K;
+[11.194s]       |           [01;36m[K^~~~~~~~~~[m[K
+[11.197s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:45:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+[11.198s]    45 |         void robot_pose_callback(const std::shared_ptr[01;31m[K<[m[Ksensor_msgs::msg::Imu> msg)
+[11.199s]       |                                                       [01;31m[K^[m[K
+[11.200s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[11.201s]   102 |         rclcpp::Subscription<[01;31m[Ksensor_msgs[m[K::msg::Imu>::SharedPtr subscription_;
+[11.202s]       |                              [01;31m[K^~~~~~~~~~~[m[K
+[11.203s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.204s]   102 |         rclcpp::Subscription<sensor_msgs::msg::Imu[01;31m[K>[m[K::SharedPtr subscription_;
+[11.205s]       |                                                   [01;31m[K^[m[K
+[11.206s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[11.206s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[11.207s]   102 |         rclcpp::Subscription<sensor_msgs::msg::Imu>::[01;31m[KSharedPtr[m[K subscription_;
+[11.209s]       |                                                      [01;31m[K^~~~~~~~~[m[K
+[11.215s]       |                                                               [32m[K;[m[K
+[11.215s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:102:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[11.216s]   102 |         rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr [01;31m[Ksubscription_[m[K;
+[11.217s]       |                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[11.217s]       |                                                                [32m[Krcl_subscription_t[m[K
+[11.259s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:[m[K In constructor ‘[01m[KOdomTFBroadcaster::OdomTFBroadcaster()[m[K’:
+[11.260s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:37:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[11.262s]    37 |             [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::Imu>(
+[11.263s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[11.264s]       |             [32m[Krcl_subscription_t[m[K
+[11.271s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:37:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[11.271s]    37 |             subscription_ = this->create_subscription<[01;31m[Ksensor_msgs[m[K::msg::Imu>(
+[11.272s]       |                                                       [01;31m[K^~~~~~~~~~~[m[K
+[11.273s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:37:35:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[11.273s]    37 |             subscription_ = this->[01;31m[Kcreate_subscription<sensor_msgs::msg::Imu>[m[K(
+[11.274s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.307s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:39:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOdomTFBroadcaster::create_subscription<<expression error> >(std::string&, int, std::_Bind_helper<false, void (OdomTFBroadcaster::*)(int), OdomTFBroadcaster*, const std::_Placeholder<1>&>::type)[m[K’
+[11.308s]    39 |                 std::bind(&OdomTFBroadcaster::robot_pose_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+[11.308s]       |                                                                                                [01;31m[K^[m[K
+[11.311s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.314s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[11.316s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.319s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:8[m[K:
+[11.321s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[11.323s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[11.325s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[11.325s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.326s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:39:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[11.326s]    39 |                 std::bind(&OdomTFBroadcaster::robot_pose_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+[11.327s]       |                                                                                                [01;31m[K^[m[K
+[11.327s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:[m[K In member function ‘[01m[Kvoid OdomTFBroadcaster::robot_pose_callback(int)[m[K’:
+[11.328s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:49:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[11.328s]    49 |             enc1=[01;31m[Kmsg[m[K.angular_velocity.x; // right speed, count per 20ms (Left if facing bot)
+[11.329s]       |                  [01;31m[K^~~[m[K
+[11.329s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:49:18:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[11.330s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[11.330s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[11.330s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[11.331s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[11.331s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[11.332s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[11.332s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[11.332s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[11.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[11.333s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[11.334s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[11.334s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[11.335s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[11.335s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.337s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:8[m[K:
+[11.349s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[11.350s]    26 | namespace [01;36m[Kmsg[m[K
+[11.351s]       |           [01;36m[K^~~[m[K
+[11.352s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[11.352s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[11.353s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[11.354s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[11.355s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[11.356s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[11.356s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[11.357s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[11.359s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[11.367s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[11.370s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[11.371s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[11.371s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.373s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:8[m[K:
+[11.377s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[11.379s]    26 | namespace [01;36m[Kmsg[m[K
+[11.379s]       |           [01;36m[K^~~[m[K
+[11.380s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[11.381s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[11.381s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[11.382s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[11.382s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[11.383s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:8[m[K:
+[11.384s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[11.385s]    26 | namespace [01;36m[Kmsg[m[K
+[11.386s]       |           [01;36m[K^~~[m[K
+[11.387s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:19[m[K,
+[11.388s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+[11.389s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:37[m[K,
+[11.389s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:10[m[K:
+[11.390s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[11.390s]    30 | namespace [01;36m[Kmsg[m[K
+[11.391s]       |           [01;36m[K^~~[m[K
+[11.391s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform__struct.hpp:19[m[K,
+[11.392s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:21[m[K,
+[11.393s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+[11.393s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:37[m[K,
+[11.394s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:10[m[K:
+[11.395s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/vector3__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+[11.395s]    26 | namespace [01;36m[Kmsg[m[K
+[11.396s]       |           [01;36m[K^~~[m[K
+[11.396s] In file included from [01m[K/opt/ros/foxy/include/tf2_msgs/msg/tf_message.hpp:7[m[K,
+[11.397s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:38[m[K,
+[11.397s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:10[m[K:
+[11.398s] [01m[K/opt/ros/foxy/include/tf2_msgs/msg/detail/tf_message__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2_msgs::msg[m[K’
+[11.399s]    30 | namespace [01;36m[Kmsg[m[K
+[11.399s]       |           [01;36m[K^~~[m[K
+[11.400s] In file included from [01m[K/opt/ros/foxy/include/turtlesim/msg/pose.hpp:7[m[K,
+[11.401s]                  from [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:11[m[K:
+[11.402s] [01m[K/opt/ros/foxy/include/turtlesim/msg/detail/pose__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtlesim::msg[m[K’
+[11.403s]    26 | namespace [01;36m[Kmsg[m[K
+[11.404s]       |           [01;36m[K^~~[m[K
+[11.404s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:51:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[11.407s]    51 |             vth=[34m[K([m[Kmsg.angular_velocity.y[01;31m[K;[m[K+15)/131/180*M_PI;
+[11.410s]       |                 [34m[K~[m[K                      [01;31m[K^[m[K
+[11.412s]       |                                        [32m[K)[m[K
+[11.413s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:51:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+[11.414s]    51 |             vth=(msg.angular_velocity.y;+15[01;31m[K)[m[K/131/180*M_PI;
+[11.415s]       |                                            [01;31m[K^[m[K
+[11.415s]       |                                            [32m[K;[m[K
+[11.416s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:51:41:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[11.416s]    51 |             vth=(msg.angular_velocity.y;[01;35m[K+15[m[K)/131/180*M_PI;
+[11.417s]       |                                         [01;35m[K^~~[m[K
+[11.418s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:62:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Duration[m[K’ has no member named ‘[01m[KtoSec[m[K’
+[11.419s]    62 |             double dt = (current_time - last_time).[01;31m[KtoSec[m[K();
+[11.419s]       |                                                    [01;31m[K^~~~~[m[K
+[11.441s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[11.447s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:123:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+[11.451s]   123 |     [01;31m[Kcurrent_time[m[K = ros::Time::now();
+[11.454s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[11.460s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:123:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[11.465s]   123 |     current_time = [01;31m[Kros[m[K::Time::now();
+[11.466s]       |                    [01;31m[K^~~[m[K
+[11.469s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:124:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kasctime[m[K’?
+[11.469s]   124 |     [01;31m[Klast_time[m[K = ros::Time::now();
+[11.470s]       |     [01;31m[K^~~~~~~~~[m[K
+[11.470s]       |     [32m[Kasctime[m[K
+[11.471s] [01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:124:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[11.471s]   124 |     last_time = [01;31m[Kros[m[K::Time::now();
+[11.472s]       |                 [01;31m[K^~~[m[K
+[16.421s] make[2]: *** [CMakeFiles/from_ard.dir/build.make:63: CMakeFiles/from_ard.dir/src/from_ard.cpp.o] Error 1
+[16.423s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/from_ard.dir/all] Error 2
+[16.424s] make: *** [Makefile:141: all] Error 2
+[16.547s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ard_com' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4

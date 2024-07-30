@@ -1,0 +1,79 @@
+[7.800s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed install_data
+[10.007s] running egg_info
+[10.009s] creating ../../../build/ament_pclint/ament_pclint.egg-info
+[10.009s] writing ../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[10.014s] writing dependency_links to ../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[10.017s] writing entry points to ../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[10.024s] writing requirements to ../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[10.025s] writing top-level names to ../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[10.034s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[10.383s] reading manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[10.392s] writing manifest file '../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[10.407s] running build
+[10.408s] running build_py
+[10.411s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build
+[10.411s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib
+[10.412s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[10.413s] copying ament_pclint/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[10.413s] copying ament_pclint/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint
+[10.414s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[10.415s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.415s] copying ament_pclint/config/gcc/co-g++.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.416s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.420s] copying ament_pclint/config/gcc/co-gcc.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.421s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.421s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.422s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.430s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.436s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[10.437s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[10.437s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[10.438s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[10.439s] copying ament_pclint/config/msvc/co-cl.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[10.439s] copying ament_pclint/config/au-misra3.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[10.440s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[10.440s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[10.448s] copying ament_pclint/config/c99.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[10.450s] copying ament_pclint/config/c++.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[10.450s] copying ament_pclint/config/deprecate.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[10.460s] copying ament_pclint/config/env-xml.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config
+[10.462s] running install
+[10.465s] running install_lib
+[10.478s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[10.479s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[10.481s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[10.482s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[10.483s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[10.484s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[10.486s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[10.489s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[10.491s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.497s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.498s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.500s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.501s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.502s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.504s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.514s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.516s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[10.517s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[10.519s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[10.520s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[10.523s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[10.524s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[10.525s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[10.527s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[10.530s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/main.py to main.cpython-38.pyc
+[10.548s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/__init__.py to __init__.cpython-38.pyc
+[10.550s] running install_data
+[10.552s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/share/ament_pclint
+[10.552s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index
+[10.553s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index
+[10.553s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[10.554s] copying resource/ament_pclint -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/share/ament_index/resource_index/packages
+[10.554s] running install_egg_info
+[10.558s] Copying ../../../build/ament_pclint/ament_pclint.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages/ament_pclint-0.9.8-py3.8.egg-info
+[10.567s] running install_scripts
+[10.752s] Installing ament_pclint script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/bin
+[10.754s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/install.log'
+[11.017s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pclint/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pclint build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pclint/install.log --single-version-externally-managed install_data

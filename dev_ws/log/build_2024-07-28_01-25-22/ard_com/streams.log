@@ -1,0 +1,36 @@
+[0.161s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4
+[0.487s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.658s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.990s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.106s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.445s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.728s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.067s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.084s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.785s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.283s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[6.091s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[7.011s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.423s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.430s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.431s] -- Configured cppcheck include dirs: 
+[7.432s] -- Configured cppcheck exclude dirs and/or files: 
+[7.437s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.437s] -- Configured cpplint exclude dirs and/or files: 
+[7.442s] -- Added test 'lint_cmake' to check CMake code style
+[7.450s] -- Added test 'uncrustify' to check C / C++ code style
+[7.451s] -- Configured uncrustify additional arguments: 
+[7.453s] -- Added test 'xmllint' to check XML markup files
+[7.465s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[7.466s]   ament_target_dependencies() the passed package name 'to_ard' was not found
+[7.466s]   before
+[7.468s] Call Stack (most recent call first):
+[7.469s]   CMakeLists.txt:43 (ament_target_dependencies)
+[7.469s] 
+[7.469s] 
+[7.493s] -- Configuring incomplete, errors occurred!
+[7.494s] See also "/home/ubuntu/ROS2/dev_ws/build/ard_com/CMakeFiles/CMakeOutput.log".
+[7.494s] See also "/home/ubuntu/ROS2/dev_ws/build/ard_com/CMakeFiles/CMakeError.log".
+[7.524s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[7.531s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ard_com' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4

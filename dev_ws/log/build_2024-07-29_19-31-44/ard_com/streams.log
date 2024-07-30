@@ -1,0 +1,11 @@
+[0.402s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4
+[1.826s] [35m[1mScanning dependencies of target from_ard[0m
+[2.297s] [ 50%] [32mBuilding CXX object CMakeFiles/from_ard.dir/src/from_ard.cpp.o[0m
+[49.896s] [100%] [32m[1mLinking CXX executable from_ard[0m
+[51.246s] /usr/bin/ld: CMakeFiles/from_ard.dir/src/from_ard.cpp.o: in function `rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[51.247s] from_ard.cpp:(.text._ZN6rclcpp9PublisherIN8nav_msgs3msg9Odometry_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN8nav_msgs3msg9Odometry_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x48): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<nav_msgs::msg::Odometry_<std::allocator<void> > >()'
+[51.248s] collect2: error: ld returned 1 exit status
+[51.254s] make[2]: *** [CMakeFiles/from_ard.dir/build.make:171: from_ard] Error 1
+[51.255s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/from_ard.dir/all] Error 2
+[51.256s] make: *** [Makefile:141: all] Error 2
+[51.263s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ard_com' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4

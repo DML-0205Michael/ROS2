@@ -1,0 +1,41 @@
+[7.081s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed install_data
+[8.875s] running egg_info
+[8.887s] creating ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info
+[8.892s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[8.898s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[8.906s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[8.912s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[8.918s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[8.936s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[9.168s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[9.175s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[9.183s] running build
+[9.186s] running build_py
+[9.190s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build
+[9.193s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib
+[9.196s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[9.199s] copying ament_clang_tidy/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[9.204s] copying ament_clang_tidy/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[9.209s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration
+[9.214s] copying ament_clang_tidy/configuration/.clang-tidy -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration
+[9.219s] running install
+[9.229s] running install_lib
+[9.244s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[9.248s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/configuration
+[9.251s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration/.clang-tidy -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/configuration
+[9.257s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[9.262s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[9.268s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/main.py to main.cpython-38.pyc
+[9.288s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/__init__.py to __init__.cpython-38.pyc
+[9.295s] running install_data
+[9.299s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_clang_tidy
+[9.303s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index
+[9.307s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index
+[9.310s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[9.313s] copying resource/ament_clang_tidy -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[9.316s] running install_egg_info
+[9.329s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy-0.9.8-py3.8.egg-info
+[9.358s] running install_scripts
+[9.489s] Installing ament_clang_tidy script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/bin
+[9.513s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log'
+[11.342s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed install_data

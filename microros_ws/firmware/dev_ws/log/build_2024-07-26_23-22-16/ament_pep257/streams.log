@@ -1,0 +1,40 @@
+[7.886s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_pep257': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed install_data
+[9.958s] running egg_info
+[9.963s] creating ../../../build/ament_pep257/ament_pep257.egg-info
+[9.968s] writing ../../../build/ament_pep257/ament_pep257.egg-info/PKG-INFO
+[9.975s] writing dependency_links to ../../../build/ament_pep257/ament_pep257.egg-info/dependency_links.txt
+[9.981s] writing entry points to ../../../build/ament_pep257/ament_pep257.egg-info/entry_points.txt
+[9.984s] writing requirements to ../../../build/ament_pep257/ament_pep257.egg-info/requires.txt
+[9.988s] writing top-level names to ../../../build/ament_pep257/ament_pep257.egg-info/top_level.txt
+[10.002s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[10.256s] reading manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[10.264s] writing manifest file '../../../build/ament_pep257/ament_pep257.egg-info/SOURCES.txt'
+[10.268s] running build
+[10.269s] running build_py
+[10.275s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build
+[10.284s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib
+[10.288s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[10.295s] copying ament_pep257/pytest_marker.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[10.300s] copying ament_pep257/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[10.316s] copying ament_pep257/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257
+[10.327s] running install
+[10.338s] running install_lib
+[10.364s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[10.367s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/pytest_marker.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[10.371s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[10.383s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build/lib/ament_pep257/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257
+[10.391s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/pytest_marker.py to pytest_marker.cpython-38.pyc
+[10.410s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/main.py to main.cpython-38.pyc
+[10.416s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257/__init__.py to __init__.cpython-38.pyc
+[10.419s] running install_data
+[10.420s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_pep257
+[10.421s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_index
+[10.422s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index
+[10.423s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[10.423s] copying resource/ament_pep257 -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/share/ament_index/resource_index/packages
+[10.424s] running install_egg_info
+[10.440s] Copying ../../../build/ament_pep257/ament_pep257.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages/ament_pep257-0.9.8-py3.8.egg-info
+[10.448s] running install_scripts
+[10.629s] Installing ament_pep257 script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin
+[10.650s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/install.log'
+[10.947s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_pep257' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_pep257 build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_pep257/install.log --single-version-externally-managed install_data

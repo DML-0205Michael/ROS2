@@ -2,6 +2,8 @@
   "package_name": "msg_pkg",
   "non_idl_tuples": [
     "/home/ubuntu/ROS2/dev_ws/src/msg_pkg:msg/Test.msg",
+    "/home/ubuntu/ROS2/dev_ws/src/msg_pkg:msg/FromArduinoMsg.msg",
+    "/home/ubuntu/ROS2/dev_ws/src/msg_pkg:msg/ToArduinoMsg.msg",
     "/home/ubuntu/ROS2/dev_ws/src/msg_pkg:srv/Test.srv"
   ]
 }

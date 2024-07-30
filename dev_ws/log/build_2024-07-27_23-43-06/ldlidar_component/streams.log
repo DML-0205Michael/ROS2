@@ -1,0 +1,25 @@
+[0.207s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/ldlidar_component
+[1.995s] -- The C compiler identification is GNU 9.4.0
+[3.157s] -- The CXX compiler identification is GNU 9.4.0
+[3.248s] -- Check for working C compiler: /usr/bin/cc
+[3.891s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.902s] -- Detecting C compiler ABI info
+[4.662s] -- Detecting C compiler ABI info - done
+[4.747s] -- Detecting C compile features
+[4.756s] -- Detecting C compile features - done
+[4.792s] -- Check for working CXX compiler: /usr/bin/c++
+[5.621s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.628s] -- Detecting CXX compiler ABI info
+[7.020s] -- Detecting CXX compiler ABI info - done
+[7.151s] -- Detecting CXX compile features
+[7.152s] -- Detecting CXX compile features - done
+[7.156s] --  * Release Mode
+[7.157s] -- * Found ROS2 foxy
+[7.158s] CMake Error at CMakeLists.txt:72 (message):
+[7.159s]   ROS2 foxy is not officially supported by this package.  Correct working is
+[7.169s]   not guarantee.
+[7.170s] 
+[7.172s] 
+[7.173s] -- Configuring incomplete, errors occurred!
+[7.176s] See also "/home/ubuntu/ROS2/dev_ws/build/ldlidar_component/CMakeFiles/CMakeOutput.log".
+[7.286s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ldlidar_component' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/ldlidar_component

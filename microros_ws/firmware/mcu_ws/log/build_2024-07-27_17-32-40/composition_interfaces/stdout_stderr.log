@@ -1,0 +1,192 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.1 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_default_generators/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 1.3.1 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+-- Found rcl_interfaces: 1.0.0 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl_interfaces/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces
+/usr/bin/cmake -S/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces -B/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+/usr/bin/make -f CMakeFiles/composition_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/composition_interfaces__rosidl_generator_c.dir/depend
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+/usr/bin/python3 /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c__arguments.json
+cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_generator_c.dir/DependInfo.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_generator_c.dir/depend.internal".
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_generator_c.dir/depend.internal".
+[35m[1mScanning dependencies of target composition_interfaces__rosidl_generator_c[0m
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+/usr/bin/make -f CMakeFiles/composition_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/composition_interfaces__rosidl_generator_c.dir/build
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[ 13%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -std=gnu11 -o CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c
+[ 20%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -std=gnu11 -o CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c
+[ 26%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -std=gnu11 -o CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c
+[ 33%] [32m[1mLinking CXX static library libcomposition_interfaces__rosidl_generator_c.a[0m
+/usr/bin/cmake -P CMakeFiles/composition_interfaces__rosidl_generator_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/composition_interfaces__rosidl_generator_c.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-ar qc libcomposition_interfaces__rosidl_generator_c.a  CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o
+/usr/bin/arm-linux-gnueabihf-ranlib libcomposition_interfaces__rosidl_generator_c.a
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[ 33%] Built target composition_interfaces__rosidl_generator_c
+/usr/bin/make -f CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/build.make CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/depend
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[ 40%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+/usr/bin/python3 /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c --generator-arguments-file /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c__arguments.json
+cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/DependInfo.cmake --color=
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/DependInfo.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/depend.internal".
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/depend.internal".
+[35m[1mScanning dependencies of target composition_interfaces__rosidl_typesupport_microxrcedds_c[0m
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+/usr/bin/make -f CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/build.make CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/build
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[ 46%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_c.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu99 -o CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_c.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_c.c
+[ 53%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_c.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu99 -o CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_c.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_c.c
+[ 60%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_c.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu99 -o CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_c.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_c.c
+[ 66%] [32m[1mLinking CXX static library libcomposition_interfaces__rosidl_typesupport_microxrcedds_c.a[0m
+/usr/bin/cmake -P CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-ar qc libcomposition_interfaces__rosidl_typesupport_microxrcedds_c.a  CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/load_node__type_support_c.c.o CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/list_nodes__type_support_c.c.o CMakeFiles/composition_interfaces__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/composition_interfaces/srv/detail/microxrcedds/unload_node__type_support_c.c.o
+/usr/bin/arm-linux-gnueabihf-ranlib libcomposition_interfaces__rosidl_typesupport_microxrcedds_c.a
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[ 66%] Built target composition_interfaces__rosidl_typesupport_microxrcedds_c
+/usr/bin/make -f CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/depend
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[ 73%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+/usr/bin/python3 /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_microxrcedds_c
+cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake --color=
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/depend.internal".
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/depend.internal".
+[35m[1mScanning dependencies of target composition_interfaces__rosidl_typesupport_c[0m
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+/usr/bin/make -f CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/build
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[ 80%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+/usr/bin/arm-linux-gnueabihf-g++  -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -std=gnu++14 -o CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp
+[ 86%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+/usr/bin/arm-linux-gnueabihf-g++  -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -std=gnu++14 -o CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp
+[ 93%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+/usr/bin/arm-linux-gnueabihf-g++  -DROS_PACKAGE_NAME=\"composition_interfaces\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_generator_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_c -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_microxrcedds_c -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -Wall -std=gnu++14 -o CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp
+[100%] [32m[1mLinking CXX static library libcomposition_interfaces__rosidl_typesupport_c.a[0m
+/usr/bin/cmake -P CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-ar qc libcomposition_interfaces__rosidl_typesupport_c.a  CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o
+/usr/bin/arm-linux-gnueabihf-ranlib libcomposition_interfaces__rosidl_typesupport_c.a
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[100%] Built target composition_interfaces__rosidl_typesupport_c
+/usr/bin/make -f CMakeFiles/composition_interfaces.dir/build.make CMakeFiles/composition_interfaces.dir/depend
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rcl_interfaces/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces.dir/DependInfo.cmake --color=
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces.dir/DependInfo.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces.dir/depend.internal".
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles/composition_interfaces.dir/depend.internal".
+[35m[1mScanning dependencies of target composition_interfaces[0m
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+/usr/bin/make -f CMakeFiles/composition_interfaces.dir/build.make CMakeFiles/composition_interfaces.dir/build
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+make[2]: Nothing to be done for 'CMakeFiles/composition_interfaces.dir/build'.
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+[100%] Built target composition_interfaces
+make[1]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces'
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/composition_interfaces/CMakeFiles 0
+-- Install configuration: "Release"
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/msg
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/load_node__type_support.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/load_node__functions.c
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/unload_node__functions.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/list_nodes__type_support.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/list_nodes__struct.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/load_node__struct.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/list_nodes__functions.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/list_nodes__functions.c
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/unload_node__struct.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/load_node__functions.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/unload_node__type_support.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/unload_node__functions.c
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/load_node.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/unload_node.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/list_nodes.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/environment/library_path.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/environment/library_path.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/libcomposition_interfaces__rosidl_generator_c.a
+-- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces
+-- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/msg
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+-- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv
+-- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/load_node__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_microxrcedds_c.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/composition_interfaces/srv/detail/microxrcedds
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/libcomposition_interfaces__rosidl_typesupport_microxrcedds_c.a
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/libcomposition_interfaces__rosidl_typesupport_c.a
+-- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/libcomposition_interfaces__rosidl_typesupport_microxrcedds_c.a
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/LoadNode.idl
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/ListNodes.idl
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/UnloadNode.idl
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/LoadNode.srv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/LoadNode_Request.msg
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/LoadNode_Response.msg
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/ListNodes.srv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/ListNodes_Request.msg
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/ListNodes_Response.msg
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/UnloadNode.srv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/UnloadNode_Request.msg
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/srv/UnloadNode_Response.msg
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/environment/path.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/environment/path.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/local_setup.bash
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/local_setup.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/local_setup.zsh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/local_setup.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/package.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/composition_interfaces
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/composition_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/composition_interfaces__rosidl_generator_cExport-release.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/composition_interfaces/package.xml

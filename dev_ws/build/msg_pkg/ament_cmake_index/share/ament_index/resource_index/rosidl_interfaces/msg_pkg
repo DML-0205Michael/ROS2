@@ -1,5 +1,9 @@
+msg/FromArduinoMsg.idl
+msg/FromArduinoMsg.msg
 msg/Test.idl
 msg/Test.msg
+msg/ToArduinoMsg.idl
+msg/ToArduinoMsg.msg
 srv/Test.idl
 srv/Test.srv
 srv/Test_Request.msg

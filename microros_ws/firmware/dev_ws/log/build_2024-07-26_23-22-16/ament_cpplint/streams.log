@@ -1,0 +1,40 @@
+[9.854s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed install_data
+[12.130s] running egg_info
+[12.138s] creating ../../../build/ament_cpplint/ament_cpplint.egg-info
+[12.140s] writing ../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+[12.143s] writing dependency_links to ../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+[12.147s] writing entry points to ../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+[12.149s] writing requirements to ../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+[12.150s] writing top-level names to ../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+[12.161s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[12.508s] reading manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[12.514s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[12.516s] running build
+[12.518s] running build_py
+[12.522s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build
+[12.524s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib
+[12.526s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[12.528s] copying ament_cpplint/cpplint.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[12.532s] copying ament_cpplint/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[12.534s] copying ament_cpplint/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[12.539s] running install
+[12.558s] running install_lib
+[12.564s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[12.567s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[12.583s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[12.589s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+[12.599s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-38.pyc
+[12.777s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/main.py to main.cpython-38.pyc
+[12.783s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/__init__.py to __init__.cpython-38.pyc
+[12.792s] running install_data
+[12.795s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_cpplint
+[12.800s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index
+[12.803s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index
+[12.812s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[12.817s] copying resource/ament_cpplint -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[12.841s] running install_egg_info
+[12.843s] Copying ../../../build/ament_cpplint/ament_cpplint.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint-0.9.8-py3.8.egg-info
+[12.873s] running install_scripts
+[13.030s] Installing ament_cpplint script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/bin
+[13.032s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/install.log'
+[13.232s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed install_data

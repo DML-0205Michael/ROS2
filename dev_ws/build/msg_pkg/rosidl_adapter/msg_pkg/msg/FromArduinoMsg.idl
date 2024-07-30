@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_pkg/msg/FromArduinoMsg.msg
+// generated code does not contain a copyright notice
+
+
+module msg_pkg {
+  module msg {
+    @verbatim (language="comment", text=
+      "  No: from_arduino_msg.msg" "\n"
+      "  No: From_arduino_msg.msg" "\n"
+      " Yes: FromArduinoMsg.msg")
+    struct FromArduinoMsg {
+      @verbatim (language="comment", text=
+        " rosidl_adapter.parser.InvalidResourceName: 'From_arduino_msg' is an invalid" "\n"
+        "   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'")
+      float ax;
+
+      float ay;
+
+      float az;
+
+      float gx;
+
+      float gy;
+
+      float gz;
+
+      float mx;
+
+      float my;
+
+      float mz;
+
+      float roll;
+
+      float pitch;
+
+      float yaw;
+
+      int32 encoder1;
+
+      int32 encoder2;
+    };
+  };
+};

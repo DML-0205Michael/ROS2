@@ -1,0 +1,37 @@
+[12.228s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_cppcheck': PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/install.log --single-version-externally-managed install_data
+[14.666s] running egg_info
+[14.691s] creating ../../../build/ament_cppcheck/ament_cppcheck.egg-info
+[14.696s] writing ../../../build/ament_cppcheck/ament_cppcheck.egg-info/PKG-INFO
+[14.703s] writing dependency_links to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/dependency_links.txt
+[14.708s] writing entry points to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/entry_points.txt
+[14.712s] writing requirements to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/requires.txt
+[14.716s] writing top-level names to ../../../build/ament_cppcheck/ament_cppcheck.egg-info/top_level.txt
+[14.745s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[15.072s] reading manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[15.104s] writing manifest file '../../../build/ament_cppcheck/ament_cppcheck.egg-info/SOURCES.txt'
+[15.105s] running build
+[15.105s] running build_py
+[15.121s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build
+[15.122s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build/lib
+[15.124s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[15.127s] copying ament_cppcheck/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[15.131s] copying ament_cppcheck/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck
+[15.134s] running install
+[15.150s] running install_lib
+[15.166s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[15.167s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[15.175s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build/lib/ament_cppcheck/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck
+[15.182s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck/main.py to main.cpython-38.pyc
+[15.208s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck/__init__.py to __init__.cpython-38.pyc
+[15.211s] running install_data
+[15.214s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_cppcheck
+[15.219s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_index
+[15.223s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index
+[15.225s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[15.228s] copying resource/ament_cppcheck -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/share/ament_index/resource_index/packages
+[15.234s] running install_egg_info
+[15.244s] Copying ../../../build/ament_cppcheck/ament_cppcheck.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages/ament_cppcheck-0.9.8-py3.8.egg-info
+[15.268s] running install_scripts
+[15.420s] Installing ament_cppcheck script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/bin
+[15.425s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/install.log'
+[15.848s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_cppcheck' returned '0': PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cppcheck/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cppcheck build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cppcheck/install.log --single-version-externally-managed install_data

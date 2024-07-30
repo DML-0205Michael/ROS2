@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /home/ubuntu/ROS2/dev_ws/build/msg_pkg
 include CMakeFiles/msg_pkg.dir/progress.make
 
 CMakeFiles/msg_pkg: /home/ubuntu/ROS2/dev_ws/src/msg_pkg/msg/Test.msg
+CMakeFiles/msg_pkg: /home/ubuntu/ROS2/dev_ws/src/msg_pkg/msg/FromArduinoMsg.msg
+CMakeFiles/msg_pkg: /home/ubuntu/ROS2/dev_ws/src/msg_pkg/msg/ToArduinoMsg.msg
 CMakeFiles/msg_pkg: /home/ubuntu/ROS2/dev_ws/src/msg_pkg/srv/Test.srv
 CMakeFiles/msg_pkg: rosidl_cmake/srv/Test_Request.msg
 CMakeFiles/msg_pkg: rosidl_cmake/srv/Test_Response.msg

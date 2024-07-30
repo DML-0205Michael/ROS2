@@ -1,0 +1,11 @@
+[0.199s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/ldlidar_component
+[0.301s] --  * Release Mode
+[0.302s] -- * Found ROS2 foxy
+[0.302s] CMake Error at CMakeLists.txt:72 (message):
+[0.303s]   ROS2 foxy is not officially supported by this package.  Correct working is
+[0.304s]   not guarantee.
+[0.304s] 
+[0.305s] 
+[0.306s] -- Configuring incomplete, errors occurred!
+[0.306s] See also "/home/ubuntu/ROS2/dev_ws/build/ldlidar_component/CMakeFiles/CMakeOutput.log".
+[0.317s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ldlidar_component' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/ldrobot-lidar-ros2/ldlidar_component -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/ldlidar_component

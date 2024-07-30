@@ -1,0 +1,52 @@
+[0.146s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2
+[0.770s] -- The C compiler identification is GNU 9.4.0
+[1.356s] -- The CXX compiler identification is GNU 9.4.0
+[1.384s] -- Check for working C compiler: /usr/bin/cc
+[1.934s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.941s] -- Detecting C compiler ABI info
+[2.605s] -- Detecting C compiler ABI info - done
+[2.682s] -- Detecting C compile features
+[2.687s] -- Detecting C compile features - done
+[2.696s] -- Check for working CXX compiler: /usr/bin/c++
+[3.446s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.456s] -- Detecting CXX compiler ABI info
+[4.307s] -- Detecting CXX compiler ABI info - done
+[4.365s] -- Detecting CXX compile features
+[4.368s] -- Detecting CXX compile features - done
+[4.408s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.626s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.631s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.543s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.067s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.183s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.361s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.756s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.936s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.945s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.951s] -- Looking for pthread.h
+[10.389s] -- Looking for pthread.h - found
+[10.400s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.860s] -- Looking for pthread_create in pthreads
+[11.255s] -- Looking for pthread_create in pthreads - not found
+[11.266s] -- Looking for pthread_create in pthread
+[11.704s] -- Looking for pthread_create in pthread - found
+[11.710s] -- Found Threads: TRUE  
+[12.557s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[13.097s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.804s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.877s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.879s] -- Configured cppcheck include dirs: /home/ubuntu/ROS2/dev_ws/src/ldlidar_stl_ros2/include;/home/ubuntu/ROS2/dev_ws/src/ldlidar_stl_ros2/include/ldlidar_driver/include
+[13.881s] -- Configured cppcheck exclude dirs and/or files: 
+[13.950s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.950s] -- Configured cpplint exclude dirs and/or files: 
+[13.963s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.989s] -- Added test 'lint_cmake' to check CMake code style
+[14.000s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[14.070s] -- Added test 'uncrustify' to check C / C++ code style
+[14.071s] -- Configured uncrustify additional arguments: 
+[14.082s] -- Added test 'xmllint' to check XML markup files
+[14.111s] -- Configuring done
+[14.160s] -- Generating done
+[14.167s] -- Build files have been written to: /home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2

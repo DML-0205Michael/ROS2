@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target from_ard[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/from_ard.dir/src/from_ard.cpp.o[0m
+[100%] [32m[1mLinking CXX executable from_ard[0m

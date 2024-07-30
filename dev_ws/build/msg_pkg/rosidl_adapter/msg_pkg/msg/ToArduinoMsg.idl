@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_pkg/msg/ToArduinoMsg.msg
+// generated code does not contain a copyright notice
+
+
+module msg_pkg {
+  module msg {
+    @verbatim (language="comment", text=
+      " No:" "\n"
+      " float32 M1_speed" "\n"
+      " float32 M2_speed" "\n"
+      " int32 M1_encoder_speed" "\n"
+      " int32 M2_encoder_speed")
+    struct ToArduinoMsg {
+      @verbatim (language="comment", text=
+        "  Error processing 'float32 M1_speed' of 'msg_pkg/ToArduinoMsg': ''M1_speed'" "\n"
+        "   is an invalid field name.  It should have the pattern" "\n"
+        "   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''" "\n"
+        " Yes:")
+      float m1_speed;
+
+      float m2_speed;
+
+      int32 m1_encoder_speed;
+
+      int32 m2_encoder_speed;
+    };
+  };
+};

@@ -1,0 +1,41 @@
+[7.324s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_format': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_format build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/install.log --single-version-externally-managed install_data
+[9.797s] running egg_info
+[9.803s] creating ../../../build/ament_clang_format/ament_clang_format.egg-info
+[9.807s] writing ../../../build/ament_clang_format/ament_clang_format.egg-info/PKG-INFO
+[9.813s] writing dependency_links to ../../../build/ament_clang_format/ament_clang_format.egg-info/dependency_links.txt
+[9.820s] writing entry points to ../../../build/ament_clang_format/ament_clang_format.egg-info/entry_points.txt
+[9.823s] writing requirements to ../../../build/ament_clang_format/ament_clang_format.egg-info/requires.txt
+[9.826s] writing top-level names to ../../../build/ament_clang_format/ament_clang_format.egg-info/top_level.txt
+[9.842s] writing manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[10.154s] reading manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[10.159s] writing manifest file '../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[10.161s] running build
+[10.162s] running build_py
+[10.165s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build
+[10.168s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib
+[10.171s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[10.173s] copying ament_clang_format/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[10.176s] copying ament_clang_format/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format
+[10.186s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[10.188s] copying ament_clang_format/configuration/.clang-format -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[10.191s] running install
+[10.196s] running install_lib
+[10.203s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[10.206s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/configuration
+[10.208s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/configuration/.clang-format -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/configuration
+[10.211s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[10.214s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build/lib/ament_clang_format/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[10.219s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/main.py to main.cpython-38.pyc
+[10.234s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/__init__.py to __init__.cpython-38.pyc
+[10.237s] running install_data
+[10.239s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_clang_format
+[10.243s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index
+[10.244s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index
+[10.246s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index/packages
+[10.248s] copying resource/ament_clang_format -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/share/ament_index/resource_index/packages
+[10.250s] running install_egg_info
+[10.260s] Copying ../../../build/ament_clang_format/ament_clang_format.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format-0.9.8-py3.8.egg-info
+[10.273s] running install_scripts
+[10.454s] Installing ament_clang_format script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/bin
+[10.461s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/install.log'
+[10.673s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_format' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_clang_format/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_format build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_clang_format/install.log --single-version-externally-managed install_data

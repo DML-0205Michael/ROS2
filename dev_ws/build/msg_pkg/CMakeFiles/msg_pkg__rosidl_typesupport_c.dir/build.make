@@ -64,6 +64,8 @@ rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: /opt/ros/foxy/share/ros
 rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
 rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: /opt/ros/foxy/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: rosidl_adapter/msg_pkg/msg/Test.idl
+rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: rosidl_adapter/msg_pkg/msg/FromArduinoMsg.idl
+rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: rosidl_adapter/msg_pkg/msg/ToArduinoMsg.idl
 rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: rosidl_adapter/msg_pkg/srv/Test.idl
 rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
@@ -98,7 +100,13 @@ rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: /opt/ros/foxy/share/std
 rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
-	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_microxrcedds_c rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
+
+rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp: rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp
+
+rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp: rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp
 
 rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp: rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp
@@ -116,9 +124,35 @@ CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/te
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp -o CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp.s
 
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.o: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.o: rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.o -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp
+
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp > CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.i
+
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp -o CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.s
+
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.o: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.o: rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.o -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp
+
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp > CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.i
+
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp -o CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.s
+
 CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.o: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.o: rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.o -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp
 
 CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.i: cmake_force
@@ -132,12 +166,16 @@ CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/te
 # Object files for target msg_pkg__rosidl_typesupport_c
 msg_pkg__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp.o" \
+"CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.o" \
+"CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.o" \
 "CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.o"
 
 # External object files for target msg_pkg__rosidl_typesupport_c
 msg_pkg__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
 libmsg_pkg__rosidl_typesupport_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp.o
+libmsg_pkg__rosidl_typesupport_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp.o
+libmsg_pkg__rosidl_typesupport_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp.o
 libmsg_pkg__rosidl_typesupport_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp.o
 libmsg_pkg__rosidl_typesupport_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/build.make
 libmsg_pkg__rosidl_typesupport_c.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
@@ -158,7 +196,7 @@ libmsg_pkg__rosidl_typesupport_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libmsg_pkg__rosidl_typesupport_c.so: /opt/ros/foxy/lib/librcpputils.so
 libmsg_pkg__rosidl_typesupport_c.so: /opt/ros/foxy/lib/librcutils.so
 libmsg_pkg__rosidl_typesupport_c.so: CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libmsg_pkg__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libmsg_pkg__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -171,6 +209,8 @@ CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/clean:
 .PHONY : CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/clean
 
 CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp
+CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp
 CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/msg_pkg/srv/test__type_support.cpp
 	cd /home/ubuntu/ROS2/dev_ws/build/msg_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/dev_ws/src/msg_pkg /home/ubuntu/ROS2/dev_ws/src/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/msg_pkg__rosidl_typesupport_c.dir/depend

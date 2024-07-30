@@ -1,0 +1,52 @@
+[0.070s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/msg_pkg -- -j4 -l4
+[0.207s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.306s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.140s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.404s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.558s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.737s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.875s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.638s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[3.638s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name msg_pkg
+[3.639s]   --arguments-file
+[3.639s]   /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter__arguments__msg_pkg.json
+[3.639s]   --output-dir /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg
+[3.639s]   --output-file
+[3.640s]   /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg.idls)
+[3.640s]   returned error code 1:
+[3.640s] 
+[3.640s]   Traceback (most recent call last):
+[3.641s] 
+[3.641s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[3.641s]       return _run_code(code, main_globals, None,
+[3.642s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[3.642s]       exec(code, run_globals)
+[3.642s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.643s]       sys.exit(main())
+[3.643s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.643s]       abs_idl_file = convert_to_idl(
+[3.643s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[3.644s]       return convert_msg_to_idl(
+[3.644s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[3.645s]       msg = parse_message_string(package_name, input_file.stem, content)
+[3.645s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[3.645s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[3.646s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[3.646s]       self.base_type = BaseType(
+[3.646s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[3.646s]       raise InvalidResourceName(
+[3.647s] 
+[3.647s]   rosidl_adapter.parser.InvalidResourceName: 'From_arduino_msg' is an invalid
+[3.647s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[3.648s] 
+[3.648s] Call Stack (most recent call first):
+[3.649s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.649s]   CMakeLists.txt:41 (rosidl_generate_interfaces)
+[3.650s] 
+[3.650s] 
+[3.651s] -- Configuring incomplete, errors occurred!
+[3.653s] See also "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles/CMakeOutput.log".
+[3.674s] make: *** [Makefile:988: cmake_check_build_system] Error 1
+[3.680s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/msg_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/msg_pkg -- -j4 -l4

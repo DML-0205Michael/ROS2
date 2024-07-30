@@ -1,0 +1,192 @@
+[0.214s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/msg_pkg -- -j4 -l4
+[1.399s] [  1%] Built target msg_pkg__cpp
+[1.428s] [ 12%] Built target msg_pkg__rosidl_generator_c
+[1.779s] [ 23%] Built target msg_pkg__rosidl_typesupport_introspection_cpp
+[1.842s] [ 34%] Built target msg_pkg__rosidl_typesupport_introspection_c
+[1.852s] [ 45%] Built target msg_pkg__rosidl_typesupport_cpp
+[1.901s] [ 56%] Built target msg_pkg__rosidl_typesupport_fastrtps_cpp
+[2.024s] [ 67%] Built target msg_pkg__rosidl_typesupport_c
+[2.233s] [ 78%] Built target msg_pkg__rosidl_typesupport_fastrtps_c
+[2.526s] [ 78%] Built target msg_pkg
+[2.952s] [ 80%] Built target msg_pkg__py
+[3.186s] [ 89%] Built target msg_pkg__python
+[3.424s] [ 92%] Built target msg_pkg__rosidl_typesupport_c__pyext
+[3.452s] [ 96%] Built target msg_pkg__rosidl_typesupport_introspection_c__pyext
+[3.510s] [100%] Built target msg_pkg__rosidl_typesupport_fastrtps_c__pyext
+[3.585s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/msg_pkg -- -j4 -l4
+[5.084s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/msg_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/msg_pkg
+[5.158s] -- Install configuration: ""
+[5.160s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/ament_index/resource_index/rosidl_interfaces/msg_pkg
+[5.162s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg
+[5.169s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg
+[5.174s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/to_arduino_msg.h
+[5.175s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail
+[5.176s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__functions.h
+[5.178s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__functions.c
+[5.180s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__functions.c
+[5.182s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__struct.h
+[5.183s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__functions.h
+[5.185s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__functions.h
+[5.186s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__struct.h
+[5.187s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__type_support.h
+[5.189s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__struct.h
+[5.191s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__type_support.h
+[5.192s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__functions.c
+[5.193s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__type_support.h
+[5.194s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_generator_c__visibility_control.h
+[5.194s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/from_arduino_msg.h
+[5.195s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/test.h
+[5.196s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv
+[5.196s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail
+[5.197s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__functions.h
+[5.197s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__struct.h
+[5.198s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__type_support.h
+[5.199s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__functions.c
+[5.201s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/test.h
+[5.201s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/library_path.sh
+[5.202s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/library_path.dsv
+[5.203s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_generator_c.so
+[5.204s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg
+[5.205s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg
+[5.205s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.206s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail
+[5.207s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_fastrtps_c.h
+[5.208s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_c.h
+[5.209s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_fastrtps_c.h
+[5.209s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv
+[5.210s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail
+[5.222s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__rosidl_typesupport_fastrtps_c.h
+[5.225s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_c.so
+[5.225s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg
+[5.226s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg
+[5.227s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.227s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail
+[5.228s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/dds_fastrtps
+[5.229s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__rosidl_typesupport_fastrtps_cpp.hpp
+[5.229s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.230s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[5.231s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv
+[5.231s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail
+[5.232s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/dds_fastrtps
+[5.233s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__rosidl_typesupport_fastrtps_cpp.hpp
+[5.233s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_fastrtps_cpp.so
+[5.245s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg
+[5.246s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg
+[5.250s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail
+[5.252s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_introspection_c.h
+[5.256s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_introspection_c.h
+[5.257s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__type_support.c
+[5.257s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_c.h
+[5.271s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__type_support.c
+[5.271s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__type_support.c
+[5.273s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.274s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv
+[5.275s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail
+[5.276s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__rosidl_typesupport_introspection_c.h
+[5.277s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__type_support.c
+[5.278s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_c.so
+[5.278s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_c.so
+[5.279s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg
+[5.279s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg
+[5.279s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/test.hpp
+[5.280s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/to_arduino_msg.hpp
+[5.280s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail
+[5.280s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__struct.hpp
+[5.281s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__builder.hpp
+[5.281s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__type_support.hpp
+[5.282s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__traits.hpp
+[5.282s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__builder.hpp
+[5.283s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__type_support.hpp
+[5.283s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__builder.hpp
+[5.284s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__traits.hpp
+[5.287s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__struct.hpp
+[5.287s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__struct.hpp
+[5.288s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__type_support.hpp
+[5.288s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__traits.hpp
+[5.289s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.289s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/from_arduino_msg.hpp
+[5.294s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv
+[5.295s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/test.hpp
+[5.296s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail
+[5.296s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__struct.hpp
+[5.297s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__builder.hpp
+[5.299s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__type_support.hpp
+[5.300s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__traits.hpp
+[5.301s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg
+[5.302s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg
+[5.303s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail
+[5.304s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__rosidl_typesupport_introspection_cpp.hpp
+[5.304s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__type_support.cpp
+[5.305s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/test__type_support.cpp
+[5.306s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.307s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/from_arduino_msg__type_support.cpp
+[5.307s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/msg/detail/to_arduino_msg__rosidl_typesupport_introspection_cpp.hpp
+[5.308s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv
+[5.309s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail
+[5.309s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__rosidl_typesupport_introspection_cpp.hpp
+[5.310s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/include/msg_pkg/srv/detail/test__type_support.cpp
+[5.311s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_introspection_cpp.so
+[5.312s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__rosidl_typesupport_cpp.so
+[5.312s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/pythonpath.sh
+[5.313s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/pythonpath.dsv
+[5.316s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/__init__.py
+[5.592s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg
+[5.596s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_from_arduino_msg_s.c
+[5.598s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_to_arduino_msg.py
+[5.599s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_test.py
+[5.599s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_from_arduino_msg.py
+[5.600s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/__init__.py
+[5.601s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_test_s.c
+[5.601s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg/_to_arduino_msg_s.c
+[5.602s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/srv
+[5.602s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/srv/_test.py
+[5.603s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/srv/__init__.py
+[5.604s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/srv/_test_s.c
+[5.604s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[5.605s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[5.608s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages/msg_pkg/msg_pkg_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[5.611s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/libmsg_pkg__python.so
+[5.614s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/Test.idl
+[5.615s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/FromArduinoMsg.idl
+[5.617s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/ToArduinoMsg.idl
+[5.619s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/srv/Test.idl
+[5.620s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/Test.msg
+[5.620s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/FromArduinoMsg.msg
+[5.623s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/msg/ToArduinoMsg.msg
+[5.625s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/srv/Test.srv
+[5.626s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/srv/Test_Request.msg
+[5.626s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/srv/Test_Response.msg
+[5.627s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/ament_index/resource_index/package_run_dependencies/msg_pkg
+[5.627s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/ament_index/resource_index/parent_prefix_path/msg_pkg
+[5.627s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.sh
+[5.630s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/ament_prefix_path.dsv
+[5.631s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/path.sh
+[5.633s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/environment/path.dsv
+[5.636s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/local_setup.bash
+[5.637s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/local_setup.sh
+[5.637s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/local_setup.zsh
+[5.637s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/local_setup.dsv
+[5.638s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/package.dsv
+[5.639s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/ament_index/resource_index/packages/msg_pkg
+[5.640s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_generator_cExport.cmake
+[5.640s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_generator_cExport-noconfig.cmake
+[5.641s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cExport.cmake
+[5.641s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.649s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cExport.cmake
+[5.650s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[5.651s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_generator_cppExport.cmake
+[5.660s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[5.660s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.663s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cppExport.cmake
+[5.669s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[5.675s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake-extras.cmake
+[5.676s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.682s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[5.686s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[5.689s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.691s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.691s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.692s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig.cmake
+[5.692s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/cmake/msg_pkgConfig-version.cmake
+[5.693s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/msg_pkg/share/msg_pkg/package.xml
+[5.694s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/msg_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/msg_pkg

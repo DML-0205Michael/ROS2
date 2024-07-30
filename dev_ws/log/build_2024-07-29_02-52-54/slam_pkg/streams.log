@@ -1,0 +1,50 @@
+[0.218s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/slam_pkg
+[1.935s] -- The C compiler identification is GNU 9.4.0
+[2.533s] -- The CXX compiler identification is GNU 9.4.0
+[2.604s] -- Check for working C compiler: /usr/bin/cc
+[3.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.340s] -- Detecting C compiler ABI info
+[4.845s] -- Detecting C compiler ABI info - done
+[4.919s] -- Detecting C compile features
+[4.950s] -- Detecting C compile features - done
+[4.982s] -- Check for working CXX compiler: /usr/bin/c++
+[6.079s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.091s] -- Detecting CXX compiler ABI info
+[7.441s] -- Detecting CXX compiler ABI info - done
+[7.539s] -- Detecting CXX compile features
+[7.543s] -- Detecting CXX compile features - done
+[7.655s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.202s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[8.205s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.186s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.986s] -- Added test 'copyright' to check source files copyright and LICENSE
+[11.009s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.015s] -- Added test 'lint_cmake' to check CMake code style
+[11.021s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.032s] -- Added test 'xmllint' to check XML markup files
+[11.053s] -- Configuring done
+[11.069s] -- Generating done
+[11.077s] -- Build files have been written to: /home/ubuntu/ROS2/dev_ws/build/slam_pkg
+[11.100s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/slam_pkg
+[11.111s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/slam_pkg -- -j4 -l4
+[11.410s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/slam_pkg -- -j4 -l4
+[11.641s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/slam_pkg
+[11.725s] -- Install configuration: ""
+[11.729s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/launch
+[11.730s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/launch/slam.launch.py
+[11.731s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/ament_index/resource_index/package_run_dependencies/slam_pkg
+[11.736s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/ament_index/resource_index/parent_prefix_path/slam_pkg
+[11.738s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.sh
+[11.741s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/environment/ament_prefix_path.dsv
+[11.746s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/environment/path.sh
+[11.747s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/environment/path.dsv
+[11.751s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/local_setup.bash
+[11.752s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/local_setup.sh
+[11.753s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/local_setup.zsh
+[11.754s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/local_setup.dsv
+[11.776s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/package.dsv
+[11.777s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/ament_index/resource_index/packages/slam_pkg
+[11.778s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig.cmake
+[11.779s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/cmake/slam_pkgConfig-version.cmake
+[11.780s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/slam_pkg/share/slam_pkg/package.xml
+[11.781s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/slam_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/slam_pkg

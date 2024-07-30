@@ -1,0 +1,33 @@
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function ‘[01m[K__validate_node_name_and_namespace[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:52:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   52 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:64:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   64 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function ‘[01m[K__rcl_get_info_by_topic[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:457:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_string[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  457 |   rmw_error_string_t [01;35m[Kerror_string[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:[m[K In function ‘[01m[Krcl_init[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:191:8:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #endif directive [[01;35m[K-Wendif-labels[m[K]
+  191 | #endif [01;35m[KRCL_COMMAND_LINE_ENABLED[m[K
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:[m[K In function ‘[01m[Krcl_init_options_copy[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:94:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_string[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   94 |     rmw_error_string_t [01;35m[Kerror_string[m[K = rmw_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:112:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_string[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  112 |     rmw_error_string_t [01;35m[Kerror_string[m[K = rmw_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function ‘[01m[Krcl_node_init[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:169:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  169 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:201:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  201 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:[m[K In function ‘[01m[Krcl_rmw_implementation_identifier_check[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:136:34:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krmw_error_msg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  136 |     const rcutils_error_string_t [01;35m[Krmw_error_msg[m[K = rcl_get_error_string();
+      |                                  [01;35m[K^~~~~~~~~~~~~[m[K

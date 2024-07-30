@@ -1,0 +1,205 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc
+-- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++
+-- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rcl_interfaces: 1.0.0 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl_interfaces/cmake)
+-- Using single rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c
+-- Found rosidl_adapter: 1.3.1 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_adapter/cmake)
+-- Found rmw_implementation: 1.0.3 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rmw_implementation/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_microxrcedds'
+-- Found rmw_microxrcedds: 1.1.0 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found tracetools: 1.0.2 (/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tracetools/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl
+/usr/bin/cmake -S/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl -B/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl/CMakeFiles /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl'
+/usr/bin/make -f CMakeFiles/rcl.dir/build.make CMakeFiles/rcl.dir/depend
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl'
+cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl/CMakeFiles/rcl.dir/DependInfo.cmake --color=
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl/CMakeFiles/rcl.dir/DependInfo.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl/CMakeFiles/rcl.dir/depend.internal".
+Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl/CMakeFiles/rcl.dir/depend.internal".
+[35m[1mScanning dependencies of target rcl[0m
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl'
+/usr/bin/make -f CMakeFiles/rcl.dir/build.make CMakeFiles/rcl.dir/build
+make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl'
+[  3%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/client.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/client.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/client.c
+[  7%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/domain_id.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/domain_id.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/domain_id.c
+[ 11%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/event.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/event.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/event.c
+[ 15%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/expand_topic_name.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/expand_topic_name.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/expand_topic_name.c
+[ 19%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/graph.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/graph.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function ‘[01m[K__validate_node_name_and_namespace[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:52:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   52 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:64:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   64 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:[m[K In function ‘[01m[K__rcl_get_info_by_topic[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/graph.c:457:22:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kerror_string[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  457 |   rmw_error_string_t [01;35m[Kerror_string[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~[m[K
+[ 23%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/guard_condition.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/guard_condition.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/guard_condition.c
+[ 26%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/init.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/init.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:[m[K In function ‘[01m[Krcl_init[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init.c:191:8:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #endif directive [[01;35m[K-Wendif-labels[m[K]
+  191 | #endif [01;35m[KRCL_COMMAND_LINE_ENABLED[m[K
+      |        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 30%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/init_options.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/init_options.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:[m[K In function ‘[01m[Krcl_init_options_copy[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:94:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_string[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   94 |     rmw_error_string_t [01;35m[Kerror_string[m[K = rmw_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/init_options.c:112:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kerror_string[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  112 |     rmw_error_string_t [01;35m[Kerror_string[m[K = rmw_get_error_string();
+      |                        [01;35m[K^~~~~~~~~~~~[m[K
+[ 34%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/lexer.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/lexer.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/lexer.c
+[ 38%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/lexer_lookahead.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/lexer_lookahead.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/lexer_lookahead.c
+[ 42%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/localhost.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/localhost.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/localhost.c
+[ 46%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/node.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:[m[K In function ‘[01m[Krcl_node_init[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:169:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  169 |     const char * [01;35m[Kmsg[m[K = rmw_node_name_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node.c:201:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  201 |     const char * [01;35m[Kmsg[m[K = rmw_namespace_validation_result_string(validation_result);
+      |                  [01;35m[K^~~[m[K
+[ 50%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/node_options.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/node_options.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/node_options.c
+[ 53%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/publisher.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/publisher.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/publisher.c
+[ 57%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/rmw_implementation_identifier_check.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/rmw_implementation_identifier_check.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:[m[K In function ‘[01m[Krcl_rmw_implementation_identifier_check[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/rmw_implementation_identifier_check.c:136:34:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krmw_error_msg[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  136 |     const rcutils_error_string_t [01;35m[Krmw_error_msg[m[K = rcl_get_error_string();
+      |                                  [01;35m[K^~~~~~~~~~~~~[m[K
+[ 61%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/security.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/security.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/security.c
+[ 65%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/service.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/service.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/service.c
+[ 69%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/subscription.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/subscription.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/subscription.c
+[ 73%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/time.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/time.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/time.c
+[ 76%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/timer.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/timer.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/timer.c
+[ 80%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/validate_enclave_name.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/validate_enclave_name.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_enclave_name.c
+[ 84%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/validate_topic_name.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/validate_topic_name.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/validate_topic_name.c
+[ 88%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/wait.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/wait.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/wait.c
+[ 92%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/context.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/context.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/context.c
+[ 96%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/common.c.o[0m
+/usr/bin/arm-linux-gnueabihf-gcc -DRCL_BUILDING_DLL -DROS_PACKAGE_NAME=\"rcl\" -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include -isystem /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/tinydir_vendor/cmake/../../../include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG   -fvisibility=hidden -Wall -Wextra -Wpedantic -std=gnu11 -o CMakeFiles/rcl.dir/src/rcl/common.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcl/rcl/src/rcl/common.c
+[100%] [32m[1mLinking CXX static library librcl.a[0m
+/usr/bin/cmake -P CMakeFiles/rcl.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/rcl.dir/link.txt --verbose=1
+/usr/bin/arm-linux-gnueabihf-ar qc librcl.a  CMakeFiles/rcl.dir/src/rcl/client.c.o CMakeFiles/rcl.dir/src/rcl/common.c.o CMakeFiles/rcl.dir/src/rcl/context.c.o CMakeFiles/rcl.dir/src/rcl/domain_id.c.o CMakeFiles/rcl.dir/src/rcl/event.c.o CMakeFiles/rcl.dir/src/rcl/expand_topic_name.c.o CMakeFiles/rcl.dir/src/rcl/graph.c.o CMakeFiles/rcl.dir/src/rcl/guard_condition.c.o CMakeFiles/rcl.dir/src/rcl/init.c.o CMakeFiles/rcl.dir/src/rcl/init_options.c.o CMakeFiles/rcl.dir/src/rcl/lexer.c.o CMakeFiles/rcl.dir/src/rcl/lexer_lookahead.c.o CMakeFiles/rcl.dir/src/rcl/localhost.c.o CMakeFiles/rcl.dir/src/rcl/node.c.o CMakeFiles/rcl.dir/src/rcl/node_options.c.o CMakeFiles/rcl.dir/src/rcl/publisher.c.o CMakeFiles/rcl.dir/src/rcl/rmw_implementation_identifier_check.c.o CMakeFiles/rcl.dir/src/rcl/security.c.o CMakeFiles/rcl.dir/src/rcl/service.c.o CMakeFiles/rcl.dir/src/rcl/subscription.c.o CMakeFiles/rcl.dir/src/rcl/time.c.o CMakeFiles/rcl.dir/src/rcl/timer.c.o CMakeFiles/rcl.dir/src/rcl/validate_enclave_name.c.o CMakeFiles/rcl.dir/src/rcl/validate_topic_name.c.o CMakeFiles/rcl.dir/src/rcl/wait.c.o
+/usr/bin/arm-linux-gnueabihf-ranlib librcl.a
+make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl'
+[100%] Built target rcl
+make[1]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl'
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rcl/CMakeFiles 0
+-- Install configuration: "Release"
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/librcl.a
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/environment/library_path.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/environment/library_path.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rcl
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rcl
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/environment/path.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/environment/path.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/local_setup.bash
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/local_setup.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/local_setup.zsh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/local_setup.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/package.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rcl
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/rclExport.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/rclExport-release.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/rcl-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/rclConfig.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/rclConfig-version.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/package.xml
+-- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/get_default_rcl_logging_implementation.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rcl/cmake/rcl_set_symbol_visibility_hidden.cmake
+-- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/logging_external_interface.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/lexer_lookahead.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/error_handling.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/timer.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/guard_condition.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/remap.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/event.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/time.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/subscription.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/node_options.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/service.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/localhost.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/logging_rosout.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/macros.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/validate_topic_name.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/visibility_control.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/graph.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/context.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/init_options.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/wait.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/validate_enclave_name.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/init.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/security.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/logging.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/domain_id.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/types.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/allocator.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/lexer.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/arguments.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/rmw_implementation_identifier_check.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/publisher.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/rcl.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/expand_topic_name.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/client.h
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/rcl/node.h

@@ -1,0 +1,36 @@
+[12.637s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_lint': PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed install_data
+[14.984s] running egg_info
+[14.987s] creating ../../../build/ament_lint/ament_lint.egg-info
+[14.989s] writing ../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[14.992s] writing dependency_links to ../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[14.997s] writing entry points to ../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[15.000s] writing requirements to ../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[15.002s] writing top-level names to ../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[15.012s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[15.207s] reading manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[15.214s] writing manifest file '../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[15.215s] running build
+[15.217s] running build_py
+[15.219s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build
+[15.220s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build/lib
+[15.223s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[15.225s] copying ament_lint/pytest_marker.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[15.227s] copying ament_lint/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint
+[15.229s] running install
+[15.234s] running install_lib
+[15.252s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[15.254s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[15.256s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[15.262s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-38.pyc
+[15.271s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint/__init__.py to __init__.cpython-38.pyc
+[15.274s] running install_data
+[15.275s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/share/ament_lint
+[15.277s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/share/ament_index
+[15.279s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index
+[15.280s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[15.282s] copying resource/ament_lint -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/share/ament_index/resource_index/packages
+[15.284s] running install_egg_info
+[15.298s] Copying ../../../build/ament_lint/ament_lint.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.8-py3.8.egg-info
+[15.321s] running install_scripts
+[15.484s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/install.log'
+[15.743s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_lint build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_lint/install.log --single-version-externally-managed install_data

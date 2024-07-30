@@ -1,0 +1,54 @@
+[0.156s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4
+[0.489s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.643s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.715s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.824s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.101s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.122s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.712s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.724s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.381s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.888s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[5.585s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[6.135s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.497s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.506s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.508s] -- Configured cppcheck include dirs: 
+[6.508s] -- Configured cppcheck exclude dirs and/or files: 
+[6.513s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.513s] -- Configured cpplint exclude dirs and/or files: 
+[6.518s] -- Added test 'lint_cmake' to check CMake code style
+[6.525s] -- Added test 'uncrustify' to check C / C++ code style
+[6.526s] -- Configured uncrustify additional arguments: 
+[6.528s] -- Added test 'xmllint' to check XML markup files
+[6.572s] -- Configuring done
+[6.695s] -- Generating done
+[6.705s] -- Build files have been written to: /home/ubuntu/ROS2/dev_ws/build/ard_com
+[6.874s] [35m[1mScanning dependencies of target from_ard[0m
+[6.986s] [ 50%] Built target to_ard
+[7.082s] [ 75%] [32mBuilding CXX object CMakeFiles/from_ard.dir/src/from_ard.cpp.o[0m
+[36.926s] [100%] [32m[1mLinking CXX executable from_ard[0m
+[37.987s] [100%] Built target from_ard
+[38.044s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ard_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4
+[38.287s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/ard_com
+[38.330s] -- Install configuration: "Release"
+[38.332s] -- Execute custom install script
+[38.334s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/package_run_dependencies/ard_com
+[38.386s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/parent_prefix_path/ard_com
+[38.440s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/ament_prefix_path.sh
+[38.496s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/ament_prefix_path.dsv
+[38.550s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/path.sh
+[38.598s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/path.dsv
+[38.652s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.bash
+[38.701s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.sh
+[38.754s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.zsh
+[38.804s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.dsv
+[38.864s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/package.dsv
+[38.921s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/packages/ard_com
+[38.985s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/cmake/ard_comConfig.cmake
+[39.049s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/cmake/ard_comConfig-version.cmake
+[39.102s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/package.xml
+[39.156s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/lib/ard_com/from_ard
+[39.207s] -- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/lib/ard_com/to_ard
+[39.269s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ard_com' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/ard_com

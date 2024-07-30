@@ -1,0 +1,8 @@
+{
+  "package_name": "actionlib_msgs",
+  "non_idl_tuples": [
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/actionlib_msgs:msg/GoalID.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/actionlib_msgs:msg/GoalStatus.msg",
+    "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/common_interfaces/actionlib_msgs:msg/GoalStatusArray.msg"
+  ]
+}

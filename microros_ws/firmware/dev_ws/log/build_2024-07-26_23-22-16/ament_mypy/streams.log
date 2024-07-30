@@ -1,0 +1,44 @@
+[7.126s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed install_data
+[9.370s] running egg_info
+[9.374s] creating ../../../build/ament_mypy/ament_mypy.egg-info
+[9.376s] writing ../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[9.379s] writing dependency_links to ../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[9.393s] writing entry points to ../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[9.398s] writing requirements to ../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[9.401s] writing top-level names to ../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[9.413s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[9.607s] reading manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[9.614s] writing manifest file '../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[9.620s] running build
+[9.622s] running build_py
+[9.626s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build
+[9.631s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib
+[9.635s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[9.638s] copying ament_mypy/pytest_marker.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[9.642s] copying ament_mypy/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[9.647s] copying ament_mypy/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy
+[9.653s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[9.658s] copying ament_mypy/configuration/ament_mypy.ini -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration
+[9.662s] running install
+[9.670s] running install_lib
+[9.678s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[9.681s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[9.685s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/configuration
+[9.688s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/configuration
+[9.692s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[9.696s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[9.704s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-38.pyc
+[9.713s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/main.py to main.cpython-38.pyc
+[9.741s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/__init__.py to __init__.cpython-38.pyc
+[9.746s] running install_data
+[9.751s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_mypy
+[9.758s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index
+[9.763s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index
+[9.767s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[9.771s] copying resource/ament_mypy -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/share/ament_index/resource_index/packages
+[9.774s] running install_egg_info
+[9.788s] Copying ../../../build/ament_mypy/ament_mypy.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages/ament_mypy-0.9.8-py3.8.egg-info
+[9.801s] running install_scripts
+[9.905s] Installing ament_mypy script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/bin
+[9.911s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/install.log'
+[11.443s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_mypy/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_mypy build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_mypy/install.log --single-version-externally-managed install_data

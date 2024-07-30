@@ -58,6 +58,16 @@ CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/test__builder.h
 CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/test__struct.hpp
 CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/test__traits.hpp
 CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/test__type_support.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/from_arduino_msg.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__builder.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__struct.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__traits.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__type_support.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/to_arduino_msg.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__builder.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__struct.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__traits.hpp
+CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__type_support.hpp
 CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/srv/test.hpp
 CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/srv/detail/test__builder.hpp
 CMakeFiles/msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/srv/detail/test__struct.hpp
@@ -86,6 +96,8 @@ rosidl_generator_cpp/msg_pkg/msg/test.hpp: /opt/ros/foxy/share/rosidl_generator_
 rosidl_generator_cpp/msg_pkg/msg/test.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/msg_pkg/msg/test.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/msg_pkg/msg/test.hpp: rosidl_adapter/msg_pkg/msg/Test.idl
+rosidl_generator_cpp/msg_pkg/msg/test.hpp: rosidl_adapter/msg_pkg/msg/FromArduinoMsg.idl
+rosidl_generator_cpp/msg_pkg/msg/test.hpp: rosidl_adapter/msg_pkg/msg/ToArduinoMsg.idl
 rosidl_generator_cpp/msg_pkg/msg/test.hpp: rosidl_adapter/msg_pkg/srv/Test.idl
 rosidl_generator_cpp/msg_pkg/msg/test.hpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_generator_cpp/msg_pkg/msg/test.hpp: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
@@ -134,6 +146,36 @@ rosidl_generator_cpp/msg_pkg/msg/detail/test__traits.hpp: rosidl_generator_cpp/m
 rosidl_generator_cpp/msg_pkg/msg/detail/test__type_support.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/test__type_support.hpp
 
+rosidl_generator_cpp/msg_pkg/msg/from_arduino_msg.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/from_arduino_msg.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__builder.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__builder.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__struct.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__struct.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__traits.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__traits.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__type_support.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__type_support.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/to_arduino_msg.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/to_arduino_msg.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__builder.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__builder.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__struct.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__struct.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__traits.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__traits.hpp
+
+rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__type_support.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__type_support.hpp
+
 rosidl_generator_cpp/msg_pkg/srv/test.hpp: rosidl_generator_cpp/msg_pkg/msg/test.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_pkg/srv/test.hpp
 
@@ -155,6 +197,16 @@ msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/test__builder.hpp
 msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/test__struct.hpp
 msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/test__traits.hpp
 msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/test__type_support.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/from_arduino_msg.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__builder.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__struct.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__traits.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/from_arduino_msg__type_support.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/to_arduino_msg.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__builder.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__struct.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__traits.hpp
+msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/msg/detail/to_arduino_msg__type_support.hpp
 msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/srv/test.hpp
 msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/srv/detail/test__builder.hpp
 msg_pkg__cpp: rosidl_generator_cpp/msg_pkg/srv/detail/test__struct.hpp

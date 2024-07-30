@@ -1,0 +1,4 @@
+source;share/ard_com/local_setup.bash
+source;share/ard_com/local_setup.dsv
+source;share/ard_com/local_setup.sh
+source;share/ard_com/local_setup.zsh

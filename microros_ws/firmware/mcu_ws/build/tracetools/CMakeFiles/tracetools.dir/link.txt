@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc libtracetools.a  CMakeFiles/tracetools.dir/src/tracetools.c.o CMakeFiles/tracetools.dir/src/utils.cpp.o
+/usr/bin/arm-linux-gnueabihf-ranlib libtracetools.a

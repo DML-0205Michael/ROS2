@@ -1,0 +1,87 @@
+In file included from [01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:35[m[K:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:[m[K In function ‘[01m[K__rcutils_convert_uint64_t_into_c_str[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knumber[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  109 | __rcutils_convert_uint64_t_into_c_str([01;35m[Kuint64_t number[m[K, char * buffer, size_t buffer_size)
+      |                                       [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  109 | _rcutils_convert_uint64_t_into_c_str(uint64_t number, [01;35m[Kchar * buffer[m[K, size_t buffer_size)
+      |                                                       [01;35m[K~~~~~~~^~~~~~[m[K
+
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbuffer_size[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  109 | convert_uint64_t_into_c_str(uint64_t number, char * buffer, [01;35m[Ksize_t buffer_size[m[K)
+      |                                                             [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:[m[K In function ‘[01m[K__rcutils_format_error_string[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:142:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kerror_string[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  142 |   [01;35m[Krcutils_error_string_t * error_string[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:143:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kerror_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  143 |   [01;35m[Kconst rcutils_error_state_t * error_state[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:[m[K In function ‘[01m[Krcutils_get_error_string[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:240:38:[m[K [01;35m[Kwarning: [m[Kinitializer-string for array of chars is too long
+  240 |     return (rcutils_error_string_t) {[01;35m[K"error not set"[m[K};  // NOLINT(readability/braces)
+      |                                      [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:240:38:[m[K [01;36m[Knote: [m[K(near initialization for ‘[01m[K(anonymous).str[m[K’)
+In file included from [01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/error_handling.c:35[m[K:
+At top level:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:109:1:[m[K [01;35m[Kwarning: [m[K‘[01m[K__rcutils_convert_uint64_t_into_c_str[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+  109 | [01;35m[K__rcutils_convert_uint64_t_into_c_str[m[K(uint64_t number, char * buffer, size_t buffer_size)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/./error_handling_helpers.h:91:1:[m[K [01;35m[Kwarning: [m[K‘[01m[K__rcutils_reverse_str[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   91 | [01;35m[K__rcutils_reverse_str[m[K(char * string_in, size_t string_len)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:[m[K In function ‘[01m[Krcutils_get_env_var_zero_or_one[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:127:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kzero_semantic[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  127 |   const char * name, [01;35m[Kconst char * zero_semantic[m[K,
+      |                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/logging.c:128:16:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kone_semantic[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  128 |   [01;35m[Kconst char * one_semantic[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:[m[K In function ‘[01m[Krcutils_get_symbol[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:121:23:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kdlsym[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+  121 |   void * lib_symbol = [01;35m[Kdlsym[m[K(lib->lib_pointer, symbol_name);
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:121:23:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kvoid *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:122:18:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kdlerror[m[K’; did you mean ‘[01m[Kperror[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  122 |   char * error = [01;35m[Kdlerror[m[K();
+      |                  [01;35m[K^~~~~~~[m[K
+      |                  [32m[Kperror[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:122:18:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kchar *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:[m[K In function ‘[01m[Krcutils_has_symbol[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:159:23:[m[K [01;35m[Kwarning: [m[Kinitialization of ‘[01m[Kvoid *[m[K’ from ‘[01m[Kint[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  159 |   void * lib_symbol = [01;35m[Kdlsym[m[K(lib->lib_pointer, symbol_name);
+      |                       [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:160:20:[m[K [01;35m[Kwarning: [m[Kcomparison between pointer and integer
+  160 |   return dlerror() [01;35m[K==[m[K NULL && lib_symbol != 0;
+      |                    [01;35m[K^~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:[m[K In function ‘[01m[Krcutils_unload_shared_library[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/shared_library.c:178:20:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kdlclose[m[K’; did you mean ‘[01m[Kpclose[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  178 |   int error_code = [01;35m[Kdlclose[m[K(lib->lib_pointer);
+      |                    [01;35m[K^~~~~~~[m[K
+      |                    [32m[Kpclose[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:53:10:[m[K [01;35m[Kwarning: [m[Kmismatch in argument 1 type of built-in function ‘[01m[K__atomic_load_8[m[K’; expected ‘[01m[Kconst volatile void *[m[K’ [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   53 | uint64_t [01;35m[K__atomic_load_8[m[K(uint64_t *mem, int model) {
+      |          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:62:6:[m[K [01;35m[Kwarning: [m[Kmismatch in argument 1 type of built-in function ‘[01m[K__atomic_store_8[m[K’; expected ‘[01m[Kvolatile void *[m[K’ [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   62 | void [01;35m[K__atomic_store_8[m[K(uint64_t *mem, uint64_t val, int model) {
+      |      [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:70:10:[m[K [01;35m[Kwarning: [m[Kmismatch in argument 1 type of built-in function ‘[01m[K__atomic_exchange_8[m[K’; expected ‘[01m[Kvolatile void *[m[K’ [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   70 | uint64_t [01;35m[K__atomic_exchange_8[m[K(uint64_t *mem, uint64_t val, int model) {
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/atomic_64bits.c:80:10:[m[K [01;35m[Kwarning: [m[Kmismatch in argument 1 type of built-in function ‘[01m[K__atomic_fetch_add_8[m[K’; expected ‘[01m[Kvolatile void *[m[K’ [[01;35m[K-Wbuiltin-declaration-mismatch[m[K]
+   80 | uint64_t [01;35m[K__atomic_fetch_add_8[m[K(uint64_t *mem, uint64_t val, int model) {
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/arm-linux-gnueabihf/include/string.h:495[m[K,
+                 from [01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/char_array.c:16[m[K:
+In function ‘[01m[Kstrncat[m[K’,
+    inlined from ‘[01m[Krcutils_char_array_strncat[m[K’ at [01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/char_array.c:224:3[m[K,
+    inlined from ‘[01m[Krcutils_char_array_strcat[m[K’ at [01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/char_array.c:239:10[m[K:
+[01m[K/usr/arm-linux-gnueabihf/include/bits/string_fortified.h:136:10:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncat[m[K’ output truncated before terminating nul copying as many bytes from a string as its length [[01;35m[K-Wstringop-truncation[m[K]
+  136 |   return [01;35m[K__builtin___strncat_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/char_array.c:[m[K In function ‘[01m[Krcutils_char_array_strcat[m[K’:
+[01m[K/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/uros/rcutils/src/char_array.c:239:10:[m[K [01;36m[Knote: [m[Klength computed here
+  239 |   return [01;36m[Krcutils_char_array_strncat(char_array, src, strlen(src))[m[K;
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

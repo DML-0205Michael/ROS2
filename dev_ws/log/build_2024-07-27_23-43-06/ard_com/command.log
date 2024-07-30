@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/ard_com -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/ard_com

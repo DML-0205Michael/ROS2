@@ -1,0 +1,16 @@
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/package_run_dependencies/ard_com
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/parent_prefix_path/ard_com
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/ament_prefix_path.sh
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/ament_prefix_path.dsv
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/path.sh
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/path.dsv
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.bash
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.sh
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.zsh
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.dsv
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/package.dsv
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/packages/ard_com
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/cmake/ard_comConfig.cmake
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/cmake/ard_comConfig-version.cmake
+/home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/package.xml
+/home/ubuntu/ROS2/dev_ws/install/ard_com/lib/ard_com/from_ard

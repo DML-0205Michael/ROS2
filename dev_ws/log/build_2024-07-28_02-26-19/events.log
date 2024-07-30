@@ -1,0 +1,672 @@
+[0.000000] (-) TimerEvent: {}
+[0.001844] (ard_com) JobQueued: {'identifier': 'ard_com', 'dependencies': OrderedDict()}
+[0.003265] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.003883] (ard_com) JobStarted: {'identifier': 'ard_com'}
+[0.078211] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.098903] (-) TimerEvent: {}
+[0.155422] (ard_com) JobProgress: {'identifier': 'ard_com', 'progress': 'cmake'}
+[0.164968] (ard_com) JobProgress: {'identifier': 'ard_com', 'progress': 'build'}
+[0.168249] (ard_com) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/dev_ws/build/ard_com', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/ard_com', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '94912'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:46227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2955,unix/raspberrypi4B:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '9873ed7f2dd442afb165a23314136ab8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/home/ubuntu/ROS2/dev_ws/install/ard_com:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:36d115f1-9876-47c3-979d-fa49b7d690ce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/ard_com'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client:/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/home/ubuntu/ROS2/dev_ws/install/ard_com:/opt/ros/foxy')]), 'shell': False}
+[0.200044] (-) TimerEvent: {}
+[0.229534] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[0.243882] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'build'}
+[0.245376] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '94912'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:46227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2955,unix/raspberrypi4B:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '9873ed7f2dd442afb165a23314136ab8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/home/ubuntu/ROS2/dev_ws/install/ard_com:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:36d115f1-9876-47c3-979d-fa49b7d690ce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client:/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/home/ubuntu/ROS2/dev_ws/install/ard_com:/opt/ros/foxy')]), 'shell': False}
+[0.300311] (-) TimerEvent: {}
+[0.401335] (-) TimerEvent: {}
+[0.502590] (-) TimerEvent: {}
+[0.603621] (-) TimerEvent: {}
+[0.704624] (-) TimerEvent: {}
+[0.805974] (-) TimerEvent: {}
+[0.906824] (-) TimerEvent: {}
+[1.007751] (-) TimerEvent: {}
+[1.109898] (-) TimerEvent: {}
+[1.211480] (-) TimerEvent: {}
+[1.313341] (-) TimerEvent: {}
+[1.407304] (ard_com) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.418365] (-) TimerEvent: {}
+[1.519599] (-) TimerEvent: {}
+[1.620555] (-) TimerEvent: {}
+[1.668485] (ard_com) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.720742] (-) TimerEvent: {}
+[1.805366] (ldlidar_stl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_stl_ros2_node\n'}
+[1.821058] (-) TimerEvent: {}
+[1.904491] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[1.921341] (-) TimerEvent: {}
+[2.022792] (-) TimerEvent: {}
+[2.123700] (-) TimerEvent: {}
+[2.224648] (-) TimerEvent: {}
+[2.325546] (-) TimerEvent: {}
+[2.332678] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'install'}
+[2.427044] (-) TimerEvent: {}
+[2.444470] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '94912'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:46227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2955,unix/raspberrypi4B:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '9873ed7f2dd442afb165a23314136ab8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/home/ubuntu/ROS2/dev_ws/install/ard_com:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:36d115f1-9876-47c3-979d-fa49b7d690ce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/ldlidar_stl_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client:/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/home/ubuntu/ROS2/dev_ws/install/ard_com:/opt/ros/foxy')]), 'shell': False}
+[2.527276] (-) TimerEvent: {}
+[2.557433] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.573642] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node\n'}
+[2.575115] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch\n'}
+[2.589439] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py\n'}
+[2.590748] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py\n'}
+[2.591589] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py\n'}
+[2.594156] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py\n'}
+[2.598703] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py\n'}
+[2.599756] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py\n'}
+[2.601343] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2\n'}
+[2.604412] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz\n'}
+[2.608256] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2\n'}
+[2.609406] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2\n'}
+[2.610397] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh\n'}
+[2.611363] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv\n'}
+[2.612401] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh\n'}
+[2.613365] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv\n'}
+[2.621219] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash\n'}
+[2.629288] (-) TimerEvent: {}
+[2.631064] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh\n'}
+[2.637799] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh\n'}
+[2.639155] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv\n'}
+[2.639830] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv\n'}
+[2.640423] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2\n'}
+[2.641311] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake\n'}
+[2.642077] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake\n'}
+[2.642913] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml\n'}
+[2.646051] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[2.729941] (-) TimerEvent: {}
+[2.831878] (-) TimerEvent: {}
+[2.933297] (-) TimerEvent: {}
+[3.034469] (-) TimerEvent: {}
+[3.135767] (-) TimerEvent: {}
+[3.236972] (-) TimerEvent: {}
+[3.337997] (-) TimerEvent: {}
+[3.405545] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 0}
+[3.438612] (-) TimerEvent: {}
+[3.539763] (-) TimerEvent: {}
+[3.640776] (-) TimerEvent: {}
+[3.680883] (ard_com) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.740916] (-) TimerEvent: {}
+[3.812155] (ard_com) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.841130] (-) TimerEvent: {}
+[3.942427] (-) TimerEvent: {}
+[4.043322] (-) TimerEvent: {}
+[4.146740] (-) TimerEvent: {}
+[4.176693] (ard_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.210616] (ard_com) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.247015] (-) TimerEvent: {}
+[4.347912] (-) TimerEvent: {}
+[4.448796] (-) TimerEvent: {}
+[4.550030] (-) TimerEvent: {}
+[4.650877] (-) TimerEvent: {}
+[4.752584] (-) TimerEvent: {}
+[4.854188] (-) TimerEvent: {}
+[4.955694] (-) TimerEvent: {}
+[5.056601] (-) TimerEvent: {}
+[5.157919] (-) TimerEvent: {}
+[5.259249] (-) TimerEvent: {}
+[5.361116] (-) TimerEvent: {}
+[5.461971] (-) TimerEvent: {}
+[5.562846] (-) TimerEvent: {}
+[5.663727] (-) TimerEvent: {}
+[5.764625] (-) TimerEvent: {}
+[5.866510] (-) TimerEvent: {}
+[5.967895] (-) TimerEvent: {}
+[6.070300] (ard_com) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.071085] (-) TimerEvent: {}
+[6.171768] (-) TimerEvent: {}
+[6.272567] (-) TimerEvent: {}
+[6.373496] (-) TimerEvent: {}
+[6.474549] (-) TimerEvent: {}
+[6.575299] (-) TimerEvent: {}
+[6.673104] (ard_com) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.675479] (-) TimerEvent: {}
+[6.691172] (ard_com) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.776066] (-) TimerEvent: {}
+[6.877027] (-) TimerEvent: {}
+[6.978481] (-) TimerEvent: {}
+[7.079380] (-) TimerEvent: {}
+[7.180646] (-) TimerEvent: {}
+[7.281430] (-) TimerEvent: {}
+[7.383332] (-) TimerEvent: {}
+[7.486097] (-) TimerEvent: {}
+[7.588237] (-) TimerEvent: {}
+[7.689591] (-) TimerEvent: {}
+[7.698603] (ard_com) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[7.789816] (-) TimerEvent: {}
+[7.891489] (-) TimerEvent: {}
+[7.992626] (-) TimerEvent: {}
+[8.094929] (-) TimerEvent: {}
+[8.197500] (-) TimerEvent: {}
+[8.299472] (-) TimerEvent: {}
+[8.382551] (ard_com) StdoutLine: {'line': b'-- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)\n'}
+[8.400683] (-) TimerEvent: {}
+[8.501563] (-) TimerEvent: {}
+[8.602993] (-) TimerEvent: {}
+[8.704384] (-) TimerEvent: {}
+[8.806049] (-) TimerEvent: {}
+[8.907326] (-) TimerEvent: {}
+[9.008612] (-) TimerEvent: {}
+[9.110428] (-) TimerEvent: {}
+[9.213785] (-) TimerEvent: {}
+[9.316078] (-) TimerEvent: {}
+[9.419702] (-) TimerEvent: {}
+[9.463961] (ard_com) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[9.519905] (-) TimerEvent: {}
+[9.620884] (-) TimerEvent: {}
+[9.721877] (-) TimerEvent: {}
+[9.823160] (-) TimerEvent: {}
+[9.924280] (-) TimerEvent: {}
+[10.025568] (-) TimerEvent: {}
+[10.126642] (-) TimerEvent: {}
+[10.229327] (-) TimerEvent: {}
+[10.332021] (-) TimerEvent: {}
+[10.421615] (ard_com) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.432259] (-) TimerEvent: {}
+[10.534323] (-) TimerEvent: {}
+[10.637534] (-) TimerEvent: {}
+[10.739896] (-) TimerEvent: {}
+[10.842262] (-) TimerEvent: {}
+[10.943928] (-) TimerEvent: {}
+[11.047255] (-) TimerEvent: {}
+[11.149338] (-) TimerEvent: {}
+[11.169524] (ard_com) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.185012] (ard_com) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.186450] (ard_com) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[11.187406] (ard_com) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.194414] (ard_com) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.195821] (ard_com) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.203867] (ard_com) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.219108] (ard_com) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.220042] (ard_com) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.222886] (ard_com) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.249525] (-) TimerEvent: {}
+[11.277631] (ard_com) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.349769] (-) TimerEvent: {}
+[11.414639] (ard_com) StdoutLine: {'line': b'-- Generating done\n'}
+[11.425667] (ard_com) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ROS2/dev_ws/build/ard_com\n'}
+[11.451455] (-) TimerEvent: {}
+[11.553871] (-) TimerEvent: {}
+[11.646795] (ard_com) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target from_ard\x1b[0m\n'}
+[11.654164] (-) TimerEvent: {}
+[11.755275] (-) TimerEvent: {}
+[11.757263] (ard_com) StdoutLine: {'line': b'[ 50%] Built target to_ard\n'}
+[11.855461] (-) TimerEvent: {}
+[11.882733] (ard_com) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/from_ard.dir/src/from_ard.cpp.o\x1b[0m\n'}
+[11.955652] (-) TimerEvent: {}
+[12.056510] (-) TimerEvent: {}
+[12.157269] (-) TimerEvent: {}
+[12.258194] (-) TimerEvent: {}
+[12.359816] (-) TimerEvent: {}
+[12.460735] (-) TimerEvent: {}
+[12.561500] (-) TimerEvent: {}
+[12.662307] (-) TimerEvent: {}
+[12.763140] (-) TimerEvent: {}
+[12.863976] (-) TimerEvent: {}
+[12.964790] (-) TimerEvent: {}
+[13.065502] (-) TimerEvent: {}
+[13.166419] (-) TimerEvent: {}
+[13.267852] (-) TimerEvent: {}
+[13.368680] (-) TimerEvent: {}
+[13.469518] (-) TimerEvent: {}
+[13.570315] (-) TimerEvent: {}
+[13.671265] (-) TimerEvent: {}
+[13.772324] (-) TimerEvent: {}
+[13.873298] (-) TimerEvent: {}
+[13.974149] (-) TimerEvent: {}
+[14.075073] (-) TimerEvent: {}
+[14.175909] (-) TimerEvent: {}
+[14.277403] (-) TimerEvent: {}
+[14.378818] (-) TimerEvent: {}
+[14.479586] (-) TimerEvent: {}
+[14.580550] (-) TimerEvent: {}
+[14.681414] (-) TimerEvent: {}
+[14.782345] (-) TimerEvent: {}
+[14.883377] (-) TimerEvent: {}
+[14.986858] (-) TimerEvent: {}
+[15.088421] (-) TimerEvent: {}
+[15.189250] (-) TimerEvent: {}
+[15.290185] (-) TimerEvent: {}
+[15.391077] (-) TimerEvent: {}
+[15.491896] (-) TimerEvent: {}
+[15.593178] (-) TimerEvent: {}
+[15.695934] (-) TimerEvent: {}
+[15.798225] (-) TimerEvent: {}
+[15.900014] (-) TimerEvent: {}
+[16.001920] (-) TimerEvent: {}
+[16.103793] (-) TimerEvent: {}
+[16.205864] (-) TimerEvent: {}
+[16.308042] (-) TimerEvent: {}
+[16.410256] (-) TimerEvent: {}
+[16.512569] (-) TimerEvent: {}
+[16.613999] (-) TimerEvent: {}
+[16.714917] (-) TimerEvent: {}
+[16.815738] (-) TimerEvent: {}
+[16.917597] (-) TimerEvent: {}
+[17.019234] (-) TimerEvent: {}
+[17.120099] (-) TimerEvent: {}
+[17.220975] (-) TimerEvent: {}
+[17.321833] (-) TimerEvent: {}
+[17.422886] (-) TimerEvent: {}
+[17.523904] (-) TimerEvent: {}
+[17.625571] (-) TimerEvent: {}
+[17.727220] (-) TimerEvent: {}
+[17.828227] (-) TimerEvent: {}
+[17.931280] (-) TimerEvent: {}
+[18.040253] (-) TimerEvent: {}
+[18.142998] (-) TimerEvent: {}
+[18.248997] (-) TimerEvent: {}
+[18.354379] (-) TimerEvent: {}
+[18.455799] (-) TimerEvent: {}
+[18.557164] (-) TimerEvent: {}
+[18.658124] (-) TimerEvent: {}
+[18.759222] (-) TimerEvent: {}
+[18.860058] (-) TimerEvent: {}
+[18.961029] (-) TimerEvent: {}
+[19.061857] (-) TimerEvent: {}
+[19.162787] (-) TimerEvent: {}
+[19.263795] (-) TimerEvent: {}
+[19.364812] (-) TimerEvent: {}
+[19.465766] (-) TimerEvent: {}
+[19.567034] (-) TimerEvent: {}
+[19.668525] (-) TimerEvent: {}
+[19.769626] (-) TimerEvent: {}
+[19.870619] (-) TimerEvent: {}
+[19.972145] (-) TimerEvent: {}
+[20.073337] (-) TimerEvent: {}
+[20.174183] (-) TimerEvent: {}
+[20.275040] (-) TimerEvent: {}
+[20.375937] (-) TimerEvent: {}
+[20.476925] (-) TimerEvent: {}
+[20.578150] (-) TimerEvent: {}
+[20.680137] (-) TimerEvent: {}
+[20.781029] (-) TimerEvent: {}
+[20.882648] (-) TimerEvent: {}
+[20.983691] (-) TimerEvent: {}
+[21.085009] (-) TimerEvent: {}
+[21.186113] (-) TimerEvent: {}
+[21.288151] (-) TimerEvent: {}
+[21.389152] (-) TimerEvent: {}
+[21.489987] (-) TimerEvent: {}
+[21.591273] (-) TimerEvent: {}
+[21.693547] (-) TimerEvent: {}
+[21.799038] (-) TimerEvent: {}
+[21.900807] (-) TimerEvent: {}
+[22.002088] (-) TimerEvent: {}
+[22.103321] (-) TimerEvent: {}
+[22.204287] (-) TimerEvent: {}
+[22.305192] (-) TimerEvent: {}
+[22.406089] (-) TimerEvent: {}
+[22.507008] (-) TimerEvent: {}
+[22.608930] (-) TimerEvent: {}
+[22.709888] (-) TimerEvent: {}
+[22.811417] (-) TimerEvent: {}
+[22.912333] (-) TimerEvent: {}
+[23.013303] (-) TimerEvent: {}
+[23.114211] (-) TimerEvent: {}
+[23.215377] (-) TimerEvent: {}
+[23.316281] (-) TimerEvent: {}
+[23.417976] (-) TimerEvent: {}
+[23.518888] (-) TimerEvent: {}
+[23.619828] (-) TimerEvent: {}
+[23.721206] (-) TimerEvent: {}
+[23.822160] (-) TimerEvent: {}
+[23.923122] (-) TimerEvent: {}
+[24.024134] (-) TimerEvent: {}
+[24.125051] (-) TimerEvent: {}
+[24.225982] (-) TimerEvent: {}
+[24.327248] (-) TimerEvent: {}
+[24.428130] (-) TimerEvent: {}
+[24.529580] (-) TimerEvent: {}
+[24.630501] (-) TimerEvent: {}
+[24.731785] (-) TimerEvent: {}
+[24.832795] (-) TimerEvent: {}
+[24.934852] (-) TimerEvent: {}
+[25.037461] (-) TimerEvent: {}
+[25.139400] (-) TimerEvent: {}
+[25.240320] (-) TimerEvent: {}
+[25.341240] (-) TimerEvent: {}
+[25.442548] (-) TimerEvent: {}
+[25.547049] (-) TimerEvent: {}
+[25.650086] (-) TimerEvent: {}
+[25.752571] (-) TimerEvent: {}
+[25.853396] (-) TimerEvent: {}
+[25.954597] (-) TimerEvent: {}
+[26.055380] (-) TimerEvent: {}
+[26.156178] (-) TimerEvent: {}
+[26.257369] (-) TimerEvent: {}
+[26.358487] (-) TimerEvent: {}
+[26.460246] (-) TimerEvent: {}
+[26.561195] (-) TimerEvent: {}
+[26.662132] (-) TimerEvent: {}
+[26.763003] (-) TimerEvent: {}
+[26.863928] (-) TimerEvent: {}
+[26.964862] (-) TimerEvent: {}
+[27.066127] (-) TimerEvent: {}
+[27.167281] (-) TimerEvent: {}
+[27.268197] (-) TimerEvent: {}
+[27.369127] (-) TimerEvent: {}
+[27.469943] (-) TimerEvent: {}
+[27.570757] (-) TimerEvent: {}
+[27.671649] (-) TimerEvent: {}
+[27.772584] (-) TimerEvent: {}
+[27.873601] (-) TimerEvent: {}
+[27.974517] (-) TimerEvent: {}
+[28.075434] (-) TimerEvent: {}
+[28.176354] (-) TimerEvent: {}
+[28.277302] (-) TimerEvent: {}
+[28.378197] (-) TimerEvent: {}
+[28.479067] (-) TimerEvent: {}
+[28.581004] (-) TimerEvent: {}
+[28.682133] (-) TimerEvent: {}
+[28.783781] (-) TimerEvent: {}
+[28.886164] (-) TimerEvent: {}
+[28.987129] (-) TimerEvent: {}
+[29.088062] (-) TimerEvent: {}
+[29.188950] (-) TimerEvent: {}
+[29.289797] (-) TimerEvent: {}
+[29.390704] (-) TimerEvent: {}
+[29.492030] (-) TimerEvent: {}
+[29.594863] (-) TimerEvent: {}
+[29.699011] (-) TimerEvent: {}
+[29.800020] (-) TimerEvent: {}
+[29.901303] (-) TimerEvent: {}
+[30.002379] (-) TimerEvent: {}
+[30.103467] (-) TimerEvent: {}
+[30.205945] (-) TimerEvent: {}
+[30.306834] (-) TimerEvent: {}
+[30.407751] (-) TimerEvent: {}
+[30.510417] (-) TimerEvent: {}
+[30.611300] (-) TimerEvent: {}
+[30.712780] (-) TimerEvent: {}
+[30.813740] (-) TimerEvent: {}
+[30.914909] (-) TimerEvent: {}
+[31.016751] (-) TimerEvent: {}
+[31.117950] (-) TimerEvent: {}
+[31.218896] (-) TimerEvent: {}
+[31.320836] (-) TimerEvent: {}
+[31.422028] (-) TimerEvent: {}
+[31.523231] (-) TimerEvent: {}
+[31.624174] (-) TimerEvent: {}
+[31.725438] (-) TimerEvent: {}
+[31.826674] (-) TimerEvent: {}
+[31.927583] (-) TimerEvent: {}
+[32.028364] (-) TimerEvent: {}
+[32.129295] (-) TimerEvent: {}
+[32.230204] (-) TimerEvent: {}
+[32.331449] (-) TimerEvent: {}
+[32.438035] (-) TimerEvent: {}
+[32.538974] (-) TimerEvent: {}
+[32.639812] (-) TimerEvent: {}
+[32.740751] (-) TimerEvent: {}
+[32.842187] (-) TimerEvent: {}
+[32.943765] (-) TimerEvent: {}
+[33.049340] (-) TimerEvent: {}
+[33.151363] (-) TimerEvent: {}
+[33.253406] (-) TimerEvent: {}
+[33.354576] (-) TimerEvent: {}
+[33.455403] (-) TimerEvent: {}
+[33.556288] (-) TimerEvent: {}
+[33.657241] (-) TimerEvent: {}
+[33.758163] (-) TimerEvent: {}
+[33.858972] (-) TimerEvent: {}
+[33.960213] (-) TimerEvent: {}
+[34.061460] (-) TimerEvent: {}
+[34.164546] (-) TimerEvent: {}
+[34.266350] (-) TimerEvent: {}
+[34.367678] (-) TimerEvent: {}
+[34.468691] (-) TimerEvent: {}
+[34.569693] (-) TimerEvent: {}
+[34.670615] (-) TimerEvent: {}
+[34.772333] (-) TimerEvent: {}
+[34.873204] (-) TimerEvent: {}
+[34.985443] (-) TimerEvent: {}
+[35.087851] (-) TimerEvent: {}
+[35.188855] (-) TimerEvent: {}
+[35.289801] (-) TimerEvent: {}
+[35.390963] (-) TimerEvent: {}
+[35.491867] (-) TimerEvent: {}
+[35.592973] (-) TimerEvent: {}
+[35.696023] (-) TimerEvent: {}
+[35.800217] (-) TimerEvent: {}
+[35.903369] (-) TimerEvent: {}
+[36.004619] (-) TimerEvent: {}
+[36.105454] (-) TimerEvent: {}
+[36.206313] (-) TimerEvent: {}
+[36.307151] (-) TimerEvent: {}
+[36.408315] (-) TimerEvent: {}
+[36.509267] (-) TimerEvent: {}
+[36.610272] (-) TimerEvent: {}
+[36.711603] (-) TimerEvent: {}
+[36.812603] (-) TimerEvent: {}
+[36.913891] (-) TimerEvent: {}
+[37.014755] (-) TimerEvent: {}
+[37.116066] (-) TimerEvent: {}
+[37.217242] (-) TimerEvent: {}
+[37.318216] (-) TimerEvent: {}
+[37.419654] (-) TimerEvent: {}
+[37.520691] (-) TimerEvent: {}
+[37.621772] (-) TimerEvent: {}
+[37.722946] (-) TimerEvent: {}
+[37.824035] (-) TimerEvent: {}
+[37.925317] (-) TimerEvent: {}
+[38.026725] (-) TimerEvent: {}
+[38.127827] (-) TimerEvent: {}
+[38.229100] (-) TimerEvent: {}
+[38.330095] (-) TimerEvent: {}
+[38.431839] (-) TimerEvent: {}
+[38.532920] (-) TimerEvent: {}
+[38.634759] (-) TimerEvent: {}
+[38.736566] (-) TimerEvent: {}
+[38.837820] (-) TimerEvent: {}
+[38.939213] (-) TimerEvent: {}
+[39.040626] (-) TimerEvent: {}
+[39.141492] (-) TimerEvent: {}
+[39.242654] (-) TimerEvent: {}
+[39.354502] (-) TimerEvent: {}
+[39.457635] (-) TimerEvent: {}
+[39.559106] (-) TimerEvent: {}
+[39.660051] (-) TimerEvent: {}
+[39.761052] (-) TimerEvent: {}
+[39.862271] (-) TimerEvent: {}
+[39.963554] (-) TimerEvent: {}
+[40.064786] (-) TimerEvent: {}
+[40.165811] (-) TimerEvent: {}
+[40.267593] (-) TimerEvent: {}
+[40.371609] (-) TimerEvent: {}
+[40.473568] (-) TimerEvent: {}
+[40.574514] (-) TimerEvent: {}
+[40.676387] (-) TimerEvent: {}
+[40.777301] (-) TimerEvent: {}
+[40.878235] (-) TimerEvent: {}
+[40.979849] (-) TimerEvent: {}
+[41.080784] (-) TimerEvent: {}
+[41.182024] (-) TimerEvent: {}
+[41.283521] (-) TimerEvent: {}
+[41.385665] (-) TimerEvent: {}
+[41.487505] (-) TimerEvent: {}
+[41.588339] (-) TimerEvent: {}
+[41.689645] (-) TimerEvent: {}
+[41.790580] (-) TimerEvent: {}
+[41.891551] (-) TimerEvent: {}
+[41.992594] (-) TimerEvent: {}
+[42.097012] (-) TimerEvent: {}
+[42.199703] (-) TimerEvent: {}
+[42.301419] (-) TimerEvent: {}
+[42.403321] (-) TimerEvent: {}
+[42.504567] (-) TimerEvent: {}
+[42.605417] (-) TimerEvent: {}
+[42.706585] (-) TimerEvent: {}
+[42.807733] (-) TimerEvent: {}
+[42.908763] (-) TimerEvent: {}
+[43.009635] (-) TimerEvent: {}
+[43.111561] (-) TimerEvent: {}
+[43.212424] (-) TimerEvent: {}
+[43.314406] (-) TimerEvent: {}
+[43.415690] (-) TimerEvent: {}
+[43.517289] (-) TimerEvent: {}
+[43.618066] (-) TimerEvent: {}
+[43.719242] (-) TimerEvent: {}
+[43.820171] (-) TimerEvent: {}
+[43.921227] (-) TimerEvent: {}
+[44.022181] (-) TimerEvent: {}
+[44.123493] (-) TimerEvent: {}
+[44.224729] (-) TimerEvent: {}
+[44.325820] (-) TimerEvent: {}
+[44.427191] (-) TimerEvent: {}
+[44.528075] (-) TimerEvent: {}
+[44.628967] (-) TimerEvent: {}
+[44.730010] (-) TimerEvent: {}
+[44.830996] (-) TimerEvent: {}
+[44.931964] (-) TimerEvent: {}
+[45.034728] (-) TimerEvent: {}
+[45.135663] (-) TimerEvent: {}
+[45.236834] (-) TimerEvent: {}
+[45.338004] (-) TimerEvent: {}
+[45.438755] (-) TimerEvent: {}
+[45.539671] (-) TimerEvent: {}
+[45.640673] (-) TimerEvent: {}
+[45.742134] (-) TimerEvent: {}
+[45.843429] (-) TimerEvent: {}
+[45.949042] (-) TimerEvent: {}
+[46.051788] (-) TimerEvent: {}
+[46.153839] (-) TimerEvent: {}
+[46.255191] (-) TimerEvent: {}
+[46.356843] (-) TimerEvent: {}
+[46.458154] (-) TimerEvent: {}
+[46.559219] (-) TimerEvent: {}
+[46.660226] (-) TimerEvent: {}
+[46.762447] (-) TimerEvent: {}
+[46.864153] (-) TimerEvent: {}
+[46.965899] (-) TimerEvent: {}
+[47.067461] (-) TimerEvent: {}
+[47.168320] (-) TimerEvent: {}
+[47.269390] (-) TimerEvent: {}
+[47.370301] (-) TimerEvent: {}
+[47.471188] (-) TimerEvent: {}
+[47.572045] (-) TimerEvent: {}
+[47.673365] (-) TimerEvent: {}
+[47.774663] (-) TimerEvent: {}
+[47.875734] (-) TimerEvent: {}
+[47.976614] (-) TimerEvent: {}
+[48.077752] (-) TimerEvent: {}
+[48.179138] (-) TimerEvent: {}
+[48.280591] (-) TimerEvent: {}
+[48.381671] (-) TimerEvent: {}
+[48.482810] (-) TimerEvent: {}
+[48.584244] (-) TimerEvent: {}
+[48.686773] (-) TimerEvent: {}
+[48.788407] (-) TimerEvent: {}
+[48.889666] (-) TimerEvent: {}
+[48.990590] (-) TimerEvent: {}
+[49.091618] (-) TimerEvent: {}
+[49.193191] (-) TimerEvent: {}
+[49.297221] (-) TimerEvent: {}
+[49.399203] (-) TimerEvent: {}
+[49.501544] (-) TimerEvent: {}
+[49.604170] (-) TimerEvent: {}
+[49.705228] (-) TimerEvent: {}
+[49.806253] (-) TimerEvent: {}
+[49.908537] (-) TimerEvent: {}
+[50.009497] (-) TimerEvent: {}
+[50.110916] (-) TimerEvent: {}
+[50.211877] (-) TimerEvent: {}
+[50.313184] (-) TimerEvent: {}
+[50.414121] (-) TimerEvent: {}
+[50.515260] (-) TimerEvent: {}
+[50.616854] (-) TimerEvent: {}
+[50.717709] (-) TimerEvent: {}
+[50.819809] (-) TimerEvent: {}
+[50.920840] (-) TimerEvent: {}
+[51.021990] (-) TimerEvent: {}
+[51.122990] (-) TimerEvent: {}
+[51.223858] (-) TimerEvent: {}
+[51.324736] (-) TimerEvent: {}
+[51.425707] (-) TimerEvent: {}
+[51.526697] (-) TimerEvent: {}
+[51.627593] (-) TimerEvent: {}
+[51.728486] (-) TimerEvent: {}
+[51.829431] (-) TimerEvent: {}
+[51.930433] (-) TimerEvent: {}
+[52.033416] (-) TimerEvent: {}
+[52.135302] (-) TimerEvent: {}
+[52.237710] (-) TimerEvent: {}
+[52.338924] (-) TimerEvent: {}
+[52.440248] (-) TimerEvent: {}
+[52.541204] (-) TimerEvent: {}
+[52.642427] (-) TimerEvent: {}
+[52.744495] (-) TimerEvent: {}
+[52.845824] (-) TimerEvent: {}
+[52.948164] (-) TimerEvent: {}
+[53.050078] (-) TimerEvent: {}
+[53.152636] (-) TimerEvent: {}
+[53.253818] (-) TimerEvent: {}
+[53.355089] (-) TimerEvent: {}
+[53.455920] (-) TimerEvent: {}
+[53.556869] (-) TimerEvent: {}
+[53.657830] (-) TimerEvent: {}
+[53.758781] (-) TimerEvent: {}
+[53.859747] (-) TimerEvent: {}
+[53.960603] (-) TimerEvent: {}
+[54.061755] (-) TimerEvent: {}
+[54.162808] (-) TimerEvent: {}
+[54.263838] (-) TimerEvent: {}
+[54.365506] (-) TimerEvent: {}
+[54.466661] (-) TimerEvent: {}
+[54.567779] (-) TimerEvent: {}
+[54.668593] (-) TimerEvent: {}
+[54.769871] (-) TimerEvent: {}
+[54.870757] (-) TimerEvent: {}
+[54.971840] (-) TimerEvent: {}
+[55.072748] (-) TimerEvent: {}
+[55.173670] (-) TimerEvent: {}
+[55.274720] (-) TimerEvent: {}
+[55.375611] (-) TimerEvent: {}
+[55.476625] (-) TimerEvent: {}
+[55.578088] (-) TimerEvent: {}
+[55.679378] (-) TimerEvent: {}
+[55.780567] (-) TimerEvent: {}
+[55.833680] (ard_com) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable from_ard\x1b[0m\n'}
+[55.880653] (-) TimerEvent: {}
+[55.981461] (-) TimerEvent: {}
+[56.082795] (-) TimerEvent: {}
+[56.184977] (-) TimerEvent: {}
+[56.286253] (-) TimerEvent: {}
+[56.387182] (-) TimerEvent: {}
+[56.488265] (-) TimerEvent: {}
+[56.591253] (-) TimerEvent: {}
+[56.693226] (-) TimerEvent: {}
+[56.796192] (-) TimerEvent: {}
+[56.900652] (-) TimerEvent: {}
+[57.001738] (-) TimerEvent: {}
+[57.103628] (-) TimerEvent: {}
+[57.204950] (-) TimerEvent: {}
+[57.218423] (ard_com) StdoutLine: {'line': b'[100%] Built target from_ard\n'}
+[57.289189] (ard_com) CommandEnded: {'returncode': 0}
+[57.305241] (-) TimerEvent: {}
+[57.408106] (-) TimerEvent: {}
+[57.508860] (-) TimerEvent: {}
+[57.541513] (ard_com) JobProgress: {'identifier': 'ard_com', 'progress': 'install'}
+[57.543119] (ard_com) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ROS2/dev_ws/build/ard_com'], 'cwd': '/home/ubuntu/ROS2/dev_ws/build/ard_com', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client/lib:/home/ubuntu/ROS2/microros_ws/install/microcdr/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent/lib:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ROS2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('ALL', 'en_US.UTF-8'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module:appmenu-gtk-module'), ('MANAGERPID', '2775'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '94912'), ('UBUNTU_MENUPROXY', '1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install:/home/ubuntu/ROS2/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '9:46227'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/raspberrypi4B:@/tmp/.ICE-unix/2955,unix/raspberrypi4B:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '9873ed7f2dd442afb165a23314136ab8'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/home/ubuntu/ROS2/dev_ws/install/ard_com:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:36d115f1-9876-47c3-979d-fa49b7d690ce'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ROS2/dev_ws/build/ard_com'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/home/ubuntu/ROS2/dev_ws/install/msg_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ROS2/microros_ws/install/action_msgs:/home/ubuntu/ROS2/microros_ws/install/unique_identifier_msgs:/home/ubuntu/ROS2/microros_ws/install/std_srvs:/home/ubuntu/ROS2/microros_ws/install/rmw_microxrcedds:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ubuntu/ROS2/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ubuntu/ROS2/microros_ws/install/microxrcedds_client:/home/ubuntu/ROS2/microros_ws/install/microcdr:/home/ubuntu/ROS2/microros_ws/install/micro_ros_setup:/home/ubuntu/ROS2/microros_ws/install/micro_ros_agent:/home/ubuntu/ROS2/microros_ws/install/micro_ros_msgs:/home/ubuntu/ROS2/microros_ws/install/lifecycle_msgs:/home/ubuntu/ROS2/microros_ws/install/drive_base_msgs:/home/ubuntu/ROS2/microros_ws/install/builtin_interfaces:/home/ubuntu/ROS2/dev_ws/install/learning_node:/home/ubuntu/ROS2/dev_ws/install/msg_pkg:/home/ubuntu/ROS2/dev_ws/install/ldlidar_stl_ros2:/home/ubuntu/ROS2/dev_ws/install/ard_com:/opt/ros/foxy')]), 'shell': False}
+[57.609335] (-) TimerEvent: {}
+[57.621282] (ard_com) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[57.624589] (ard_com) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[57.628551] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/package_run_dependencies/ard_com\n'}
+[57.632373] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/parent_prefix_path/ard_com\n'}
+[57.636118] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/ament_prefix_path.sh\n'}
+[57.639209] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/ament_prefix_path.dsv\n'}
+[57.641747] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/path.sh\n'}
+[57.645603] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/environment/path.dsv\n'}
+[57.651022] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.bash\n'}
+[57.655336] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.sh\n'}
+[57.660227] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.zsh\n'}
+[57.663149] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/local_setup.dsv\n'}
+[57.664299] (ard_com) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/package.dsv\n'}
+[57.709513] (-) TimerEvent: {}
+[57.731126] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ament_index/resource_index/packages/ard_com\n'}
+[57.735158] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/cmake/ard_comConfig.cmake\n'}
+[57.739637] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/cmake/ard_comConfig-version.cmake\n'}
+[57.741494] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/share/ard_com/package.xml\n'}
+[57.750699] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/lib/ard_com/from_ard\n'}
+[57.759596] (ard_com) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ROS2/dev_ws/install/ard_com/lib/ard_com/to_ard\n'}
+[57.766537] (ard_com) CommandEnded: {'returncode': 0}
+[57.809664] (-) TimerEvent: {}
+[57.911550] (-) TimerEvent: {}
+[58.012493] (-) TimerEvent: {}
+[58.113389] (-) TimerEvent: {}
+[58.142139] (ard_com) JobEnded: {'identifier': 'ard_com', 'rc': 0}
+[58.153981] (-) EventReactorShutdown: {}

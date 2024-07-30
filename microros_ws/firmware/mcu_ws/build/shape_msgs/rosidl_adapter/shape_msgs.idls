@@ -1,0 +1,4 @@
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Mesh.idl
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/MeshTriangle.idl
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/Plane.idl
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/shape_msgs/rosidl_adapter/shape_msgs:msg/SolidPrimitive.idl

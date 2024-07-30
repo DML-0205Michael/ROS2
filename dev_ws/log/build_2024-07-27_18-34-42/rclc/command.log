@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ROS2/dev_ws/build/rclc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/rclc/rclc -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/rclc
+Invoked command in '/home/ubuntu/ROS2/dev_ws/build/rclc' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/rclc/rclc -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/rclc

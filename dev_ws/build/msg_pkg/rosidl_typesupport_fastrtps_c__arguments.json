@@ -4,6 +4,8 @@
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
     "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg:msg/Test.idl",
+    "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg:msg/FromArduinoMsg.idl",
+    "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg:msg/ToArduinoMsg.idl",
     "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg:srv/Test.idl"
   ],
   "ros_interface_dependencies": [
@@ -50,6 +52,8 @@
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg/msg/Test.idl",
+    "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg/msg/FromArduinoMsg.idl",
+    "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg/msg/ToArduinoMsg.idl",
     "/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_adapter/msg_pkg/srv/Test.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/foxy/share/std_msgs/msg/Byte.idl",

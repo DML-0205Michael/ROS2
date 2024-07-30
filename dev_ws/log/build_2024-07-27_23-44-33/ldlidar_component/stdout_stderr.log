@@ -1,0 +1,9 @@
+--  * Release Mode
+-- * Found ROS2 foxy
+CMake Error at CMakeLists.txt:72 (message):
+  ROS2 foxy is not officially supported by this package.  Correct working is
+  not guarantee.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/ROS2/dev_ws/build/ldlidar_component/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,13 @@
+[01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:[m[K In member function ‘[01m[Kvoid OdomTFBroadcaster::robot_pose_callback(std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:49:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kangular_velocity[m[K’
+   49 |             enc1=msg.[01;31m[Kangular_velocity[m[K.x; // right speed, count per 20ms (Left if facing bot)
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:50:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kangular_velocity[m[K’
+   50 |             enc2=msg.[01;31m[Kangular_velocity[m[K.y; // speed, count per 20ms
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ROS2/dev_ws/src/ard_com/src/from_ard.cpp:51:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kangular_velocity[m[K’
+   51 |             vth=(msg.[01;31m[Kangular_velocity[m[K.z+15)/131/180*M_PI;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/from_ard.dir/build.make:63: CMakeFiles/from_ard.dir/src/from_ard.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/from_ard.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

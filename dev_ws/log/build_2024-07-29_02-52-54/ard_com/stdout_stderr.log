@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target to_ard[0m
+[35m[1mScanning dependencies of target from_ard[0m
+make[2]: *** No rule to make target '/home/ubuntu/ROS2/dev_ws/src/ard_com/src/to_ard.cpp', needed by 'CMakeFiles/to_ard.dir/src/to_ard.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/to_ard.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 25%] [32mBuilding CXX object CMakeFiles/from_ard.dir/src/from_ard.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable from_ard[0m
+[ 50%] Built target from_ard
+make: *** [Makefile:141: all] Error 2

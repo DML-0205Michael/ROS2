@@ -1,0 +1,86 @@
+[0.365s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_cmake/ament_cmake_core -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core
+[0.913s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.914s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.449s] -- ament_cmake_core 0.9.12
+[3.624s] -- Configuring done
+[3.666s] -- Generating done
+[3.690s] -- Build files have been written to: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core
+[3.786s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_cmake/ament_cmake_core -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core
+[3.794s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake --build /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core -- -j4 -l4
+[4.185s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake --build /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core -- -j4 -l4
+[4.718s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake --install /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core
+[4.826s] -- Install configuration: ""
+[4.828s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_index/resource_index/package_run_dependencies/ament_cmake_core
+[4.832s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_index/resource_index/parent_prefix_path/ament_cmake_core
+[4.836s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/environment/ament_prefix_path.sh
+[4.839s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/environment/ament_prefix_path.dsv
+[4.842s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/environment/path.sh
+[4.844s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/environment/path.dsv
+[4.847s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/local_setup.bash
+[4.850s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/local_setup.sh
+[4.852s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/local_setup.zsh
+[4.855s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/local_setup.dsv
+[4.858s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/package.dsv
+[4.861s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_index/resource_index/packages/ament_cmake_core
+[4.864s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake
+[4.867s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_environment-extras.cmake
+[4.869s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_environment_hooks-extras.cmake
+[4.872s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_index-extras.cmake
+[4.875s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake
+[4.878s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake
+[4.881s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake
+[4.885s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake
+[4.888s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake
+[4.891s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/package.xml
+[4.893s] -- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake
+[4.895s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install
+[4.897s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake
+[4.902s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_uninstall_script.cmake.in
+[4.905s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install.cmake.in
+[4.908s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_append_install_code.cmake
+[4.911s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_directory.cmake
+[4.914s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/install.cmake
+[4.916s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_files.cmake
+[4.919s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_programs.cmake
+[4.921s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/package_templates
+[4.923s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[4.925s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks
+[4.927s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake
+[4.931s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment
+[4.935s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.bat
+[4.937s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh
+[4.939s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.bat
+[4.942s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
+[4.945s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake
+[4.947s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake
+[4.949s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/index
+[4.951s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake
+[4.954s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_has_resource.cmake
+[4.956s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake
+[4.958s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_resource.cmake
+[4.961s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake
+[4.963s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake
+[4.966s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/index/ament_index_get_prefix_path.cmake
+[4.968s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment
+[4.970s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake
+[4.973s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/environment/ament_generate_environment.cmake
+[4.975s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target
+[4.977s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target_append_uninstall_code.cmake
+[4.998s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
+[5.002s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core
+[5.003s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates
+[5.005s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates/nameConfig.cmake.in
+[5.008s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/templates/nameConfig-version.cmake.in
+[5.011s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/assert_file_exists.cmake
+[5.013s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package_xml.cmake
+[5.016s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_register_extension.cmake
+[5.019s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/stamp.cmake
+[5.022s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/list_append_unique.cmake
+[5.025s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.027s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/all.cmake
+[5.039s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package.cmake
+[5.041s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/string_ends_with.cmake
+[5.044s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/python.cmake
+[5.047s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake
+[5.050s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake/core/normalize_path.cmake
+[5.074s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake --install /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_core

@@ -1,0 +1,121 @@
+[0.252s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ubuntu/ROS2/microros_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install
+[3.498s] Not searching for unused variables given on the command line.
+[5.319s] -- The C compiler identification is GNU 9.4.0
+[5.550s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc
+[6.465s] -- Check for working C compiler: /usr/bin/arm-linux-gnueabihf-gcc -- works
+[6.480s] -- Detecting C compiler ABI info
+[7.024s] -- Detecting C compiler ABI info - done
+[7.080s] -- Detecting C compile features
+[7.085s] -- Detecting C compile features - done
+[7.452s] -- The CXX compiler identification is GNU 9.4.0
+[7.525s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++
+[8.298s] -- Check for working CXX compiler: /usr/bin/arm-linux-gnueabihf-g++ -- works
+[8.327s] -- Detecting CXX compiler ABI info
+[9.237s] -- Detecting CXX compiler ABI info - done
+[9.302s] -- Detecting CXX compile features
+[9.309s] -- Detecting CXX compile features - done
+[9.391s] -- Configuring done
+[9.424s] -- Generating done
+[9.430s] -- Build files have been written to: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr
+[9.451s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ubuntu/ROS2/microros_ws/my_custom_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install
+[9.475s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr -- -j4 -l4
+[9.850s] /usr/bin/cmake -S/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[9.941s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/progress.marks
+[10.033s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[10.052s] make[1]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[10.053s] /usr/bin/make -f CMakeFiles/ucdr.dir/build.make CMakeFiles/ucdr.dir/depend
+[10.082s] make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[10.083s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/DependInfo.cmake --color=
+[10.207s] Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/DependInfo.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/depend.internal".
+[10.215s] Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/depend.internal".
+[10.217s] [35m[1mScanning dependencies of target ucdr[0m
+[10.238s] make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[10.239s] /usr/bin/make -f CMakeFiles/ucdr.dir/build.make CMakeFiles/ucdr.dir/build
+[10.256s] make[2]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[10.350s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[10.355s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR
+[10.399s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr
+[10.471s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix
+[10.551s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp
+[10.660s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp
+[10.780s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src
+[10.855s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp
+[10.987s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir
+[11.320s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[11.327s] /usr/bin/cmake -E echo_append
+[11.430s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download
+[11.586s] [ 37%] [34m[1mNo patch step for 'ucdr'[0m
+[11.604s] /usr/bin/cmake -E echo_append
+[11.659s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch
+[11.822s] [ 50%] [34m[1mNo update step for 'ucdr'[0m
+[11.825s] /usr/bin/cmake -E echo_append
+[11.931s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update
+[12.092s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[12.098s] /usr/bin/cmake "-GUnix Makefiles" -C/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR
+[12.247s] loading initial cache file /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[12.275s] Re-run cmake no build system arguments
+[12.380s] -- Configuring done
+[12.470s] -- Generating done
+[12.487s] -- Build files have been written to: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr
+[12.497s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure
+[12.645s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[12.654s] /usr/bin/make
+[12.703s] make[3]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[12.703s] /usr/bin/cmake -S/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[12.763s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/progress.marks
+[12.809s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[12.837s] make[4]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[12.838s] /usr/bin/make -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/depend
+[12.872s] make[5]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[12.874s] cd /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake --color=
+[12.995s] Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/depend.internal".
+[12.995s] Dependee "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/depend.internal".
+[12.997s] [35m[1mScanning dependencies of target microcdr[0m
+[13.036s] make[5]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[13.038s] /usr/bin/make -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/build
+[13.098s] make[5]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[13.233s] [ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[13.240s] /usr/bin/arm-linux-gnueabihf-gcc  -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/common.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/common.c
+[13.863s] [ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[13.869s] /usr/bin/arm-linux-gnueabihf-gcc  -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/types/array.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/array.c
+[16.032s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[16.044s] /usr/bin/arm-linux-gnueabihf-gcc  -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/types/sequence.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/sequence.c
+[18.050s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[18.060s] /usr/bin/arm-linux-gnueabihf-gcc  -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/types/string.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/string.c
+[18.373s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[18.381s] /usr/bin/arm-linux-gnueabihf-gcc  -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/include  -march=armv8-a -mfpu=neon-fp-armv8 -mfloat-abi=hard -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wnull-dereference -Wduplicated-branches -Wduplicated-cond -Wrestrict -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -o CMakeFiles/microcdr.dir/src/c/types/basic.c.o   -c /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/basic.c
+[23.073s] [100%] [32m[1mLinking C static library libmicrocdr.a[0m
+[23.077s] /usr/bin/cmake -P CMakeFiles/microcdr.dir/cmake_clean_target.cmake
+[23.079s] /usr/bin/cmake -E cmake_link_script CMakeFiles/microcdr.dir/link.txt --verbose=1
+[23.080s] /usr/bin/arm-linux-gnueabihf-ar qc libmicrocdr.a  CMakeFiles/microcdr.dir/src/c/common.c.o CMakeFiles/microcdr.dir/src/c/types/basic.c.o CMakeFiles/microcdr.dir/src/c/types/string.c.o CMakeFiles/microcdr.dir/src/c/types/array.c.o CMakeFiles/microcdr.dir/src/c/types/sequence.c.o
+[23.124s] /usr/bin/arm-linux-gnueabihf-ranlib libmicrocdr.a
+[23.810s] make[5]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[23.904s] [100%] Built target microcdr
+[23.910s] make[4]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[23.911s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[24.300s] make[3]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[24.301s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build
+[24.378s] [34m[1mNo install step for 'ucdr'[0m
+[24.381s] /usr/bin/cmake -E echo_append
+[24.417s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install
+[24.493s] [34m[1mCompleted 'ucdr'[0m
+[24.496s] /usr/bin/cmake -E make_directory /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles
+[24.530s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr-complete
+[24.565s] /usr/bin/cmake -E touch /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-done
+[24.598s] make[2]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[24.636s] Built target ucdr
+[24.640s] make[1]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr'
+[24.640s] /usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[24.687s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr -- -j4 -l4
+[24.999s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr
+[25.112s] -- Install configuration: "Release"
+[25.114s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/libmicrocdr.a
+[25.119s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/ucdr
+[25.120s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/ucdr/microcdr.h
+[25.123s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/ucdr/visibility.h
+[25.124s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/include/ucdr/config.h
+[25.126s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+[25.126s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-release.cmake
+[25.128s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+[25.129s] -- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake
+[25.137s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/microcdr

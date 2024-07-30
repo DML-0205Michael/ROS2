@@ -1,0 +1,50 @@
+Not searching for unused variables given on the command line.
+-- Found ament_cmake: 0.9.12 (/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rosidl_cmake
+/usr/bin/cmake -S/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/ros2/rosidl/rosidl_cmake -B/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rosidl_cmake --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rosidl_cmake'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rosidl_cmake'
+/usr/bin/cmake -E cmake_progress_start /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/rosidl_cmake/CMakeFiles 0
+-- Install configuration: "Release"
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/pythonpath.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/pythonpath.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/rosidl_cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py
+Listing '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/rosidl_cmake'...
+Compiling '/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/lib/python3.8/site-packages/rosidl_cmake/__init__.py'...
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/package_run_dependencies/rosidl_cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/parent_prefix_path/rosidl_cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/path.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/environment/path.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/local_setup.bash
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/local_setup.sh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/local_setup.zsh
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/local_setup.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/package.dsv
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages/rosidl_cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmakeConfig.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmakeConfig-version.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/package.xml
+-- Up-to-date: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake.in
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake.in
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_write_generator_arguments.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_package_hook.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_export_typesupport_targets.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/string_camel_case_to_lower_case_underscore.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_libraries_package_hook.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_cmake_export_typesupport_targets_package_hook.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_export_typesupport_libraries.cmake
+-- Installing: /home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake

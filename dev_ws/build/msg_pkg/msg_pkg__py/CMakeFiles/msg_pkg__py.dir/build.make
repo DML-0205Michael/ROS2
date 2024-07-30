@@ -53,100 +53,127 @@ CMAKE_BINARY_DIR = /home/ubuntu/ROS2/dev_ws/build/msg_pkg
 # Include the progress variables for this target.
 include msg_pkg__py/CMakeFiles/msg_pkg__py.dir/progress.make
 
+msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_test.py
+msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_from_arduino_msg.py
+msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_to_arduino_msg.py
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/srv/_test.py
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/msg/__init__.py
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/srv/__init__.py
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_test_s.c
+msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_from_arduino_msg_s.c
+msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_to_arduino_msg_s.c
 msg_pkg__py/CMakeFiles/msg_pkg__py: rosidl_generator_py/msg_pkg/srv/_test_s.c
 
 
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/__init__.py
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action.py.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_support.c.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl.py.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_support.c.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_pkg/msg/Test.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_pkg/srv/Test.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Char.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/ColorRGBA.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Empty.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Float32.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Float32MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Float64.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Float64MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Header.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Int16.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Int16MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Int32.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Int32MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Int64.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Int64MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Int8.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/Int8MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/MultiArrayDimension.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/MultiArrayLayout.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/String.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt16.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt16MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt32.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt32MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt64.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt64MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt8.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/__init__.py
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_action.py.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl_support.c.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_idl.py.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg_support.c.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_msg.py.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: rosidl_adapter/msg_pkg/msg/Test.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: rosidl_adapter/msg_pkg/msg/FromArduinoMsg.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: rosidl_adapter/msg_pkg/msg/ToArduinoMsg.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: rosidl_adapter/msg_pkg/srv/Test.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Char.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Empty.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Float32.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Float64.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Header.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Int16.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Int32.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Int64.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Int8.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/String.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt16.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt32.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt64.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt8.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/ubuntu/ROS2/dev_ws/build/msg_pkg/msg_pkg__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	cd /home/ubuntu/ROS2/dev_ws/build/msg_pkg/msg_pkg__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c
 
-rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/msg_pkg/msg/_test.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/msg_pkg/msg/_test.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/msg/_test.py
 
-rosidl_generator_py/msg_pkg/srv/_test.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/msg_pkg/msg/_from_arduino_msg.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/msg/_from_arduino_msg.py
+
+rosidl_generator_py/msg_pkg/msg/_to_arduino_msg.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/msg/_to_arduino_msg.py
+
+rosidl_generator_py/msg_pkg/srv/_test.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/srv/_test.py
 
-rosidl_generator_py/msg_pkg/msg/__init__.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/msg_pkg/msg/__init__.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/msg/__init__.py
 
-rosidl_generator_py/msg_pkg/srv/__init__.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/msg_pkg/srv/__init__.py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/srv/__init__.py
 
-rosidl_generator_py/msg_pkg/msg/_test_s.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/msg_pkg/msg/_test_s.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/msg/_test_s.c
 
-rosidl_generator_py/msg_pkg/srv/_test_s.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+rosidl_generator_py/msg_pkg/msg/_from_arduino_msg_s.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/msg/_from_arduino_msg_s.c
+
+rosidl_generator_py/msg_pkg/msg/_to_arduino_msg_s.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/msg/_to_arduino_msg_s.c
+
+rosidl_generator_py/msg_pkg/srv/_test_s.c: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_pkg/srv/_test_s.c
 
 msg_pkg__py: msg_pkg__py/CMakeFiles/msg_pkg__py
+msg_pkg__py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_microxrcedds_c.c
 msg_pkg__py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
 msg_pkg__py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_introspection_c.c
 msg_pkg__py: rosidl_generator_py/msg_pkg/_msg_pkg_s.ep.rosidl_typesupport_c.c
 msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_test.py
+msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_from_arduino_msg.py
+msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_to_arduino_msg.py
 msg_pkg__py: rosidl_generator_py/msg_pkg/srv/_test.py
 msg_pkg__py: rosidl_generator_py/msg_pkg/msg/__init__.py
 msg_pkg__py: rosidl_generator_py/msg_pkg/srv/__init__.py
 msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_test_s.c
+msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_from_arduino_msg_s.c
+msg_pkg__py: rosidl_generator_py/msg_pkg/msg/_to_arduino_msg_s.c
 msg_pkg__py: rosidl_generator_py/msg_pkg/srv/_test_s.c
 msg_pkg__py: msg_pkg__py/CMakeFiles/msg_pkg__py.dir/build.make
 

@@ -1,0 +1,47 @@
+[7.082s] Invoking command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed install_data
+[9.563s] running egg_info
+[9.580s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[9.584s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[9.591s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[9.605s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[9.609s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[9.612s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[9.628s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[9.860s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[9.874s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[9.875s] running build
+[9.875s] running build_py
+[9.876s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build
+[9.876s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib
+[9.877s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[9.877s] copying ament_flake8/pytest_marker.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[9.878s] copying ament_flake8/legacy.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[9.879s] copying ament_flake8/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[9.885s] copying ament_flake8/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[9.890s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[9.891s] copying ament_flake8/configuration/ament_flake8.ini -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[9.891s] running install
+[9.892s] running install_lib
+[9.906s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[9.906s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[9.907s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/legacy.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[9.916s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[9.917s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[9.917s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[9.918s] copying /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[9.923s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-38.pyc
+[9.930s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/legacy.py to legacy.cpython-38.pyc
+[9.933s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/main.py to main.cpython-38.pyc
+[9.940s] byte-compiling /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/__init__.py to __init__.cpython-38.pyc
+[9.941s] running install_data
+[9.942s] copying package.xml -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_flake8
+[9.943s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index
+[9.944s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index
+[9.945s] creating /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[9.945s] copying resource/ament_flake8 -> /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[9.946s] running install_egg_info
+[9.954s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages/ament_flake8-0.9.8-py3.8.egg-info
+[9.975s] running install_scripts
+[10.173s] Installing ament_flake8 script to /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/bin
+[10.190s] writing list of installed files to '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/install.log'
+[10.497s] Invoked command in '/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint PYTHONPATH=/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.8/site-packages:/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/build install --record /home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed install_data

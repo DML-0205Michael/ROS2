@@ -19,3 +19,8 @@
 /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/sub_test
 /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/service_test
 /home/ubuntu/ROS2/dev_ws/install/learning_node/lib/learning_node/client_test
+/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/test_yaml.launch.py
+/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/rviz.launch.py
+/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/test.launch.py
+/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/test_param.launch.py
+/home/ubuntu/ROS2/dev_ws/install/learning_node/share/learning_node/launch/remapping.launch.py

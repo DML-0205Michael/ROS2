@@ -1,0 +1,2 @@
+/usr/bin/arm-linux-gnueabihf-ar qc librclc.a  CMakeFiles/rclc.dir/src/rclc/init.c.o CMakeFiles/rclc.dir/src/rclc/publisher.c.o CMakeFiles/rclc.dir/src/rclc/subscription.c.o CMakeFiles/rclc.dir/src/rclc/client.c.o CMakeFiles/rclc.dir/src/rclc/service.c.o CMakeFiles/rclc.dir/src/rclc/timer.c.o CMakeFiles/rclc.dir/src/rclc/node.c.o CMakeFiles/rclc.dir/src/rclc/executor_handle.c.o CMakeFiles/rclc.dir/src/rclc/executor.c.o CMakeFiles/rclc.dir/src/rclc/sleep.c.o
+/usr/bin/arm-linux-gnueabihf-ranlib librclc.a

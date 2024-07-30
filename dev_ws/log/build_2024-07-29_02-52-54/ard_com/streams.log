@@ -1,0 +1,11 @@
+[0.248s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/ard_com': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4
+[0.786s] [35m[1mScanning dependencies of target to_ard[0m
+[0.807s] [35m[1mScanning dependencies of target from_ard[0m
+[0.867s] make[2]: *** No rule to make target '/home/ubuntu/ROS2/dev_ws/src/ard_com/src/to_ard.cpp', needed by 'CMakeFiles/to_ard.dir/src/to_ard.cpp.o'.  Stop.
+[0.868s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/to_ard.dir/all] Error 2
+[0.869s] make[1]: *** Waiting for unfinished jobs....
+[1.094s] [ 25%] [32mBuilding CXX object CMakeFiles/from_ard.dir/src/from_ard.cpp.o[0m
+[35.491s] [ 50%] [32m[1mLinking CXX executable from_ard[0m
+[36.603s] [ 50%] Built target from_ard
+[36.606s] make: *** [Makefile:141: all] Error 2
+[36.612s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/ard_com' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/ard_com -- -j4 -l4

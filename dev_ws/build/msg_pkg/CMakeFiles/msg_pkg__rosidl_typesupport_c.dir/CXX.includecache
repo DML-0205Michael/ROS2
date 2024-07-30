@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/from_arduino_msg__type_support.cpp
+cstddef
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_runtime_c/message_type_support_struct.h
+msg_pkg/msg/rosidl_typesupport_c__visibility_control.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/msg_pkg/msg/rosidl_typesupport_c__visibility_control.h
+msg_pkg/msg/detail/from_arduino_msg__struct.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/msg_pkg/msg/detail/from_arduino_msg__struct.h
+rosidl_typesupport_c/identifier.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_interface/macros.h
+
 /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/test__type_support.cpp
 cstddef
 /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/cstddef
@@ -15,6 +35,26 @@ msg_pkg/msg/rosidl_typesupport_c__visibility_control.h
 /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/msg_pkg/msg/rosidl_typesupport_c__visibility_control.h
 msg_pkg/msg/detail/test__struct.h
 /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/msg_pkg/msg/detail/test__struct.h
+rosidl_typesupport_c/identifier.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_interface/macros.h
+
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/to_arduino_msg__type_support.cpp
+cstddef
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_runtime_c/message_type_support_struct.h
+msg_pkg/msg/rosidl_typesupport_c__visibility_control.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/msg_pkg/msg/rosidl_typesupport_c__visibility_control.h
+msg_pkg/msg/detail/to_arduino_msg__struct.h
+/home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/msg_pkg/msg/detail/to_arduino_msg__struct.h
 rosidl_typesupport_c/identifier.h
 /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_typesupport_c/msg_pkg/msg/rosidl_typesupport_c/identifier.h
 rosidl_typesupport_c/message_type_support_dispatch.h
@@ -88,7 +128,23 @@ cstddef
 
 /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
+rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
 rosidl_generator_c/msg_pkg/msg/detail/test__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__struct.h
 stdbool.h
 -
 stddef.h

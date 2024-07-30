@@ -1,0 +1,8 @@
+/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_clang_tidy/CMakeFiles/install/local.dir
+/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_clang_tidy/CMakeFiles/install.dir
+/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_clang_tidy/CMakeFiles/list_install_components.dir
+/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_clang_tidy/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_clang_tidy/CMakeFiles/edit_cache.dir
+/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_clang_tidy/CMakeFiles/test.dir
+/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_clang_tidy/CMakeFiles/ament_cmake_clang_tidy_uninstall.dir
+/home/ubuntu/ROS2/microros_ws/firmware/dev_ws/build/ament_cmake_clang_tidy/CMakeFiles/uninstall.dir

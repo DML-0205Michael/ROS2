@@ -1,0 +1,6 @@
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/install/strip.dir
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/install/local.dir
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/install.dir
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/list_install_components.dir
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ROS2/microros_ws/firmware/mcu_ws/build/tinydir_vendor/tinydir-1.2.4/src/tinydir-1.2.4/CMakeFiles/edit_cache.dir

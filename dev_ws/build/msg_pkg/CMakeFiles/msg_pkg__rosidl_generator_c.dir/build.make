@@ -71,6 +71,8 @@ rosidl_generator_c/msg_pkg/msg/test.h: /opt/ros/foxy/share/rosidl_generator_c/re
 rosidl_generator_c/msg_pkg/msg/test.h: /opt/ros/foxy/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/msg_pkg/msg/test.h: /opt/ros/foxy/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/msg_pkg/msg/test.h: rosidl_adapter/msg_pkg/msg/Test.idl
+rosidl_generator_c/msg_pkg/msg/test.h: rosidl_adapter/msg_pkg/msg/FromArduinoMsg.idl
+rosidl_generator_c/msg_pkg/msg/test.h: rosidl_adapter/msg_pkg/msg/ToArduinoMsg.idl
 rosidl_generator_c/msg_pkg/msg/test.h: rosidl_adapter/msg_pkg/srv/Test.idl
 rosidl_generator_c/msg_pkg/msg/test.h: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
 rosidl_generator_c/msg_pkg/msg/test.h: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
@@ -116,6 +118,30 @@ rosidl_generator_c/msg_pkg/msg/detail/test__struct.h: rosidl_generator_c/msg_pkg
 rosidl_generator_c/msg_pkg/msg/detail/test__type_support.h: rosidl_generator_c/msg_pkg/msg/test.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/test__type_support.h
 
+rosidl_generator_c/msg_pkg/msg/from_arduino_msg.h: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/from_arduino_msg.h
+
+rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.h: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.h
+
+rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__struct.h: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__struct.h
+
+rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__type_support.h: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__type_support.h
+
+rosidl_generator_c/msg_pkg/msg/to_arduino_msg.h: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/to_arduino_msg.h
+
+rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.h: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.h
+
+rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__struct.h: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__struct.h
+
+rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__type_support.h: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__type_support.h
+
 rosidl_generator_c/msg_pkg/srv/test.h: rosidl_generator_c/msg_pkg/msg/test.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/srv/test.h
 
@@ -130,6 +156,12 @@ rosidl_generator_c/msg_pkg/srv/detail/test__type_support.h: rosidl_generator_c/m
 
 rosidl_generator_c/msg_pkg/msg/detail/test__functions.c: rosidl_generator_c/msg_pkg/msg/test.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/test__functions.c
+
+rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c
+
+rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c: rosidl_generator_c/msg_pkg/msg/test.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c
 
 rosidl_generator_c/msg_pkg/srv/detail/test__functions.c: rosidl_generator_c/msg_pkg/msg/test.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_pkg/srv/detail/test__functions.c
@@ -147,9 +179,35 @@ CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/test__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_c/msg_pkg/msg/detail/test__functions.c -o CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/test__functions.c.s
 
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.o: CMakeFiles/msg_pkg__rosidl_generator_c.dir/flags.make
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.o: rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.o   -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c
+
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c > CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.i
+
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c -o CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.s
+
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.o: CMakeFiles/msg_pkg__rosidl_generator_c.dir/flags.make
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.o: rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.o   -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c
+
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c > CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.i
+
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c -o CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.s
+
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.o: CMakeFiles/msg_pkg__rosidl_generator_c.dir/flags.make
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.o: rosidl_generator_c/msg_pkg/srv/detail/test__functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.o   -c /home/ubuntu/ROS2/dev_ws/build/msg_pkg/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c
 
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.i: cmake_force
@@ -163,12 +221,16 @@ CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail
 # Object files for target msg_pkg__rosidl_generator_c
 msg_pkg__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/test__functions.c.o" \
+"CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.o" \
+"CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.o" \
 "CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.o"
 
 # External object files for target msg_pkg__rosidl_generator_c
 msg_pkg__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libmsg_pkg__rosidl_generator_c.so: CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/test__functions.c.o
+libmsg_pkg__rosidl_generator_c.so: CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c.o
+libmsg_pkg__rosidl_generator_c.so: CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c.o
 libmsg_pkg__rosidl_generator_c.so: CMakeFiles/msg_pkg__rosidl_generator_c.dir/rosidl_generator_c/msg_pkg/srv/detail/test__functions.c.o
 libmsg_pkg__rosidl_generator_c.so: CMakeFiles/msg_pkg__rosidl_generator_c.dir/build.make
 libmsg_pkg__rosidl_generator_c.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
@@ -189,7 +251,7 @@ libmsg_pkg__rosidl_generator_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libmsg_pkg__rosidl_generator_c.so: /opt/ros/foxy/lib/librcpputils.so
 libmsg_pkg__rosidl_generator_c.so: /opt/ros/foxy/lib/librcutils.so
 libmsg_pkg__rosidl_generator_c.so: CMakeFiles/msg_pkg__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libmsg_pkg__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libmsg_pkg__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msg_pkg__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -205,11 +267,21 @@ CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/ms
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/test__functions.h
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/test__struct.h
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/test__type_support.h
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/from_arduino_msg.h
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.h
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__struct.h
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__type_support.h
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/to_arduino_msg.h
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.h
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__struct.h
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__type_support.h
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/srv/test.h
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/srv/detail/test__functions.h
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/srv/detail/test__struct.h
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/srv/detail/test__type_support.h
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/test__functions.c
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/from_arduino_msg__functions.c
+CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/msg/detail/to_arduino_msg__functions.c
 CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_pkg/srv/detail/test__functions.c
 	cd /home/ubuntu/ROS2/dev_ws/build/msg_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/ROS2/dev_ws/src/msg_pkg /home/ubuntu/ROS2/dev_ws/src/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg /home/ubuntu/ROS2/dev_ws/build/msg_pkg/CMakeFiles/msg_pkg__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/msg_pkg__rosidl_generator_c.dir/depend
