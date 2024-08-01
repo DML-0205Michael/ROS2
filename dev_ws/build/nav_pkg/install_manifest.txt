@@ -1,0 +1,17 @@
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/launch/nav2.launch.py
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/launch/nav.launch.py
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/ament_index/resource_index/package_run_dependencies/nav_pkg
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/ament_index/resource_index/parent_prefix_path/nav_pkg
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/environment/ament_prefix_path.sh
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/environment/ament_prefix_path.dsv
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/environment/path.sh
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/environment/path.dsv
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/local_setup.bash
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/local_setup.sh
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/local_setup.zsh
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/local_setup.dsv
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/package.dsv
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/ament_index/resource_index/packages/nav_pkg
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/cmake/nav_pkgConfig.cmake
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/cmake/nav_pkgConfig-version.cmake
+/home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/package.xml

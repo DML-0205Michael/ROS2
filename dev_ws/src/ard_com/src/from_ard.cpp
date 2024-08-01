@@ -48,6 +48,7 @@ class OdomTFBroadcaster : public rclcpp::Node
 
         void robot_pose_callback(const sensor_msgs::msg::Imu::SharedPtr msg)
         {
+            /*
             // DON'T ASK ME WHY IM USING ANGULAR V TO GET ENCODER READING
             // ANGULAR_VELOCITY.X OR Y DON'T MEAN THE ACTUAL ANGULAR VELOCITY
             enc1=msg->angular_velocity.x; // right speed, count per 20ms (Left if facing bot)
@@ -74,6 +75,7 @@ class OdomTFBroadcaster : public rclcpp::Node
             x += delta_x;
             y += delta_y;
             th += delta_th;
+            */
 
             // 1. tf broadcast
             geometry_msgs::msg::TransformStamped odom_trans;
@@ -82,12 +84,15 @@ class OdomTFBroadcaster : public rclcpp::Node
             odom_trans.header.frame_id = "odom";
             odom_trans.child_frame_id = "base_link";
 
-            odom_trans.transform.translation.x = x;
-            odom_trans.transform.translation.y = y;
+            // odom_trans.transform.translation.x = x;
+            // odom_trans.transform.translation.y = y;
+            odom_trans.transform.translation.x = msg->angular_velocity.x;
+            odom_trans.transform.translation.y = msg->angular_velocity.y;
             odom_trans.transform.translation.z = 0.0;
 
             tf2::Quaternion q;
-            q.setRPY(0, 0, th);
+            // q.setRPY(0, 0, th);
+            q.setRPY(0, 0, msg->angular_velocity.z);
 
             odom_trans.transform.rotation.x = q.x();
             odom_trans.transform.rotation.y = q.y();
@@ -97,6 +102,7 @@ class OdomTFBroadcaster : public rclcpp::Node
             tf_broadcaster_->sendTransform(odom_trans);
 
             // 2. publish odom
+            /*
             geometry_msgs::msg::Quaternion odom_quat=tf2::toMsg(q);
             auto odom=std::make_unique<nav_msgs::msg::Odometry>();
             odom->header.stamp=this->get_clock()->now();
@@ -111,6 +117,7 @@ class OdomTFBroadcaster : public rclcpp::Node
             // odom->twist.twist.linear.y=0;
             odom->twist.twist.angular.z=vth; // rad/s
             odom_pub->publish(std::move(odom));
+            */
         }
 
         rclcpp::Time last_time;

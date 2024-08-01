@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/nav_pkg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/nav_pkg
+Invoked command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ROS2/dev_ws/src/nav_pkg -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ROS2/dev_ws/install/nav_pkg
+Invoking command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/nav_pkg -- -j4 -l4
+Invoked command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/nav_pkg -- -j4 -l4
+Invoking command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/nav_pkg
+Invoked command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/nav_pkg

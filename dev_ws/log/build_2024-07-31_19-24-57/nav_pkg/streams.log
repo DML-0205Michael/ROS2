@@ -1,0 +1,23 @@
+[0.323s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/nav_pkg -- -j4 -l4
+[1.742s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ROS2/dev_ws/build/nav_pkg -- -j4 -l4
+[2.075s] Invoking command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/nav_pkg
+[2.142s] -- Install configuration: ""
+[2.142s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/launch
+[2.146s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/launch/nav2.launch.py
+[2.147s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/launch/nav.launch.py
+[2.150s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/ament_index/resource_index/package_run_dependencies/nav_pkg
+[2.156s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/ament_index/resource_index/parent_prefix_path/nav_pkg
+[2.158s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/environment/ament_prefix_path.sh
+[2.161s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/environment/ament_prefix_path.dsv
+[2.164s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/environment/path.sh
+[2.166s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/environment/path.dsv
+[2.169s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/local_setup.bash
+[2.174s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/local_setup.sh
+[2.174s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/local_setup.zsh
+[2.181s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/local_setup.dsv
+[2.181s] -- Installing: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/package.dsv
+[2.203s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/ament_index/resource_index/packages/nav_pkg
+[2.206s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/cmake/nav_pkgConfig.cmake
+[2.206s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/cmake/nav_pkgConfig-version.cmake
+[2.207s] -- Up-to-date: /home/ubuntu/ROS2/dev_ws/install/nav_pkg/share/nav_pkg/package.xml
+[2.216s] Invoked command in '/home/ubuntu/ROS2/dev_ws/build/nav_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ROS2/dev_ws/build/nav_pkg

@@ -434,7 +434,9 @@ ros2 run micro_ros_setup build_firmware.sh $(pwd)/my_custom_toolchain.cmake $(pw
 
 
 ======================1002 SLAM======================
-- start toolbox: ros2 launch slam_toolbox online_sync_launch.py
+- Eventhough it's python, still need to "colcon build" to make the change
+
+- start toolbox: ros2 launch slam_toolbox online_async_launch.py
 - save map: ros2 run nav2_map_server map_saver_cli -f map
 
 0. start LD19 LIDAR: ros2 launch ldlidar_stl_ros2 ld19.launch.py
@@ -458,6 +460,45 @@ start to_ard node: ros2 run ard_com to_ard
 sudo apt update
 sudo apt install ros-foxy-rqt-tf-tree
 2. ros2 run rqt_tf_tree rqt_tf_tree --force-discover
+
+- start SLAM
+ros2 launch slam_pkg slam.launch.py
+
+
+======================1003 NAV======================
+Not working with nav2; not working every time; change to "Transient Local", able to show separately, not showing with nav2 
+ros2 run nav2_map_server map_server --ros-args --params-file /home/ubuntu/ROS2/dev_ws/src/nav_pkg/param/map_server_params.yaml
+ros2 lifecycle set /map_server configure
+ros2 lifecycle set /map_server activate
+
+
+
+
+======================9999 Other Reference======================
+microROS install: https://micro.ros.org/docs/tutorials/core/first_application_linux/ 
+change 
+
+source install/local_setup.bash
+
+ to 
+
+source install/local_setup.sh
+
+microROS github: https://github.com/micro-ROS/micro_ros_setup/tree/foxy
+
+生成.h文件 generate .h: https://micro.ros.org/docs/tutorials/advanced/create_custom_static_library/
+
+没啥用： https://micro.ros.org/docs/tutorials/advanced/create_new_type/
+
+安装LD19 node有bug，角度数据会跳动: https://ws.dfrobot.com.cn/Fr1DgkvHXX4PYVgKpZgQIsL_lkEn
+
+安装LD19 node 这个可以用：
+ https://www.waveshare.net/wiki/%E6%95%99%E7%A8%8B%E5%8D%81%E4%B8%80_%E6%BF%80%E5%85%89%E9%9B%B7%E8%BE%BE%E5%92%8C%E5%9C%A8ROS2%E4%B8%AD%E5%8F%91%E5%B8%83%E9%9B%B7%E8%BE%BE%E8%AF%9D%E9%A2%98
+
+里程计odometry: https://www.bilibili.com/video/BV1MU421Z7vP/?vd_source=480f94c41b9c85e4ee6ec94fb420145b
+https://gitee.com/gwmunan/ros2/wikis/pages?sort_id=9463212&doc_id=4855084
+
+只能单独显示/map，而且要改成Transient Local，而且也没法跟nav2一起用：https://robotics.stackexchange.com/questions/102356/how-to-publish-map-in-ros2-galactic
 
 
 

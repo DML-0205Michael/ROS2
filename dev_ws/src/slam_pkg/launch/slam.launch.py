@@ -40,25 +40,25 @@ def generate_launch_description():             # 自动生成launch文件的函�
 
         # start slam-toolbox
         ExecuteProcess(
-            cmd=['ros2','launch','nav2_bringup','navigation.launch.py'],
-            # output='screen'
+            cmd=['ros2','launch','slam_toolbox','online_async_launch.py','use_sim_time:=false'],
+            output='screen'
         ),
-
-        # start slam-toolbox
-        # ExecuteProcess(
-        #     cmd=['ros2','launch','slam_toolbox','online_sync_launch.py'],
-        #     # output='screen'
+        # 1. go to this directory: /opt/ros/foxy/share/slam_toolbox/config, open in terminal
+        # 2. sudo nano mapper_params_online_async.yaml
+        # 3. change "base_footprint" to "base_link"
+        # 4. ctrl+O, Enter, ctrl+x to save and exit
+        
+        
+        # Node(                                  # 配置一个节点的启动
+        #     package='slam_toolbox',          # 节点所在的功能包
+        #     executable='async_slam_toolbox_node', # 节点的可执行文件
+        #     name='slam_toolbox',
+        #     parameters=[
+        #         {'use_sim_time': False},
+        #         {'slam_toolbox_params_file': '/home/ubuntu/ROS2/dev_ws/src/slam_pkg/config/online_async.yaml'}
+        #     ]
+        #     # remappings=[('odom','odom_combined')]
         # ),
-        Node(                                  # 配置一个节点的启动
-            package='slam_toolbox',          # 节点所在的功能包
-            executable='async_slam_toolbox_node', # 节点的可执行文件
-            name='slam_toolbox',
-            parameters=[
-                {'use_sim_time': False},
-                {'slam_toolbox_params_file': '/home/ubuntu/ROS2/dev_ws/src/slam_pkg/config/online_async.yaml'}
-            ]
-            # remappings=[('odom','odom_combined')]
-        ),
 
         # start rviz2
         ExecuteProcess(
