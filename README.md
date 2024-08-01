@@ -1,0 +1,1 @@
+ROS2 is a world that is full of bugs, where over half of the codes are just error reporting messages. It's trash, it's bad, over a hundred times worse than ROS1 by adding so many unnecessary features. Key questions were never answered in the community, toturials were outdated/never worked even it's published only three months ago. I am very disappointed. 
